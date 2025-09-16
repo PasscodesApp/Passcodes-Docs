@@ -4,7 +4,7 @@ An app that take down your headache of remembering password and auth related sen
 
 ## Outline
 
--   [Problem Statement](#problem-statement)
+-   [Problem Statement](#problem statement)
 -   [Goals](#goals)
 -   [Target Users](#target-users)
 -   [Priority](#priority)
@@ -26,7 +26,7 @@ In modern days, data is important, especially data that has concern with auth in
     Which means,
 
     - For those, who wish to optimize, there password management workflow.. but don;t how to...
-    - For those, who are willing to spend time learning a tool (specifically for password management) & for those how are willing to uncover (disambiguate) abstraction that app uses to make the experience of storing passwords with passcode much more simpler...
+    - For those, who are willing to spend time learning a tool (specifically for password management) & for those how are willing to uncover (disambiguate) abstraction that app uses to make the experience of storing passwords with passcodes much more simpler...
     - For those, who are willing to gain control of there auth data, without that extra headache of remember data that comes with it...
     - For those, who don't mind researching and squirm through our documentation for hrs, just for once in a while, to customize & optimize their password management workflow...
 
@@ -43,7 +43,7 @@ In modern days, data is important, especially data that has concern with auth in
 
     - that the app will made in such way, in which we will try to abstract away the complex concepts in different extensible/decoupled systems... such that end users will more like feel that they are using a simple. but, secure password managing app...
     - if you fall in this category of target users, then it more like that you will either not use the app to it full potential, or more like you will became password management nerd, as app is full optimized to promote customization and optimization of your password management workflow...
-    - Also, it more like a way to start using/integrating passcodes app into your daily password management workflow... but if wanna continue, then we recommend you, to try learn about your specific password management workflow and make yourself prompted from just normal end user to a more, better group (as in `Not So Developer, Not So Normal-End-User` group).. which will make you, the first target of app... which also mean that you will likely use app more effectively and will (at somepoint) end up optimizing your password management workflow, to make it more secure and customized to your specific needs...
+    - Also, it more like a way to start using/integrating passcodes app into your daily password management workflow... but if wanna continue, then we recommend you, to try learn about your specific password management workflow and make yourself prompted from just normal end user to a more, better group (as in `Not So Developer, Not So Normal-End-User` group).. which will make you, the first target of app... which also mean that you will likely use app more effectively and will (at some point) end up optimizing your password management workflow, to make it more secure and customized to your specific needs...
 
 ---
 
@@ -77,7 +77,7 @@ It a simple much more intuitive password management solution.. develop by fellow
 
 #### Why Quit?
 
-Daniel, the official owner of project, has stop provide further update as his priority change... there was no real design issue with project... it just that project was more made for eduaitional purpose and prototyping, hobby kind of purpose.
+Daniel, the official owner of project, has stop provide further update as his priority change... there was no real design issue with project... it just that project was more made for educational purpose and prototyping, hobby kind of purpose.
 
 ### Smart Manager
 
@@ -85,7 +85,7 @@ Github REPO: [Smart Manager](https://github.com/JeelDobariya38/Smart-Manager)
 
 #### Overview
 
-It was my first project in world of password manager and also in world of software engineering... it mostly a project, where i have made a lots of design mistakes... and try to make the code scalable and extensible and try implementing various stuff, that just don't fit together.. it perfect example, of use everything someone say is a community standard, without ever questioning why am i using it or wether is it worth adding to project.... it like if someone said use dependency injection make code better... then let just use it in our project....
+It was my first project in world of password manager and also in world of software engineering... it mostly a project, where i have made a lots of design mistakes... and try to make the code scalable and extensible and try implementing various stuff, that just don't fit together.. it perfect example, of use everything someone say is a community standard, without ever questioning why am i using it or whether is it worth adding to project.... it like if someone said use dependency injection make code better... then let just use it in our project....
 
 #### Why Quit?
 
