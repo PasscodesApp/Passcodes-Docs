@@ -6,10 +6,10 @@ This file give you a deep guide on installation & updation process. we hope that
 
 # Table of Contents
 
-- [Installation Process](#installion-process)
+- [Installation Process](#Installation-process)
 - [Updation Process](#updation-process)
 - [Guide To Find A Best Release](#guide-to-find-a-best-release)
-- [Explictly Yanked Release (Pure Trash)](#explictly-yanked-release-pure-trash)
+- [Explicitly Yanked Release (Pure Trash)](#explicitly-yanked-release-pure-trash)
 
 ## Installation Process
 
