@@ -4,7 +4,7 @@ An app that take down your headache of remembering password and auth related sen
 
 ## Outline
 
--   [Problem Statement](#problem statement)
+-   [Problem Statement](#problem-statement)
 -   [Goals](#goals)
 -   [Target Users](#target-users)
 -   [Priority](#priority)

@@ -7,4 +7,4 @@ In this directory, You will find the general structure & format in which app sto
 
 ## List Of Databases
 
-- Master Database [(master.db)](database-design-docs/master.db/README.md)
+- Master Database [(master.db)](master.db/README.md)
