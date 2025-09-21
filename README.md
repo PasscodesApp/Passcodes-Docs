@@ -25,6 +25,6 @@ This works same as contributing to repository.. create your branch in this repo,
 
 ## Note
 
-You will find all the docs releated to the `Passcodes` and other project under `PasscodesApp` github organization..
-This is single place that you need refer for any docs or updates..
+Here, You will find all the docs releated to the `Passcodes` and other project under `PasscodesApp` github organization..
+This is single place that you need refer, for any docs or updates..
 

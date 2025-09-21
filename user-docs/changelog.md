@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Release Notes: [release-notes.md](release-notes.md), there you will find short and sweet release notes.
 
 > [!NOTE]
-> This is more sort of a finial file.. Update before every offical release of passcodes..
+> This is more sort of a final file.. Update before every offical release of passcodes..
 > For raw changelog.md refer individual assocaited repository..
 
 ## Link
