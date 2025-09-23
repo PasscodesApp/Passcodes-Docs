@@ -1,0 +1,23 @@
+# Terms For Contributions
+
+**Date**: Sept 23, 2025.
+**Author**: `JeelDobariya38`
+
+> [!IMPORTANT]
+> By contributing to any of repository maintain under GitHub Organisation `PasscodesApp`, you automatically accept this terms for contributions..
+
+1) All contributors are here by inform that, I will not be liable to pay them by any means, if in future I decide to make the project monetize in some or there form...
+2) Contribution (each commit) made to repository, should be treat as a individual contributor sign off there work and in no terms, you will be able to ask for any benifits for your contributions...
+3) And your contribution to the repository will maintain indefinitely under project license and might end up getting monetize by me...
+4) Also be sure that your contribution will be public and your name might be there as part of credit or as collaborator on social media.. like on linkedin and on our telegram community...
+5) In, 1, 2, 3, 4.. term contribution refer to any kind of contribution either in terms code, in docs in website or can be even as simple as suggestion or test app.
+
+## Casual Explanation
+
+I know, all above write stuff look super professional and to some level super rude too.. but, I just want to be very clear with contributor from early on that this might be a thing in future... so, that no one intrested and work is waste and at end of day every one feel safe to contribute with clear idea of what they can expect... 
+
+I have recently, think that I am get a great response for my project... (thank you for that) atleast the response I get utill on telegram is far high, then what I expected... i initially wasn't expecting this much i was expecting passcodes as hobby project... So, I am decided or planning towards monetize this project in future... so i just wanna to be clear with contributors about it...
+
+By no mean what write above is a legal document. It just a claim or document write by me... and what write about is, I think (utill my knowledge). it always a silent, unsaid rule in open source. but, i just want to be clear. and I hope you all be accepted it and pretend like it a legal document and follow it...
+
+For any questions or doubt, you reach out to me directly on telegram community... https://t.me/passcodescommunity.
