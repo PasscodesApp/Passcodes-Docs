@@ -2,6 +2,10 @@
 
 _Pull requests, bug reports, and all other forms of contribution are welcomed and highly encouraged!_ :octocat:
 
+## Terms For Contributing
+
+By contributing you also accept [Terms For Contribution](other-docs/terms-for-contributions.md), [Open Contributing Timeline](other-docs/open-contributing-timeline.md) & [MIT License](LICENSE.txt).
+
 ### Contents
 
 - [Asking Questions](#bulb-asking-questions)
