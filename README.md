@@ -8,6 +8,19 @@ This repository contains Developers Docs, Support Docs & User Guide For Passcode
 
 ## Documentaion Version
 
+<!--
+
+We have version system for docs, every version of app will have a coressponding docs, that you will find from below table.
+We use git(&hub) tags to seperate docs.. And this make up a version system for docs.
+
+| App Version                   | Docs URL                                                       |
+| ----------------------------- | -------------------------------------------------------------- |
+| latest (development use only) | https://github.com/PasscodesApp/Passcodes-Docs
+| vX.X.X                        | https://github.com/PasscodesApp/Passcodes-Docs/blob/vX.X.X     |
+| all prior version             | https://github.com/PasscodesApp/Passcodes-Docs/blob/prior-docs |
+
+-->
+
 All the version of the app can use documenation is over here it same.. [prior-docs](https://github.com/PasscodesApp/Passcodes-Docs/blob/prior-docs)
 
 ## Tips & Recommendation
