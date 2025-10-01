@@ -2,6 +2,27 @@
 
 **Database**: SQLite(`master.db`)
 
-It is a database where user info is stored. It schema changes often between the app versions, based on changes in feature requirements. Here, in this section you will find all the version of database schema & will also find info about how we adopted to the new schema.
+It is a database where user info is stored. It schema changes often between the app versions, based on changes in feature requirements. 
+Here, In this section you will find, all the version of database schema & will also find info about, how we adopted to the new schema.
 
-- [v1](v1.md)
+| Version Name  | Introduce From    | Where Upto     |
+| ------------- | ----------------- | -------------- |
+| [dev](dev.md) | under development | ---            |
+| [v1](v1.md)   | v1.0.0            | latest         |
+| [v0](v0.md)   | v0.1.0            | v0.1.0         |
+
+## Setup SQL
+
+```sql
+-- Create Master DB
+CREATE DATABASE IF NOT EXISTS `master`;
+
+-- Activate Master DB
+USE `master`;
+```
+
+```sql
+-- Delete Master DB
+DROP DATABASE `master`;
+```
+
