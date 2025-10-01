@@ -23,6 +23,6 @@ USE `master`;
 
 ```sql
 -- Delete Master DB
-DROP DATABASE `master`;
+DROP DATABASE IF EXISTS `master`;
 ```
 
