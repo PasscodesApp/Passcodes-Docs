@@ -14,15 +14,25 @@ Here, In this section you will find, all the version of database schema & will a
 ## Setup SQL
 
 ```sql
+BEGIN TRANSACTION;
+
 -- Create Master DB
 CREATE DATABASE IF NOT EXISTS `master`;
+
+COMMIT;
 
 -- Activate Master DB
 USE `master`;
 ```
 
+## Revert SQL
+
 ```sql
+BEGIN TRANSACTION;
+
 -- Delete Master DB
 DROP DATABASE IF EXISTS `master`;
+
+COMMIT;
 ```
 
