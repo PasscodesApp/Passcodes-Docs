@@ -39,7 +39,9 @@ Then you might need to know SQL to some level and then you read this docs and tr
 > It benficiary to checkout it. Especially, if you create custom backend for app..
 
 - Always look for database version, and ensure that you look at the one you are look for.
-- Also, have sqlite client for database debugging, like lazysql or sqlitebrower.
+- Also, have sqlite db client for database debugging, like lazysql or sqlitebrower.
+- Always write the docs in general sql apart from any other falvor, if not possible use sqlite falvour sql.
+- Also, stay consistent with database docs. `cp ./template-docs.md ./your-custom-location.md`
 
 ## How Write Migration / Docs / Test In CodeBase
 
