@@ -35,9 +35,11 @@ Then you might need to know SQL to some level and then you read this docs and tr
 
 ## Tips & Recommendation
 
-[Deep Guide](deep-guide.md)
+> A [Deep Guide](deep-guide.md) is avaliable here!! 
+> It benficiary to checkout it. Especially, if you create custom backend for app..
 
-XXXXX COMING SOON XXXXX
+- Always look for database version, and ensure that you look at the one you are look for.
+- Also, have sqlite client for database debugging, like lazysql or sqlitebrower.
 
 ## How Write Migration / Docs / Test In CodeBase
 
