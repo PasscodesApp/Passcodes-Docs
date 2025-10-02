@@ -7,7 +7,7 @@
 In this directory, You will find the general structure & format in which app stores users data.
 Also you will, find different schema of database that app uses.
 
-This docs will be especially usefulif you want to extend passcodes app functionaltity. 
+This docs will be especially useful if you want to extend passcodes app functionaltity. 
 or build your custom backend for passcodes app. (currently we don't support custom backend.. but, we will soon do so..)
 
 ---
@@ -35,23 +35,11 @@ Then you might need to know SQL to some level and then you read this docs and tr
 
 ## Tips & Recommendation
 
+[Deep Guide](deep-guide.md)
+
 XXXXX COMING SOON XXXXX
 
 ## How Write Migration / Docs / Test In CodeBase
 
-XXXXX COMING SOON XXXXX
-
-XXXXXXXXXX SECTION END XXXXXXXXXX
-
----
-
-# DEEP GUIDE
-
-## How Room Libaray Handle Migration (Abstrat Deep Understanding)
-
-XXXXX COMING VERY SOON XXXXX
-
-## Migration Handling Guide (External Backend Developers)
-
-XXXXX COMING SOON XXXXX
+Docs Template:- [template-docs](template-docs.md)
 
