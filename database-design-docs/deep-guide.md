@@ -1,6 +1,6 @@
 # DEEP GUIDE
 
-## How Room Libaray Handle Migration (Abstrat Understanding)
+## How Room Library Handle Migration (Abstrat Understanding)
 
 Room internally use a table in database called `room_master_table`, Inside it stores hash and id to track the version of database migration.
 
