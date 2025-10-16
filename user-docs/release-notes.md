@@ -1,8 +1,7 @@
 # Release Notes
 
 Here, You will find short ad sweet and casual `tldrs` for release notes or change-log.
-For more details and more professional tone, see [user-docs/changelog.md](user-docs/changelog.md).
-
+For more details and more professional tone, see [user-docs/changelog.md](https://github.com/PasscodesApp/Passcodes-Docs/blob/main/user-docs/changelog.md).
 
 ## Link
 
