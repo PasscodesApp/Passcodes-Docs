@@ -20,7 +20,7 @@ for this, you talk to me directly on telegram or (It would more good if you can 
 
 ## Why this sudden change?
 
-When I first got the idea of this custom backend thing, I was like.. Yup it will be easy. before 6 months, it feels like a easy thing to me, 
+When I first got the idea of this custo0m backend thing, I was like.. Yup it will be easy. before 6 months, it feels like a easy thing to me, 
 because I was dumb enough to think that, I am make just a website (or rather app in our case) that present that data given by api and send data to api..
 It me thinking like web developer. but I forget that I am not make a instgram clone or some sort of social media app, that I can follow & replicate step, that a typical youtube toutrail can provide.
 
@@ -54,4 +54,9 @@ i.e. A (non-tech) user has a laptop, where he run custom backend for passcodes a
 
 
 > I know that this illustion are bit dump and funny too. but i guess it represents the reality. Because, no one how has a business or concerns for security. will use passcodes app. they will probabaly use industry certificated app like bitwarden or nordpass or any other paid more secure password manager. which has **ZERO-KNOWLEDGE-ENCRYPTION** supports. this is more secure and realiable.
+
+
+## Solutions
+
+we will discuss the solution and will update here..
 
