@@ -8,8 +8,17 @@ We don't strictly follow them. but the exceptions are very less, very intuitive,
 and well documented in our release workflow docs.
 
 !!! tip
-  
-  Do checkout the [release notes](release-notes.md) for casual changelog. it is more user friendly to read..
+
+    Do checkout the [release notes](release-notes.md) for casual changelog. it is more user friendly to read..
+
+---
+
+## Link
+
+- **Telegram:** [Community (@passcodescommunity)](https://t.me/passcodescommunity)
+- **Website:** [https://passcodesapp.github.io/Passcodes-Website/](https://passcodesapp.github.io/Passcodes-Website/)
+
+---
 
 ## v1.1.2 - Alpha (Nov 15, 2025)
 
@@ -61,6 +70,8 @@ and well documented in our release workflow docs.
 - **Improved Performance**: Improve performance & better responsiveness of UI (less of density
   pixel, more of scalable pixel measurements). [@JeelDobariya38](https://github.com/JeelDobariya38)
 
+---
+
 ## v1.1.1 - Alpha (Sept 11, 2025)
 
 <details>
@@ -81,6 +92,8 @@ and well documented in our release workflow docs.
 
 - **Fixed Import Passwords**: fixed the bug that was not allowing user to select csv files
   from file picker. due to incorrect mimetype in code.. [@JeelDobariya38](https://github.com/JeelDobariya38)
+
+---
 
 ## v1.1.0 - Alpha (Sept 1, 2025)
 
@@ -128,6 +141,8 @@ and well documented in our release workflow docs.
   `JeelDobariya38 (personal account)`
   to `PasscodesApp (my organization)` for better development and governance of the project.
 
+---
+
 ## v1.0.0 - Stable (Aug 16, 2025)
 
 <details>
@@ -166,6 +181,8 @@ and well documented in our release workflow docs.
 
 - **Improve Data Storing Process**: move away from `SqliteDatabase` to `Room` Library for better
   datastorage & security. [@JeelDobariya38](https://github.com/JeelDobariya38).
+
+---
 
 ## v0.1.0 - Alpha (Aug 26, 2024) [YANKED RELEASE]
 
