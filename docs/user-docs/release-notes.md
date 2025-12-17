@@ -3,14 +3,51 @@
 Here, You will find short, sweet and casual `tldrs` for release notes or change-log.
 For more details and more professional tone, see [changelog.md](changelog.md).
 
+!!! tip
+
+    Do checkout the [changelog](changelog.md) for more formal release notes. it is more technical to read..
+
+---
+
 ## Link
 
 - **Telegram:** [Community (@passcodescommunity)](https://t.me/passcodescommunity)
 - **Website:** [https://passcodesapp.github.io/Passcodes-Website/](https://passcodesapp.github.io/Passcodes-Website/)
 
-!!! tip
+---
 
-    Do checkout the [changelog](changelog.md) for more formal release notes. it is more technical to read..
+## v1.1.2-Alpha (Dec 15, 2025)
+
+```
+Pacakage Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 3
+Version Name = "v1.1.2-Alpha"
+Master Database Version = "v1"
+```
+
+!!! danger
+    
+    This is a kind of a breaking release, it will wipe off all your in-app settings.. 
+    which mean after updating the app, all your previous setting will be reset to defualt.
+    
+    This doesn't mean that your password data will be lost.. I repeat **your password data will be there as it is, untouched in app**.
+
+    You may ask why this is not `v2.0.0` and `v1.1.1` if it has breaking changes???  
+    Firstly, the user interaction with app is not change that much in this release that it make sense to name it `v2.0.0`.
+    Secondly more importantly, It is `v1.1.1` because, setting's data is not than important & core to app itself.
+
+**`TL;DR`: Improve the internal code quality.. | Clean architecture in codebase...**
+
+- For user side of app.. things might look same.. or even some part of ui, like conformation dialog may seems to disapper completely.
+- App has changed completely internally in codebase. The architecture of the app has shifted from something along the lines of MVC.. 
+  to MVI Flavoured Clean architure. Which is more like google's/industry's way of making app in android world...
+- This architecture change in app will give us as developers a better place (codebase) to work in. This also make a solid base for further features.
+- This release is more like a **shift in direction of passcodes development tragitery, towards becaming a industry/production ready app** rather than just became an another password manager app..
+- This release is also a part of biggest refactoring of codebase we are doing at passcodes....
+- And thus, a part of it contains premature features like **Autofill & Jetpack Compose UI**. Which are served as a preview features in app, but you can also turn them on if you wish...
+- This release also bring with it some performance optimizion. (theorically, Because I have not notice it yet). As the app now run on `JAVA 21`. it was previously `Java 11`.
 
 ---
 
@@ -28,7 +65,7 @@ Master Database Version = "v1"
 **`TL;DR`: Sorry for delay, but we have fix import files feature...**
 
 - We are very sorry for the delay.. we have officially fixed the import passwords csv file selection bug...
-- In big project, so such small mistakes/things happens.. so, ignore it please...
+- In big project, such small mistakes/things happens.. so, ignore it please...
 
 ---
 
@@ -46,14 +83,16 @@ Master Database Version = "v1"
 
 **`TL;DR`: Design Improvement.. | Will work with google passwords.... | We are officially an organization on GitHub from `Aug 31, 2025`....**
 
-- This is our first **officially release after migrating to the github organization...**
+- This is our first **official release after migrating to the github organization...**
 - This release has feature like importing & exporting passwords from google password's app...
 - This is an alpha release. Also both the features (copying passwords & importing-exporting password) are disable by default. due to security threats... But, they can be turn on if you wish...
-- From this point onwards, app has a mechanism to release feature progressively using feature flags. This means one could opt into newer unstable features & get earlier access to latest features.
-- Also as the passcodes have change from "just my personal hobby project" to an official github based organization.. This release mark as a step forward for us towards open source and towards [open to contribute](./../other-docs/open-contributing-timeline.md)... and potentailly lead as a community as a whole.....
-- And more importantly it reflect, my long term vision with passcodes as a project... what it means?... upcoming things will be more fascinating to view and to be part of... - And also the app will have more long term support... (if you ignore, the fact that I am not verified developer as of "1/9/25 by google"... but will do it in near time...)
+- From this point onwards, app has a mechanism to release feature progressively using feature flags. This means one could opt-into newer unstable features & get earlier access to latest features.
+- Also as the passcodes have change from "just my personal hobby project" to an official github based organization.. This release mark as a step forward for us towards open source and towards [open to contribute](./../other-docs/open-contributing-timeline.md)... and potentailly leading us a community as a whole.....
+- And more importantly it reflect, my long term vision with passcodes as a project... what it means?...
+- Upcoming things will be more fascinating to watch and to be part of... So stick with us.. [Telegram](https://t.me/passcodescommunity)
+- And also the app will have more long term support... (if you ignore, the fact that I am not a verified developer, as of "1/9/25 by google"... but will do it in a near time...)
 
-!!! note
+!!! info
     Organization is named **PasscodesApp and not Passcodes. Because, it is not available on github.......**
     
     Stick to watch and observe passcodes upcoming progress... [Telegram](https://t.me/passcodescommunity)
@@ -72,13 +111,13 @@ Master Database Version = "v1"
 ```
 
 
-**`TL;DR`: Our first stable release.. | Not much has change in terms of look and feature.. | Name of project has changed to "Passcodes"..**
+**`TL;DR`: Our first stable release.. | Not much has change in terms of look and features.. | Name of project has changed to `Passcodes`..**
 
-- This is our first stable release, even though it look and behave same as prototype release.
-- It's now more stable and more reliable as the data storage part is now, tested and optimized and uses more modern approach (room library).
-- Things have change internally also... like app was first build using java language.. but, now it is kotlin which more align to google's way of building app.
-- Now, you can also have in app, ablity to switch languages & theme.. (Don;t rely on transalation as they are ai generated for now).
-- App now has a improved UI/UX, It has hint's.. especially, as you all where asking "what is domain?" "what can i write in domain?" and so on.....
+- This is our first stable release, even though it looks and behaves same as prototype release.
+- It's now more stable and more reliable as the data storage system is now tested, optimized and uses more modern approach (room library).
+- Things have change internally also... like app was first builded using java language.. but, now it is in kotlin language. which is more align to google's way of building app.
+- Now, you also have in-app ablity to switch languages & themes.. (Don;t rely on transalation as they are ai generated for now).
+- App now has an improved UI/UX, It has hint's.. especially, as you all where asking like, "what is domain?" "what can i write in domain?" and so on.....
 
 ---
 

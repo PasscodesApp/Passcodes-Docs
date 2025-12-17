@@ -20,7 +20,7 @@ and well documented in our release workflow docs.
 
 ---
 
-## v1.1.2 - Alpha (Nov 15, 2025)
+## v1.1.2 - Alpha (Dec 15, 2025)
 
 <details>
   <summary>View Internal Details</summary>
