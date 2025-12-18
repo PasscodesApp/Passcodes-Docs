@@ -64,8 +64,14 @@ Master Database Version = "v1"
 
 **`TL;DR`: Sorry for delay, but we have fix import files feature...**
 
-- We are very sorry for the delay.. we have officially fixed the import passwords csv file selection bug...
+- We are **very sorry for the 10-days delay** for such a small fix.. We have officially fixed the import passwords csv file selection bug...
+- With this fix you can now import the new passwords as expected.....
+- Unlike eariler, **you will now able to select csv file from your device** file picker for importing passwords.
 - In big project, such small mistakes/things happens.. so, ignore it please...
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.1){:target="_blank"}  
+[Changelog](changelog/#v111-alpha-sept-11-2025)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.0...v1.1.1) 
 
 ---
 

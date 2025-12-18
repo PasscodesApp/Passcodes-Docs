@@ -90,7 +90,11 @@ and well documented in our release workflow docs.
 ### Fixed
 
 - **Fixed Import Passwords**: fixed the bug that was not allowing user to select csv files
-  from file picker. due to incorrect mimetype in code.. [@JeelDobariya38](https://github.com/JeelDobariya38)
+  from file picker. due to incorrect mimetype in code.. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.1){:target="_blank"}  
+[Release Notes](release-notes/#v111-alpha-sept-11-2025)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.0...v1.1.1) 
 
 ---
 
