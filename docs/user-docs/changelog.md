@@ -113,32 +113,36 @@ and well documented in our release workflow docs.
 ### Added
 
 - **Improved UI/UX**: improved view password screen's visual feel, also adjust the button colors a
-  bit. [@JeelDobariya38](https://github.com/JeelDobariya38)
+  bit. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 - **Added Feature Flagging**: given user a control on whether they wanna latest experience or stable
   experience. added a way for launching preview features without worry about their
-  stability. [@JeelDobariya38](https://github.com/JeelDobariya38)
+  stability. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 - **Update Checking**: made a basic update checker that help users to stay up to date with latest
   release & also notify user about already reported security vulnerability using pre-release
-  mechanism. [@JeelDobariya38](https://github.com/JeelDobariya38)
+  mechanism. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 #### Preview Features
 
 - **Copy Button (preview feature)**: added a copy button for copying passwords for easy of use. but
   as it
-  is potential threat to security, so made it as a preview feature. [@JeelDobariya38](https://github.com/JeelDobariya38)
+  is potential threat to security, so made it as a preview feature. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 - **G-Passwords Import/Export (preview feature)**: added a import/export feature. which is also
   compatible with google passwords. I have test it with my google password setup. but, I am not sure
   weather this will run in every edge case or not. So, it is a preview feature for
-  now. [@JeelDobariya38](https://github.com/JeelDobariya38)
+  now. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 ### Notes
 
 - **Official Github Organization (Aug 31, 2025)**: migrate project & repository from
   `JeelDobariya38 (personal account)`
   to `PasscodesApp (my organization)` for better development and governance of the project.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.0){:target="_blank"}  
+[Release Notes](release-notes/#v110-alpha-sept-1-2025)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.0.0...v1.1.0) 
 
 ---
 

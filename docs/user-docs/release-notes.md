@@ -80,22 +80,35 @@ Version Name = "v1.1.0-Alpha"
 Master Database Version = "v1"
 ```
 
+??? question "Why &quot;PasscodesApp&quot; as a Github Organization? not Passcodes.."
+    Organization is named **PasscodesApp and not Passcodes. Because, passcodes as name is already taken** & not available on github as of *Aug 31, 2025*....
+    
+    Stick to watch and observe upcoming changes & progress... [Telegram (@passcodescommunity)](https://t.me/passcodescommunity)
 
-**`TL;DR`: Design Improvement.. | Will work with google passwords.... | We are officially an organization on GitHub from `Aug 31, 2025`....**
+**`TL;DR`: Design Improvements.. | Will work with google passwords.... | We are officially an organization on GitHub from `Aug 31, 2025`....**
 
 - This is our first **official release after migrating to the github organization...**
 - This release has feature like importing & exporting passwords from google password's app...
-- This is an alpha release. Also both the features (copying passwords & importing-exporting password) are disable by default. due to security threats... But, they can be turn on if you wish...
-- From this point onwards, app has a mechanism to release feature progressively using feature flags. This means one could opt-into newer unstable features & get earlier access to latest features.
-- Also as the passcodes have change from "just my personal hobby project" to an official github based organization.. This release mark as a step forward for us towards open source and towards [open to contribute](./../other-docs/open-contributing-timeline.md)... and potentailly leading us a community as a whole.....
-- And more importantly it reflect, my long term vision with passcodes as a project... what it means?...
-- Upcoming things will be more fascinating to watch and to be part of... So stick with us.. [Telegram](https://t.me/passcodescommunity)
-- And also the app will have more long term support... (if you ignore, the fact that I am not a verified developer, as of "1/9/25 by google"... but will do it in a near time...)
+- This is an alpha release. So it has unstable features.
+- Also, both the features (copying passwords & importing-exporting passwords) are disable by default. due to security threats... But, they can be turn on if you wish...
+- From this point onwards, app has a mechanism to release feature progressively using **`"feature flags"`**. This means one could opt-into newer unstable features & get earlier access to latest features. As a tradeoff to the stablity of the app itself.. meaning **you are an unoffical earlier tester** of the app/project..
 
-!!! info
-    Organization is named **PasscodesApp and not Passcodes. Because, it is not available on github.......**
+??? note "Became An Offical Tester"
+    If you wish to became a offical tester for the app, let us know on our telegram community. [(@passcodescommunity)](https://t.me/passcodescommunity)
+
+    This mean you get credit for your work & some testing responsiblity.. like testing new feature.. 
+    share you user point of view for a feature. test usablity of the whole app. and basically act as a Q/A Tester.
     
-    Stick to watch and observe passcodes upcoming progress... [Telegram](https://t.me/passcodescommunity)
+    You might also ask to test the security and asked to exploit the app. so, that we can discover flaws in our app..
+
+- Also as the passcodes have change from **"just my personal hobby project" to an official github based organization**.. This release mark as a step forward for us towards open source and towards [open to contribute](./../other-docs/open-contributing-timeline.md)... and potentailly leading us as a community as a whole.....
+- And more importantly it reflect, my long term vision with passcodes as a project... what it means?...
+- Upcoming things will be more fascinating to watch and to be part of... So stick with us.. [Telegram (@passcodescommunity)](https://t.me/passcodescommunity)
+- And also the app will have more long term support... (if you ignore, the fact that [I am not a verified developer, as of *"1/9/25 by google"*... but will do it in a near time...](https://developer.android.com/developer-verification))
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.0){:target="_blank"}  
+[Changelog](changelog/#v110-alpha-sept-1-2025)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.0.0...v1.1.0) 
 
 ---
 
