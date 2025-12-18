@@ -36,38 +36,52 @@ and well documented in our release workflow docs.
 
 </details>
 
+!!! danger "Breaking Changes"
+    
+    This is a kind of a breaking release, it will wipe off all your in-app settings.. 
+    which mean after updating the app, all your previous setting will be reset to defualt.
+    
+    This **doesn't** mean that your password data will be lost.. I repeat **your password data will be there as it is, untouched in app**.
+    
+    ??? question "You may ask why this is not `v2.0.0`?  even if it has breaking changes???"
+        Firstly, the user interaction with app is not change that much in this release that it make sense to make it a major release (`v2.0.0`).
+        
+        Secondly & more importantly, It is `v1.1.1` because, setting's data is not than important, core & criticual to app itself.
+
 ### Breaking Changes
 
-- **Migrate to DataStore**: changed the way how setting and feature flag were been storage
-  previously, we use shared preferences but
-  now we use datastore which will be more modern way to store such data... but this will also mean
-  that your previous setting will be not available anymore. we have decide this break changes, because app settings can be restored
-  again (in like few minutes). [@JeelDobariya38](https://github.com/JeelDobariya38)
+- **Migrate to DataStore**: changed the way how setting and feature flag were been storage.
+  previously, we were using shared preferences. but,
+  now we use datastore which is much more modern way of storing such type of data... but this will also mean
+  that all your previously store setting will be longer be available anymore. we have decide this breaking changes, 
+  because app settings can be restored again (in like few minutes). [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 ### Added
 
 #### Preview Features
 
-- **Autofill System (Preview Feature)**: added a autofill service to autofill user's credentials on
-  the fly. [@hexCode63](https://github.com/hexCode63)
+- **Autofill System (Preview Feature)**: added an autofill service to autofill user's credentials on
+  the fly. [[@hexCode63]](https://github.com/hexCode63)
 
 - **Jetpack Compose (Preview Feature)**: added jetpack compose UI & even added a toggle to switch to
-  this new UI.
-  but it would be worthless to do so, because it just has a single screen.. *this feature is mainly
-  for very earlier testing*. [@JeelDobariya38](https://github.com/JeelDobariya38)
+  this new UI. but it would be worthless to do so, because it just has a single screen.. *this feature is mainly
+  for very earlier testing*. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 ### Changed
 
 - **MVI Flavored - Clean Architecture**: migrated the codebase to make it more scalable,
-  extendable & readable.
-  This will enable us to create better features faster & make a strong base for faster
-  iteration. [@JeelDobariya38](https://github.com/JeelDobariya38)
+  extendable & readable. this will enable us to create better features faster & make a strong base for faster
+  iteration & collaboration. and will help us delegate & modularized task in future. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
-- **Java 21**: migrated the code for passcodes app now compile to java 21. previously it was 
-  compiling to java 11. This should improve performance & efficiency a bit. [@JeelDobariya38](https://github.com/JeelDobariya38)
+- **Java 21**: code now compile to java 21. previously it was compiling to java 11.
+  this should improve performance & efficiency a bit. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
-- **Improved Performance**: Improve performance & better responsiveness of UI (less of density
-  pixel, more of scalable pixel measurements). [@JeelDobariya38](https://github.com/JeelDobariya38)
+- **Improved Performance & Responsiveness**: Improve performance & better responsiveness of UI (less of density
+  pixel, more of scalable pixel measurements). [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.2){:target="_blank"}  
+[Release Notes](release-notes/#v112-alpha-dec-15-2025)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.1...v1.1.2) 
 
 ---
 

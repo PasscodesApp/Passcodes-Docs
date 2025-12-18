@@ -32,22 +32,27 @@ Master Database Version = "v1"
     This is a kind of a breaking release, it will wipe off all your in-app settings.. 
     which mean after updating the app, all your previous setting will be reset to defualt.
     
-    This doesn't mean that your password data will be lost.. I repeat **your password data will be there as it is, untouched in app**.
-
-    You may ask why this is not `v2.0.0` and `v1.1.1` if it has breaking changes???  
-    Firstly, the user interaction with app is not change that much in this release that it make sense to name it `v2.0.0`.
-    Secondly more importantly, It is `v1.1.1` because, setting's data is not than important & core to app itself.
+    This **doesn't** mean that your password data will be lost.. I repeat **your password data will be there as it is, untouched in app**.
+    
+    ??? question "You may ask why this is not `v2.0.0`?  even if it has breaking changes???"
+        Firstly, the user interaction with app is not change that much in this release that it make sense to make it a major release (`v2.0.0`).
+        
+        Secondly & more importantly, It is `v1.1.1` because, setting's data is not than important, core & criticual to app itself.
 
 **`TL;DR`: Improve the internal code quality.. | Clean architecture in codebase...**
 
 - For user side of app.. things might look same.. or even some part of ui, like conformation dialog may seems to disapper completely.
-- App has changed completely internally in codebase. The architecture of the app has shifted from something along the lines of MVC.. 
-  to MVI Flavoured Clean architure. Which is more like google's/industry's way of making app in android world...
-- This architecture change in app will give us as developers a better place (codebase) to work in. This also make a solid base for further features.
-- This release is more like a **shift in direction of passcodes development tragitery, towards becaming a industry/production ready app** rather than just became an another password manager app..
-- This release is also a part of biggest refactoring of codebase we are doing at passcodes....
+- App has **changed completely internally in codebase**. The architecture of the app has shifted from something along the lines of MVC.. 
+  to MVI Flavoured Clean architecture. Which is more **like google's/industry's way of making app in android's world**...
+- This architecture changes in app will give us as developers a better place (codebase) to work in. This means a solid foundation for further features.
+- This release is more like a **shift in direction of passcodes development trajectory, towards becaming a industry/production ready app** rather than just became an another password manager app..
+- This release is also being a major part of—actually, it marks the completion of the phrase 1—biggest refactoring of codebase, we are doing at passcodes.... [#42](https://github.com/PasscodesApp/Passcodes/issues/42)
 - And thus, a part of it contains premature features like **Autofill & Jetpack Compose UI**. Which are served as a preview features in app, but you can also turn them on if you wish...
-- This release also bring with it some performance boost. (theorically, Because I have not notice it yet). As the app now run on `JAVA 21`. it was previously `Java 11`.
+- This release also bring with it some performance enhancements—theorically, Because I have not notice it yet—as the app now run on **`JAVA 21`**. it was previously `Java 11`.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.2){:target="_blank"}  
+[Changelog](changelog/#v112-alpha-dec-15-2025)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.1...v1.1.2) 
 
 ---
 
