@@ -16,7 +16,7 @@ For more details and more professional tone, see [changelog.md](changelog.md).
 
 ---
 
-## v1.1.2-Alpha (Dec 15, 2025)
+## v1.1.2 - Alpha (Dec 15, 2025)
 
 ```
 Pacakage Name = "com.jeeldobariya.passcodes"
@@ -51,7 +51,7 @@ Master Database Version = "v1"
 
 ---
 
-## v1.1.1-Alpha (Sept 11, 2025)
+## v1.1.1 - Alpha (Sept 11, 2025)
 
 ```
 Package Name = "com.jeeldobariya.passcodes"
@@ -69,7 +69,7 @@ Master Database Version = "v1"
 
 ---
 
-## v1.1.0-Alpha (Sept 1, 2025)
+## v1.1.0 - Alpha (Sept 1, 2025)
 
 ```
 Package Name = "com.jeeldobariya.passcodes"
@@ -99,7 +99,7 @@ Master Database Version = "v1"
 
 ---
 
-## v1.0.0-Stable (Aug 16, 2025)
+## v1.0.0 - Stable (Aug 16, 2025)
 
 ```
 Package Name = "com.jeeldobariya.passcodes"
@@ -114,18 +114,19 @@ Master Database Version = "v1"
 **`TL;DR`: Our first stable release.. | Not much has change in terms of look and features.. | Name of project has changed to `Passcodes`..**
 
 - This is our first stable release, even though it looks and behaves same as prototype release.
-- It's now more stable and more reliable as the data storage system is now tested, optimized and uses more modern approach (room library).
-- Things have change internally also... like app was first builded using java language.. but, now it is in kotlin language. which is more align to google's way of building app.
+- It's now more stable and more reliable as the data storage system is now tested, optimized and uses more modern approach (`room library`).
+- Things have change internally also... like app was first builded using java language.. but, now it is in **kotlin** language. which is more **align to google's way of building app**.
 - Now, you also have in-app ablity to switch languages & themes.. (Don;t rely on transalation as they are ai generated for now).
-- App now has an improved UI/UX, It has hint's.. especially, as you all where asking like, "what is domain?" "what can i write in domain?" and so on.....
+- App now has an improved UI/UX, It has hint's.. especially, as you all where asking like, **"what is domain?" "what can i write in domain?" and so on.....**
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v0.1.0)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/commits/v0.1.0)
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.0.0){:target="_blank"}  
+[Changelog](changelog/#v100-stable-aug-16-2025)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v0.1.0...v1.0.0)  
 
 
 ---
 
-## v0.1.0-Alpha (Aug 26, 2024) [YANKED RELEASE]
+## v0.1.0 - Alpha (Aug 26, 2024) [YANKED RELEASE]
 
 !!! danger
     

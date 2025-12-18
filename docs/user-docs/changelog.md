@@ -162,24 +162,28 @@ and well documented in our release workflow docs.
 
 - **Localized App**: added language translation for English, Chinese, Hindi, Indonesian, Japanese,
   Korean,
-  German, Spanish, Vietnamese. [@JeelDobariya38](https://github.com/JeelDobariya38).
+  German, Spanish, Vietnamese. [[@JeelDobariya38]](https://github.com/JeelDobariya38).
 
 - **Improved UI/UX**: added confirmation dialogs for destructive actions, improved support for
   light & dark
-  theme with additional minor changes. [@JeelDobariya38 & @kudanilll].
+  theme with additional minor changes. [[@JeelDobariya38](https://github.com/JeelDobariya38) & [@kudanilll](https://github.com/kudanilll)].
 
-- **New Icon**: rebanded the app as passcodes with a new visual app icon. [@JeelDobariya38](https://github.com/JeelDobariya38).
+- **New Icon**: rebanded the app as passcodes with a new visual app icon. [[@JeelDobariya38]](https://github.com/JeelDobariya38).
 
 ### Changed
 
 - **Migrated Package Name**: migrate package name from `com.passwordmanager` to
-  `com.jeeldobariya.passcodes`. [@JeelDobariya38](https://github.com/JeelDobariya38).
+  `com.jeeldobariya.passcodes`. [[@JeelDobariya38]](https://github.com/JeelDobariya38).
 
 - **Improve Safety By Kotlin Implementation**: move away from `Java` to `Kotlin`
-  Language. [@JeelDobariya38](https://github.com/JeelDobariya38).
+  Language. [[@JeelDobariya38]](https://github.com/JeelDobariya38).
 
 - **Improve Data Storing Process**: move away from `SqliteDatabase` to `Room` Library for better
-  datastorage & security. [@JeelDobariya38](https://github.com/JeelDobariya38).
+  datastorage & security. [[@JeelDobariya38]](https://github.com/JeelDobariya38).
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.0.0){:target="_blank"}  
+[Release Notes](release-notes/#v100-stable-aug-16-2025)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v0.1.0...v1.0.0)  
 
 ---
 
