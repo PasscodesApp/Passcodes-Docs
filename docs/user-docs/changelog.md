@@ -4,12 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-We don't strictly follow them. but the exceptions are very less, very intuitive, obvious
+We don't strictly follow them. but the exceptions are very less, very intuitive, but..obvious
 and well documented in our release workflow docs.
 
 !!! tip
 
     Do checkout the [release notes](release-notes.md) for casual changelog. it is more user friendly to read..
+    and documents important changes to project in a way's that make sense from a users view.
+
+    This here is for technical users and more developer oriented changelog.
 
 ---
 
@@ -25,27 +28,27 @@ and well documented in our release workflow docs.
 <details>
   <summary>View Internal Details</summary>
 
-  ```
-  Pacakage Name = "com.jeeldobariya.passcodes"
-  Min Android = 8.0 (API level 26)
-  Max Android = 14 (API level 34)
-  Version Code = 3
-  Version Name = "v1.1.2-Alpha"
-  Master Database Version = "v1"
-  ```
+```
+Pacakage Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 3
+Version Name = "v1.1.2-Alpha"
+Master Database Version = "v1"
+```
 
 </details>
 
 !!! danger "Breaking Changes"
-    
-    This is a kind of a breaking release, it will wipe off all your in-app settings.. 
+
+    This is a kind of a breaking release, it will wipe off all your in-app settings..
     which mean after updating the app, all your previous setting will be reset to defualt.
-    
+
     This **doesn't** mean that your password data will be lost.. I repeat **your password data will be there as it is, untouched in app**.
-    
+
     ??? question "You may ask why this is not `v2.0.0`?  even if it has breaking changes???"
         Firstly, the user interaction with app is not change that much in this release that it make sense to make it a major release (`v2.0.0`).
-        
+
         Secondly & more importantly, It is `v1.1.1` because, setting's data is not than important, core & criticual to app itself.
 
 ### Breaking Changes
@@ -53,7 +56,7 @@ and well documented in our release workflow docs.
 - **Migrate to DataStore**: changed the way how setting and feature flag were been storage.
   previously, we were using shared preferences. but,
   now we use datastore which is much more modern way of storing such type of data... but this will also mean
-  that all your previously store setting will be longer be available anymore. we have decide this breaking changes, 
+  that all your previously store setting will be longer be available anymore. we have decide this breaking changes,
   because app settings can be restored again (in like few minutes). [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 ### Added
@@ -64,8 +67,8 @@ and well documented in our release workflow docs.
   the fly. [[@hexCode63]](https://github.com/hexCode63)
 
 - **Jetpack Compose (Preview Feature)**: added jetpack compose UI & even added a toggle to switch to
-  this new UI. but it would be worthless to do so, because it just has a single screen.. *this feature is mainly
-  for very earlier testing*. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+  this new UI. but it would be worthless to do so, because it just has a single screen.. _this feature is mainly
+  for very earlier testing_. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 ### Changed
 
@@ -79,9 +82,9 @@ and well documented in our release workflow docs.
 - **Improved Performance & Responsiveness**: Improve performance & better responsiveness of UI (less of density
   pixel, more of scalable pixel measurements). [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.2){:target="_blank"}  
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.2){:target="\_blank"}  
 [Release Notes](release-notes/#v112-alpha-dec-15-2025)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.1...v1.1.2) 
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.1...v1.1.2)
 
 ---
 
@@ -90,14 +93,14 @@ and well documented in our release workflow docs.
 <details>
   <summary>View Internal Details</summary>
 
-  ```
-  Pacakage Name = "com.jeeldobariya.passcodes"
-  Min Android = 8.0 (API level 26)
-  Max Android = 14 (API level 34)
-  Version Code = 2
-  Version Name = "v1.1.1-Alpha"
-  Master Database Version = "v1"
-  ```
+```
+Pacakage Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 2
+Version Name = "v1.1.1-Alpha"
+Master Database Version = "v1"
+```
 
 </details>
 
@@ -106,9 +109,9 @@ and well documented in our release workflow docs.
 - **Fixed Import Passwords**: fixed the bug that was not allowing user to select csv files
   from file picker. due to incorrect mimetype in code.. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.1){:target="_blank"}  
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.1){:target="\_blank"}  
 [Release Notes](release-notes/#v111-alpha-sept-11-2025)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.0...v1.1.1) 
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.0...v1.1.1)
 
 ---
 
@@ -117,14 +120,14 @@ and well documented in our release workflow docs.
 <details>
   <summary>View Internal Details</summary>
 
-  ```
-  Pacakage Name = "com.jeeldobariya.passcodes"
-  Min Android = 8.0 (API level 26)
-  Max Android = 14 (API level 34)
-  Version Code = 2
-  Version Name = "v1.1.0-Alpha"
-  Master Database Version = "v1"
-  ```
+```
+Pacakage Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 2
+Version Name = "v1.1.0-Alpha"
+Master Database Version = "v1"
+```
 
 </details>
 
@@ -158,9 +161,9 @@ and well documented in our release workflow docs.
   `JeelDobariya38 (personal account)`
   to `PasscodesApp (my organization)` for better development and governance of the project.
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.0){:target="_blank"}  
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.0){:target="\_blank"}  
 [Release Notes](release-notes/#v110-alpha-sept-1-2025)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.0.0...v1.1.0) 
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.0.0...v1.1.0)
 
 ---
 
@@ -169,14 +172,14 @@ and well documented in our release workflow docs.
 <details>
   <summary>View Internal Details</summary>
 
-  ```
-  Pacakage Name = "com.jeeldobariya.passcodes"
-  Min Android = 8.0 (API level 26)
-  Max Android = 14 (API level 34)
-  Version Code = 1
-  Version Name = "v1.0.0-Stable"
-  Master Database Version = "v1"
-  ```
+```
+Pacakage Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 1
+Version Name = "v1.0.0-Stable"
+Master Database Version = "v1"
+```
 
 </details>
 
@@ -203,9 +206,9 @@ and well documented in our release workflow docs.
 - **Improve Data Storing Process**: move away from `SqliteDatabase` to `Room` Library for better
   datastorage & security. [[@JeelDobariya38]](https://github.com/JeelDobariya38).
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.0.0){:target="_blank"}  
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.0.0){:target="\_blank"}  
 [Release Notes](release-notes/#v100-stable-aug-16-2025)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v0.1.0...v1.0.0)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v0.1.0...v1.0.0)
 
 ---
 
@@ -214,26 +217,26 @@ and well documented in our release workflow docs.
 <details>
   <summary>View Internal Details</summary>
 
-  ```
-  Pacakage Name = "com.passwordmanager"
-  Min Android = 8.0 (API level 26)
-  Max Android = 13 (API level 33)
-  Version Code = 1
-  Version Name = "0.1.0-Alpha"
-  Master Database Version = "v1"
-  ```
+```
+Pacakage Name = "com.passwordmanager"
+Min Android = 8.0 (API level 26)
+Max Android = 13 (API level 33)
+Version Code = 1
+Version Name = "0.1.0-Alpha"
+Master Database Version = "v1"
+```
 
 </details>
 
 !!! danger
-    
+
     This is an [yanked release](installing/#explicitly-yanked-release-pure-trash) and should not be used by any user.
     The soley purpose of this release is, just for documenation & serves as a part of project's story...
 
     The main cause we have yanked this release is.. not that the release itself is bad by any manner.. this release was very early & premature..
     As in, a prototype release. It is stable in it own pace.. and you can use it if, you wish to do so.. but treat this version more as premature. & just for learning..
-    If you have any error or bug using this version.. you can report to github issues. we will try our best to assist. but this issue won't have prority.. but it will be fun to discuss how an prototype release stand in production enviroment.. 
-    
+    If you have any error or bug using this version.. you can report to github issues. we will try our best to assist. but this issue won't have prority.. but it will be fun to discuss how an prototype release stand in production enviroment..
+
     Also the project's name back then use to be "password manager". which is kind of dumb & lame name, and to be honest little to old also, but it is the name we have started our journey with. we have after a year (2024), maded a decision and envisioned project differently with a name "passcodes".. which is a also an old name, one of mine eariler project, which I have removed from github... but it was the reason I meet [Daniel](https://github.com/kudanilll) in the first place.. and we have started this new project as `password manager` and that eventally became `passcodes`... and now it's in production and in real user's hands... as you read this... 😂😂😂😂😂
 
     The was a eariler release from a parent project of `passcodes`. Read more over at github [#12](https://github.com/PasscodesApp/Passcodes/discussions/12) & [#14](https://github.com/PasscodesApp/Passcodes/issues/14)
@@ -256,9 +259,9 @@ and well documented in our release workflow docs.
 
 ### Notes
 
-- This was the initial alpha (pre-release), focusing more on setting up the app for a basic structure and 
+- This was the initial alpha (pre-release), focusing more on setting up the app for a basic structure and
   visual elements. It is an prototype release (`Proof Of Concept`).
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v0.1.0){:target="_blank"}  
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v0.1.0){:target="\_blank"}  
 [Release Notes](release-notes/#v010-alpha-aug-26-2024-yanked-release)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/commits/v0.1.0)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/commits/v0.1.0)

@@ -3,9 +3,14 @@
 Here, You will find short, sweet and casual `tldrs` for release notes or change-log.
 For more details and more professional tone, see [changelog.md](changelog.md).
 
+This release notes are more or less end-user oriented.
+
 !!! tip
 
     Do checkout the [changelog](changelog.md) for more formal release notes. it is more technical to read..
+
+    This here are..... also.... more user oriented changes.... This document is more like a communication between,
+    developer & user about the changes and impact of passcodes project.
 
 ---
 
@@ -28,21 +33,21 @@ Master Database Version = "v1"
 ```
 
 !!! danger
-    
-    This is a kind of a breaking release, it will wipe off all your in-app settings.. 
+
+    This is a kind of a breaking release, it will wipe off all your in-app settings..
     which mean after updating the app, all your previous setting will be reset to defualt.
-    
+
     This **doesn't** mean that your password data will be lost.. I repeat **your password data will be there as it is, untouched in app**.
-    
+
     ??? question "You may ask why this is not `v2.0.0`?  even if it has breaking changes???"
         Firstly, the user interaction with app is not change that much in this release that it make sense to make it a major release (`v2.0.0`).
-        
+
         Secondly & more importantly, It is `v1.1.1` because, setting's data is not than important, core & criticual to app itself.
 
 **`TL;DR`: Improve the internal code quality.. | Clean architecture in codebase...**
 
 - For user side of app.. things might look same.. or even some part of ui, like conformation dialog may seems to disapper completely.
-- App has **changed completely internally in codebase**. The architecture of the app has shifted from something along the lines of MVC.. 
+- App has **changed completely internally in codebase**. The architecture of the app has shifted from something along the lines of MVC..
   to MVI Flavoured Clean architecture. Which is more **like google's/industry's way of making app in android's world**...
 - This architecture changes in app will give us as developers a better place (codebase) to work in. This means a solid foundation for further features.
 - This release is more like a **shift in direction of passcodes development trajectory, towards becaming a industry/production ready app** rather than just became an another password manager app..
@@ -50,9 +55,9 @@ Master Database Version = "v1"
 - And thus, a part of it contains premature features like **Autofill & Jetpack Compose UI**. Which are served as a preview features in app, but you can also turn them on if you wish...
 - This release also bring with it some performance enhancements—theorically, Because I have not notice it yet—as the app now run on **`JAVA 21`**. it was previously `Java 11`.
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.2){:target="_blank"}  
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.2){:target="\_blank"}  
 [Changelog](changelog/#v112-alpha-dec-15-2025)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.1...v1.1.2) 
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.1...v1.1.2)
 
 ---
 
@@ -74,9 +79,9 @@ Master Database Version = "v1"
 - Unlike eariler, **you will now able to select csv file from your device** file picker for importing passwords.
 - In big project, such small mistakes/things happens.. so, ignore it please...
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.1){:target="_blank"}  
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.1){:target="\_blank"}  
 [Changelog](changelog/#v111-alpha-sept-11-2025)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.0...v1.1.1) 
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.0...v1.1.1)
 
 ---
 
@@ -92,8 +97,9 @@ Master Database Version = "v1"
 ```
 
 ??? question "Why &quot;PasscodesApp&quot; as a Github Organization? not Passcodes.."
-    Organization is named **PasscodesApp and not Passcodes. Because, passcodes as name is already taken** & not available on github as of *Aug 31, 2025*....
-    
+
+    Organization is named **PasscodesApp and not Passcodes. Because, passcodes as name is already taken** & not available on github as of _Aug 31, 2025_....
+
     Stick to watch and observe upcoming changes & progress... [Telegram (@passcodescommunity)](https://t.me/passcodescommunity)
 
 **`TL;DR`: Design Improvements.. | Will work with google passwords.... | We are officially an organization on GitHub from `Aug 31, 2025`....**
@@ -105,21 +111,22 @@ Master Database Version = "v1"
 - From this point onwards, app has a mechanism to release feature progressively using **`"feature flags"`**. This means one could opt-into newer unstable features & get earlier access to latest features. As a tradeoff to the stablity of the app itself.. meaning **you are an unoffical earlier tester** of the app/project..
 
 ??? note "Became An Offical Tester"
+
     If you wish to became a offical tester for the app, let us know on our telegram community. [(@passcodescommunity)](https://t.me/passcodescommunity)
 
-    This mean you get credit for your work & some testing responsiblity.. like testing new feature.. 
+    This mean you get credit for your work & some testing responsiblity.. like testing new feature..
     share you user point of view for a feature. test usablity of the whole app. and basically act as a Q/A Tester.
-    
+
     You might also ask to test the security and asked to exploit the app. so, that we can discover flaws in our app..
 
 - Also as the passcodes have change from **"just my personal hobby project" to an official github based organization**.. This release mark as a step forward for us towards open source and towards [open to contribute](./../other-docs/open-contributing-timeline.md)... and potentailly leading us as a community as a whole.....
 - And more importantly it reflect, my long term vision with passcodes as a project... what it means?...
 - Upcoming things will be more fascinating to watch and to be part of... So stick with us.. [Telegram (@passcodescommunity)](https://t.me/passcodescommunity)
-- And also the app will have more long term support... (if you ignore, the fact that [I am not a verified developer, as of *"1/9/25 by google"*... but will do it in a near time...](https://developer.android.com/developer-verification))
+- And also the app will have more long term support... (if you ignore, the fact that [I am not a verified developer, as of _"1/9/25 by google"_... but will do it in a near time...](https://developer.android.com/developer-verification))
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.0){:target="_blank"}  
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.0){:target="\_blank"}  
 [Changelog](changelog/#v110-alpha-sept-1-2025)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.0.0...v1.1.0) 
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.0.0...v1.1.0)
 
 ---
 
@@ -134,7 +141,6 @@ Version Name = "v1.0.0-Stable"
 Master Database Version = "v1"
 ```
 
-
 **`TL;DR`: Our first stable release.. | Not much has change in terms of look and features.. | Name of project has changed to `Passcodes`..**
 
 - This is our first stable release, even though it looks and behaves same as prototype release.
@@ -143,17 +149,16 @@ Master Database Version = "v1"
 - Now, you also have in-app ablity to switch languages & themes.. (Don;t rely on transalation as they are ai generated for now).
 - App now has an improved UI/UX, It has hint's.. especially, as you all where asking like, **"what is domain?" "what can i write in domain?" and so on.....**
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.0.0){:target="_blank"}  
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.0.0){:target="\_blank"}  
 [Changelog](changelog/#v100-stable-aug-16-2025)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v0.1.0...v1.0.0)  
-
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v0.1.0...v1.0.0)
 
 ---
 
 ## v0.1.0 - Alpha (Aug 26, 2024) [YANKED RELEASE]
 
 !!! danger
-    
+
     This is an [yanked release](installing/#explicitly-yanked-release-pure-trash) and should not be used by any user.
     The soley purpose of this release is, just for documenation & serves as a part of project's story...
 
@@ -181,6 +186,6 @@ Master Database Version = "v1"
 - It has a basic UI that allow you to do things, really intuitively and more structurely...
 - But structure and intuitiveness doesn't necessary means a modern user interface—which is little to less cool, but UI reflect a structure in it...
 
-[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v0.1.0){:target="_blank"}  
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v0.1.0){:target="\_blank"}  
 [Changelog](changelog/#v010-alpha-aug-26-2024-yanked-release)  
-[Full Changelog](https://github.com/PasscodesApp/Passcodes/commits/v0.1.0)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/commits/v0.1.0)
