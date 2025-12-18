@@ -41,8 +41,7 @@ and well documented in our release workflow docs.
 - **Migrate to DataStore**: changed the way how setting and feature flag were been storage
   previously, we use shared preferences but
   now we use datastore which will be more modern way to store such data... but this will also mean
-  that your previous setting will be
-  not available anymore. we have decide this break changes, because app settings can be restored
+  that your previous setting will be not available anymore. we have decide this break changes, because app settings can be restored
   again (in like few minutes). [@JeelDobariya38](https://github.com/JeelDobariya38)
 
 ### Added
@@ -200,24 +199,40 @@ and well documented in our release workflow docs.
 
 </details>
 
+!!! danger
+    
+    This is an [yanked release](installing/#explicitly-yanked-release-pure-trash) and should not be used by any user.
+    The soley purpose of this release is, just for documenation & serves as a part of project's story...
+
+    The main cause we have yanked this release is.. not that the release itself is bad by any manner.. this release was very early & premature..
+    As in, a prototype release. It is stable in it own pace.. and you can use it if, you wish to do so.. but treat this version more as premature. & just for learning..
+    If you have any error or bug using this version.. you can report to github issues. we will try our best to assist. but this issue won't have prority.. but it will be fun to discuss how an prototype release stand in production enviroment.. 
+    
+    Also the project's name back then use to be "password manager". which is kind of dumb & lame name, and to be honest little to old also, but it is the name we have started our journey with. we have after a year (2024), maded a decision and envisioned project differently with a name "passcodes".. which is a also an old name, one of mine eariler project, which I have removed from github... but it was the reason I meet [Daniel](https://github.com/kudanilll) in the first place.. and we have started this new project as `password manager` and that eventally became `passcodes`... and now it's in production and in real user's hands... as you read this... 😂😂😂😂😂
+
+    The was a eariler release from a parent project of `passcodes`. Read more over at github [#12](https://github.com/PasscodesApp/Passcodes/discussions/12) & [#14](https://github.com/PasscodesApp/Passcodes/issues/14)
+
 ### Added
 
 - **App Icon Creation**: designed and implemented the initial app icon, providing the application
-  with a recognizable visual identity. [@HamadaNative](https://github.com/HamadaNative).
+  with a recognizable visual identity. [[@HamadaNative]](https://github.com/HamadaNative).
 
 - **Basic App Structure**: established the foundational architecture of the app, including the main
-  entry point and initial setup. [@JeelDobariya38](https://github.com/JeelDobariya38).
+  entry point and the initial setup. [[@JeelDobariya38]](https://github.com/JeelDobariya38).
 
 - **Main Page Development**: developed the main page of the app, including basic UI components and
-  initial layout. [@JeelDobariya38](https://github.com/JeelDobariya38).
+  initial layout. [[@JeelDobariya38]](https://github.com/JeelDobariya38).
 
-- **Basic Password Store**: developed a database to store the passwords data. [@kudanilll](https://github.com/kudanilll).
+- **Basic Password Store**: developed a database to store the passwords data. [[@kudanilll]](https://github.com/kudanilll).
 
 - **Basic Design System**: developed a basic material 2 design system for consistency in app's
-  feel & look. [@HamadaNative](https://github.com/HamadaNative).
+  feel & look. [[@HamadaNative]](https://github.com/HamadaNative).
 
 ### Notes
 
-- This was the initial alpha pre-release, focusing more on setting up the basic structure and key
-  visual
-  elements of the app. (`Proof Of Concept`).
+- This was the initial alpha (pre-release), focusing more on setting up the app for a basic structure and 
+  visual elements. It is an prototype release (`Proof Of Concept`).
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v0.1.0){:target="_blank"}  
+[Release Notes](release-notes/#v010-alpha-aug-26-2024-yanked-release)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/commits/v0.1.0)  
