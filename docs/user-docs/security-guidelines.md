@@ -26,7 +26,7 @@ Here, are the thing we recommend you to improve the safety of your passwords.
 
 3. Also, if you don't use the app often, it's recommended, to hide the app using your phone's settings. (it is bit inconvenient but at the end of day it pays off as safety)
 
-??? tip "Smartness As A Tool For Safety (a new perspective)"
+!!! tip "Smartness As A Tool For Safety (a new perspective)"
 
     This type of things **`must only be done, if you know what you are doing`**... otherwise it can do more damage then safety itself.
 

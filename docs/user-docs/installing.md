@@ -1,129 +1,185 @@
 # Detail Guide On Installation
 
-This file give you a deep guide on installation & updation process. we hope that you have already read the step written in readme but, aren't satisfied with that and need more info and guide on installation and updation.
+This file give you a deep guide on installation & updation process. we hope that you have already read the step written in the readme. but, aren't satisfied with that and need more info and guide on installation and updation.
 
-👏👏 We appreciate your efforts. As developer we try to abstract away complicated process, But sometimes this abstraction make thing simple that it is.. Which lead to false image of the process. To avoid that, we have created this guide that help you navigate installation and updation process..
+👏👏 We appreciate your efforts. As a developers, we try to abstract away complicated processes, But sometimes this abstraction makes things seems simpler that it really is.. Which lead to false image of the process. To avoid that, we have created this guide that help you navigate installation and updation process..
 
-# Table of Contents
+## Table of Contents
 
-- [Installation Process](#Installation-process)
+- [Installation Process](#installation-process)
 - [Updation Process](#updation-process)
-- [Guide To Find A Best Release](#guide-to-find-a-best-release)
+- [How To Find A Best Release](#how-to-find-a-best-release)
 - [Explicitly Yanked Release (Pure Trash)](#explicitly-yanked-release-pure-trash)
 
 ## Installation Process
 
-For initial installation of app, you follow step given below it work in most scenario.
+For initial installation of app, you can follow step given below, they works in most scenario.
 
-1. Checking whether the app can run on your device or not.
-   - go to your setting app and check whether you are on android 8+ or not?
-   - if no, then sorry, app is not compatible with your device.
-   - and if yes, then mostly you are good to go but, officially we only support device between android 8 to 14. For more high android version app can be run, But we don;t officially support it.
+1.  Checking whether the app can run on your device or not??
 
-2. After completing first step, Pick a version of app to install.
-   - Go to our [github repository release page](https://github.com/PasscodesApp/Passcodes/releases). There you will find a list of release available.
-   - pick up any one of the release you like. (we recommend you to pick a good release. [how can you find a good release](#guide-to-find-a-best-release)?)
-   - after pick up a release, you can read the change log to know what has changed. (optional step)
+    - go to your setting app and check whether you are on android 8+ or not? (it usually avaiable near "system update" section)
+    - if no, then sorry, app is not compatible with your device.
+    - and if yes, then mostly you are good to go but, officially we only support device between android 8 to 14. for more or high version of android. app might still be run, but we don;t officially support it.
 
-3. Downloading apk files
-   - after pick up a release, you can scroll to the assets and download the apk that better fits your phone CPU architecture.
+2.  After completing first step, Pick a version of app to install.
 
-   - if you don;t know your phone CPU architecture. just download the apk file that has universal in its name.
+    - go to our [github repository's release page](https://github.com/PasscodesApp/Passcodes/releases). There you will find a list of releases available.
+    - pick up any one of the release you like. (we recommend you to pick a good release. [how can you find a good release](#how-to-find-a-best-release)?)
+    - after picking a release, you can read it's [release-notes](release-notes.md) to know what has changed. (optional step)
 
-4. Installing apk files.
-   - install the apk file. the apk file will be mostly like downloaded in your browser (probably like Chrome, Firefox or Edge).
+3.  Downloading an APK file
 
-   - open the app.
+    - after picking a release, you can scroll to bottom of that release towards the assets section and download the apk that better fits your phone's CPU architecture.
 
-if any problem occur while performing the above 4 step. report your problem using [github issues](https://github.com/PasscodesApp/Passcodes/issues/new) after checking other support docs available in our [docs github repository](https://github.com/PasscodesApp/Passcodes-Docs) .
+    ???+ example
+
+          * arm64 (v8) [Mostly every modern Android smartphone runs on arm64-v8a]
+          * armeabi (v7a) [i.e. Samsung Galaxy A01, A02, A10 && Xiaomi Redmi 9A, 9C]
+          * x86
+          * x86 (64) [it is mostly relevant for Android emulators on desktop environments]
+
+    - if you don;t know your phone's CPU architecture. just download the apk file that has word **`"universal"`** in its name.
+
+4.  Installing an APK file
+
+    - the apk file will most like be downloaded in your browser's download folder. (probably it would be Chrome, Firefox or Edge)
+    - tap on the apk file in the browser or find the file in your device's file manager. it will be under downloads folder in your device...
+    - now, open the app & enjoy.
+    - also, take a moment to setup the app to your best interest. it will be really intuitive to do so.. just open the setting screen in passcodes app..
+
+if any problem occurs while performing the above 4 step. report your problem using [github issues](https://github.com/PasscodesApp/Passcodes/issues/new) after checking the other [available support documentation](https://passcodesapp.github.io/Passcodes-Docs/) .
 
 ## Updation Process
 
-As you are reading this part, we hope that you have passcodes app installed on your phone and now, you want to update it.
+As you are reading this part, we hope that you already have installed passcodes app in your phone and now, you want to update it.
 
-you can follow step given below. they work for most scenario.
+you can follow step given below. they work in most scenario.
 
-> [!IMPORTANT]
-> updating from one version to another might result into data loss. though, it occur very rarely. but, it a good practice to take a backup of data.
-> this try of data loss are likely to occur, when you are update from one major version to another major version meaning from `1.x.x` to `2.x.x`.
+!!! failure
 
-1. Checking Whether The Update Exist Or Not
-   - compare your current app version with latest app update. (you can find your current installed passcodes app version under app info in your phone settings)
-   - check whether a update exist or not?
-   - if no, then you can;t update but, can surely en-quire about the next update using github issues.
+    updating from one version to another might result into a data lost. though, it occur extremely rarely.
 
-> if you know a bit of android then just clone the repository and build from main. it will work fine, because we use main branch as production. take reference from existing building docs in github.
- 
-> Ignore this if it doesn't make sense to you..
+    but, its a good idea/practice to take a backup of your data.
 
-   - if yes, then check how big the update is and how it affect your experience as user?
-   - to find the update impact you can check what the difference between your version and new version you are updating to.
+    this data lost are likely to occur, when you are updating from one major version to another major version meaning from ***`1.x.x`*** to ***`2.x.x`***.
 
-> i.e, if you update from 1.x.x to 2.x.x the the change will be big. if you update from 1.x.0 to 1.x.2 then change might be not visible even.
+1.  Checking whether the update is available or not??
 
-2. Downloaded the updated apk files.
-   - it is same as you did earlier while installing the app.
+    - find out the current verion of the app you are using.
 
-   - goto release page and download the asset from select release. refer installation guide above if needed.
+    ???+ question "How to find the version of currently installed app??"
 
-3. Update the app.
-   - if, you updating to a new major release, meaning from 1.x.x to 2.x.x then, don;t forget to backup your data. you will thank your self later, if something goes wrong...
-   - now install the new apk file it will ask you to upgrade instead of install.
-   - open the app and enjoy your updated expirence.
+        you can find your currently installed passcodes app version....
 
-4. Restore the backup if need.
-   - if, needed restore the files/data back. or even revert to prevoius release if, problem occurs.
+        - ...on the main screen when you open the passcodes app itself.
+        - ...under app info in your phone's settings app.
 
-   - we admire the contribution even in form of your experience with app.
+    - check whether a update exist or not? by comparing your current app version with latest app update on [github repository's release page](https://github.com/PasscodesApp/Passcodes/releases).
+    - if no, then you can;t update but, you can surely ask about the next update using our [Telegram (@passcodescommunity)](https://t.me/passcodescommunity).
 
-> meaning, reporting your data erase on update problem. will be appreciate.
-> it help us make better experience & fix bug that might be missed by us.
+    ??? tip
+
+        if you know a bit of android then just clone the repository and build from main. it will work fine, because we use main branch as production. take reference from existing [building documentation](./../dev-docs/building.md).
+
+        ignore this if it doesn't make sense to you..
+
+    - if yes, then check how big the update is and how it affect your experience as a user? to find out an updates impact. you can find the difference between your current version and the new version you are updating to...
+    - i.e, if you are updating from **"1.x.x"** to **"2.x.x"** the the change will be very big. if you update from **"1.x.0"** to **"1.x.2"**. then, the change might not even be visible.
+
+2.  Downloaded the updated apk files.
+
+    - it is same as you did earlier while installing the app.
+    - goto [release page](https://github.com/PasscodesApp/Passcodes/releases) and download the asset from select release. refer installation guide above if needed.
+    - you can read it's [release-notes](release-notes.md) to know what has changed. (optional step)
+
+3.  Update the app.
+
+    - if, you updating to a new major release, meaning from 1.x.x to 2.x.x then, don;t forget to backup your data. you will thank your self later, if something goes wrong...
+    - now install the new apk file by click on it in your downloads folder, it will ask you to upgrade instead of install.
+    - now, open the app and enjoy your updated exprience.
+    - there might be new stuff so, you might need to change your existing setup or need to setup the new ones. refer to our documentation.
+    - you can read it's [release-notes](release-notes.md) to know what has changed. (optional step)
+
+4.  Restore the backup if need.
+
+    - if, needed restore the files/data back.
+    - even revert to prevoius release if, problem presists.
+
+    !!! info
+
+        we admire the contribution even in form of your experience with app.
+
+        meaning, you take a moment for reporting your "data loss / data corruption / any other" problem during the updation of app. will be  highly appreciate.
+        this helps us make better experiences & fix bugs that might be missed by us.
 
 ---
 
-## Guide To Find A Best Release
+## How To Find A Best Release?
 
-To find a best release you should have knowledge of passcodes versioning system and type of releases we release/publish.
+To find a best release you should have knowledge of passcodes versioning system and type of releases we publishes/releases.
 
 ### Release Types
 
-On our github release page you will find majorly `5 (3+2)` type of release. Where each type of release label tell you something about release.
-Each release on github may have a label but, some even lack them completely. These label tends to tell more about release, so they are IMPORTANT to consider.
+On our github release page you will find majorly **`(2 + 3 = 5) type of release`** . Where each type of release label tell you something about release.
+Each release on github may have a label but, some even lacks them completely. These label tends to tell you more about release, so they are **IMPORTANT** to consider.
 
-There are majorly two ways, In which we classify release. Mean a release will have two labels.
-So to speak:
+There are majorly two ways, In which we classify a release. mean one release will have two labels at ones.
+so to speak:
 
-- **Build Label**: a label which won't change once after release. (alpha/beta/stable)
-- **Github Release Label**: a label that can change. (pre-release/latest)
+- **`"Build Label"`**: this label that won't change once after we publish a release. (alpha/beta/stable)
+- **`"Github Release Label"`**: this label can and tends to change with time. (pre-release/latest)
 
-#### Three type that are there in app itself, you find them in release title on github:
+#### three type, are embedded in app itself, you can find them on github release title:
 
 (this tags/labels can;t change after initial release of that version is done).
 
-- Alpha: special design for development purpose, not intended to use by end users, they comes with likely lots of bugs and security venerability.
-- Beta: release that can be used by mass audience, and likely can contain minor bugs.
-- Stable: are likely to be more stable then others release type, contain nearly zero bugs as they are very well tested. this release also will have extra developer support.
+- _Alpha_: special design for development purposes (conatin a lots of latest feature as preview features), they **_`likely comes with a lots of bugs and security venerability`_**. We have likely publish this, without thoroughly test them.
+- _Beta_: release that can be used by mass audience, and likely can contain minor bugs.
+- _Stable_: are likely to be more stable than alpha & beta release types, contain **`near to zero bugs`** as they are very well tested. this release also will have **`extra developer attention & support`**.
 
-#### Two type are specific to github release. they are label on github release itself:
+#### two type are specific to github releases. these label's are on github release itself:
 
-(this tags can label can change with time as they are dynamic and are not tied to app itself. meaning they are no hard coded anywhere)
+(this tags/label can change with time as they are dynamic and are not tied to app itself. meaning they are no hard coded anywhere!!)
 
-- Pre Release: this release are not so good to install or to stick with. they are generally like `marked as deperacted` or more like `yanked release`
-- Latest: this release label make a release as the best up to date release to install. but latest doesn't mean stable. it means latest feature.
+- _Pre Release_: this release are not so good to install or to stick with. these are generally like **`marked as deperacted`** releases... As we update our app prominently, we mark previous release as deperacted using this pre release github label... but don't worry much about it, because if you are using a pre release.. the app itself will likely ask you to update or give you some sort of alert...
+- _Latest_: this release label, make a release as the best up to date release to install. mean all every release will like be latest utill a ne latest release comes. just like every day is today utill tommorrow get a chance.... but **"`latest doesn't mean stable. it means latest feature.`"**
 
-> [!NOTE]
-> this label or flag changes with time. meaning, a app version after it release, can be marked as pre-release as there are lots of bug found in that release later or a release can later be marked as latest release as it all good after test in production enviroment.
+??? Note
 
-So, here is a list in order where starting type are best and ending types are worse.
+    this label or flag changes with time. meaning, a app version after it release, can be marked as pre-release as there are lots of bug found in that release later or a release can later be marked as latest release as it all good after test in production enviroment.
 
-```
-STABLE (the best) > LATEST > BETA > ALPHA > PRE-RELEASE > RELEASE-WITH-NO-FLAGS (the worst) > Explictly Yanked Release (Pure Trash)
-```
+#### So, here is a list in order where starting type are best and ending types are worse.
 
-It more like that a release can have two flag at a same time. for example, a stable and pre-release. In such case, consider the github base label in this case `pre-release`. as they are more dynamic and provide the latest information from us (developer part).
+???+ Abstract
 
-> this clear means a pre-release even if they are stable / alpha / beta / gamma (unlikely.... 😂)
-> it just doesn't matter it will be considered `the worst`...
+    Use **[bitwarden](https://bitwarden.com/download/)** really, if care this much about your digital security... because it provide you with the best safety standards,
+
+    why use passcodes????? (for simplicity, i guess, okay no worry, passcodes is better than your forget password? 🤣🤣, but later migrate to bitwarden if possible)
+
+    > Bitwarden
+
+    > STABLE (the best)
+
+    > LATEST
+
+    > BETA
+
+    > ALPHA
+
+    > PRE-RELEASE
+
+    > RELEASE-WITH-NO-FLAGS (the worst)
+
+    > Explictly Yanked Release (Pure Trash)
+
+    > And then comes your forget passwords (Seriously, just DON'T DO THIS!!!!!)
+
+    !!! Example
+
+        It more likely that a single release can have two flag at a same time. for example, a stable and pre-release. In such case, consider the github base label in this case `pre-release`. as they are more dynamic and provide the latest information from us (developer part).
+
+        > this clear means a pre-release even if they are stable / alpha / beta / gamma (unlikely.... 😂)
+        > it just doesn't matter it will be considered **`the worst`**...
 
 ---
 
@@ -133,4 +189,4 @@ This release will have Yanked Release written in the release title and descripti
 
 Such release are just there for documentation purpose..
 
-JUST DON'T USE THEM!!!!
+**`JUST DON'T USE THEM!!!!`**
