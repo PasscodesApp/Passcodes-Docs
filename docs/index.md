@@ -29,16 +29,16 @@ to push them to cloud.
 
 ## Structrue
 
-| CONCERNS | LINKS                    | Description                            |
-| -------- | ------------------------ | -------------------------------------- |
-| Users    | [user-docs/](user-docs/) | user manuals, how-to-use guides etc... |
+| CONCERNS  | LINKS                      | Description                                                |
+| --------- | -------------------------- | ---------------------------------------------------------- |
+| Users     | [user-docs/](user-docs/)   | user manuals, how-to-use guides etc...                     |
+| Reference | [references/](references/) | all docs that not project specfic. but can help everyone.. |
 
 <!--
 | App Developers   | [dev-docs/](dev-docs/)                         | developer guides, coding docs, building guides etc...      |
 | Database         | [database-design-docs/](database-design-docs/) | database schemas, migrations etc...                        |
 | Third Party Devs | [custom-backend-docs/](custom-backend-docs/)   | custom backends guides                                     |
 | Main Docs        | [other-docs/](other-docs/)                     | most **important** docs.. yet, they don;t relate to coding |
-| Reference        | [references/](references/)                     | all docs that not project specfic. but can help developers |
 | Essentials       | [essentials/](essentials/)                     | no docs here.. just github & management stuff..            |
 --->
 
