@@ -1,166 +1,77 @@
----
-icon: lucide/rocket
----
+# Passcodes
 
-# Get started
+!!! Abstract
 
-For full documentation visit [zensical.org](https://zensical.org/docs/).
+    What we think of passcodes?
 
-## Commands
+    Password management is one such thing that is as simple as remember a password yet, it very
+    important topic in term of security. So, we as developer of passcodes think to streamline and
+    securing the process as much as possible.
 
-* [`zensical new`][new] - Create a new project
-* [`zensical serve`][serve] - Start local web server
-* [`zensical build`][build] - Build your site
+    [Read more](other-docs/project-overview.md)
 
-  [new]: https://zensical.org/docs/usage/new/
-  [serve]: https://zensical.org/docs/usage/preview/
-  [build]: https://zensical.org/docs/usage/build/
+![passcodes play store banner](https://github.com/user-attachments/assets/88e63483-9930-4ce0-a01e-4564e18b3c71)
 
-## Examples
+[PasscodesApp/Passcodes](https://github.com/PasscodesApp/Passcodes): Take Down The Headache Of Remebering Passwords.
 
-### Admonitions
+A android app that take down the headache of remembering passwords. It is open source solutions that
+help you in keeping your passwords safe and secure, in your own local storage without ever needing
+to push them to cloud.
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/)
+- **Telegram:** [Community (@passcodescommunity)](https://t.me/passcodescommunity)
+- **Website:** [https://passcodesapp.github.io/Passcodes-Website/](https://passcodesapp.github.io/Passcodes-Website/)
 
-!!! note
+??? info
 
-    This is a **note** admonition. Use it to provide helpful information.
+    This [docs](https://passcodesapp.github.io/Passcodes-Docs/) might have outdated (behind time) or forward (ahead of time) infomation (may be by a week or so)..
 
-!!! warning
+    So, it always a good habit to verify stuff.. By see the code... Because we as developer of passcodes focus more on code.. and documenation is our second priority..
 
-    This is a **warning** admonition. Be careful!
+## Structrue
 
-### Details
+| CONCERNS  | LINKS                      | Description                                                |
+| --------- | -------------------------- | ---------------------------------------------------------- |
+| Users     | [user-docs/](user-docs/)   | user manuals, how-to-use guides etc...                     |
+| Reference | [references/](references/) | all docs that not project specfic. but can help everyone.. |
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
+<!--
+| App Developers   | [dev-docs/](dev-docs/)                         | developer guides, coding docs, building guides etc...      |
+| Database         | [database-design-docs/](database-design-docs/) | database schemas, migrations etc...                        |
+| Third Party Devs | [custom-backend-docs/](custom-backend-docs/)   | custom backends guides                                     |
+| Main Docs        | [other-docs/](other-docs/)                     | most **important** docs.. yet, they don;t relate to coding |
+| Essentials       | [essentials/](essentials/)                     | no docs here.. just github & management stuff..            |
+--->
 
-??? info "Click to expand for more info"
-    
-    This content is hidden until you click to expand it.
-    Great for FAQs or long explanations.
+## Documentaion Version System
 
-## Code Blocks
+<!-- Currently, docs is general to all app. and no version system is needed
 
-> Go to [documentation](https://zensical.org/docs/authoring/code-blocks/)
+We have version system for docs, every version of app will have a coressponding docs, that you will find from below table.
+We use git(&hub) tags to seperate docs.. And this make up a version system for docs.
 
-``` python hl_lines="2" title="Code blocks"
-def greet(name):
-    print(f"Hello, {name}!") # (1)!
+| App Version                   | Docs URL                                                       |
+| ----------------------------- | -------------------------------------------------------------- |
+| latest (development use only) | https://github.com/PasscodesApp/Passcodes-Docs                 |
+| vX.X.X                        | https://github.com/PasscodesApp/Passcodes-Docs/blob/vX.X.X     |
+| all prior version             | https://github.com/PasscodesApp/Passcodes-Docs/blob/prior-docs |
 
-greet("Python")
-```
+-->
 
-1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
+All the version of the passcodes app, can use the documenation avaliable over here, The docs currently are applicable to all versions of app.. (atleast for now)
+[prior-docs](https://github.com/PasscodesApp/Passcodes-Docs/blob/prior-docs).
 
-    Code annotations allow to attach notes to lines of code.
+## Best Practices We Follow
 
-Code can also be highlighted inline: `#!python print("Hello, Python!")`.
+- Use lowercase character for docs file / directory name.
+- Use hyphens for docs file / directory name.
+- Also try to separate and organize docs as much as possible.. like a hierarchy. (don't fear nested structure).
+- Avoid renameing a file once created, because there might be URL pointing to it... from app or from various source which once publish can;t change.. (but if you have a strong reason to rename break this rule) Also, refer to [link-migration-strategy.md](other-docs/link-migration-strategy.md).
 
-## Content tabs
+## Contirbuting to Docs
 
-> Go to [documentation](https://zensical.org/docs/authoring/content-tabs/)
+This works same as contributing to repository.. Create your branch in this repo, make changes and submit a pr.. Always refer to [CONTRIBUTING.md](CONTRIBUTING.md)
 
-=== "Python"
+## Notes
 
-    ``` python
-    print("Hello from Python!")
-    ```
-
-=== "Rust"
-
-    ``` rs
-    println!("Hello from Rust!");
-    ```
-
-## Diagrams
-
-> Go to [documentation](https://zensical.org/docs/authoring/diagrams/)
-
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
-
-## Footnotes
-
-> Go to [documentation](https://zensical.org/docs/authoring/footnotes/)
-
-Here's a sentence with a footnote.[^1]
-
-Hover it, to see a tooltip.
-
-[^1]: This is the footnote.
-
-
-## Formatting
-
-> Go to [documentation](https://zensical.org/docs/authoring/formatting/)
-
-- ==This was marked (highlight)==
-- ^^This was inserted (underline)^^
-- ~~This was deleted (strikethrough)~~
-- H~2~O
-- A^T^A
-- ++ctrl+alt+del++
-
-## Icons, Emojis
-
-> Go to [documentation](https://zensical.org/docs/authoring/icons-emojis/)
-
-* :sparkles: `:sparkles:`
-* :rocket: `:rocket:`
-* :tada: `:tada:`
-* :memo: `:memo:`
-* :eyes: `:eyes:`
-
-## Maths
-
-> Go to [documentation](https://zensical.org/docs/authoring/math/)
-
-$$
-\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
-$$
-
-!!! warning "Needs configuration"
-    Note that MathJax is included via a `script` tag on this page and is not
-    configured in the generated default configuration to avoid including it
-    in a pages that do not need it. See the documentation for details on how
-    to configure it on all your pages if they are more Maths-heavy than these
-    simple starter pages.
-
-<script id="MathJax-script" async src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [["\\(", "\\)"]],
-      displayMath: [["\\[", "\\]"]],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      ignoreHtmlClass: ".*|",
-      processHtmlClass: "arithmatex"
-    }
-  };
-</script>
-
-## Task Lists
-
-> Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
-
-* [x] Install Zensical
-* [x] Configure `zensical.toml`
-* [x] Write amazing documentation
-* [ ] Deploy anywhere
-
-## Tooltips
-
-> Go to [documentation](https://zensical.org/docs/authoring/tooltips/)
-
-[Hover me][example]
-
-  [example]: https://example.com "I'm a tooltip!"
+Here, You will find all the docs releated to the `Passcodes` and other project under `PasscodesApp` github organization..
+This is single place that you need refer, for any docs or updates..
