@@ -1,37 +1,42 @@
 # Release Workflow
 
-In this file, you will find documented process about, how we release, new version of a app.
+In this file, you will find documented process about, how we release, new version of the app.
 
-> [!IMPORTANT]
-> This is not a practice that, we follow from top to bottom.
-> But it is rather, what our pre-release process look like.. (most of times)
+!!! Note
 
-1. Draft a new release in github. (with a tag, name & generate release notes in description).
+    This is not a practice that, we follow from top to bottom.  But it is rather, what our pre-release process look like.. most of the times..
 
-2. We follow, so called `Main (branch) as Production Environment` practice. So, during the time of release, we test/review the code in main branch.
+1.  We first draft a new release on github... with a tag, name & generate release notes in its description...
 
-   (TBH, this step of testing and review is often skip... cuz, i am really exicted for the release and just tush though pre-release process which i should not do... But I will try to calm myself-down during pre release..)
+2.  We follow, so called `Main (branch) as Production Environment` practice. So, during the time of release, we test/review the code in main branch.
 
-3. Once the review process ends, I updated the code where-ever need. (code that refer to previous version names in application codebase. mostly, in build.gradle.kts files).
+    > (TBH, this step of testing and review is often skip... cuz, I am really exicted for the release and just rush though the pre-release process... But I will try to improve it....)
 
-4. Make Documentation up-to-date. (document the main change in app, from user point of view, mostly this is done along with development.. it a kind of docs review).
+3.  Once the review process ends, I updated the code where-ever need. (code that refer to previous version names in application codebase. mostly, in build.gradle.kts files).
 
-5. Update `changelog.md` & `release-notes.md` in Docs Repository.
+4.  Make Documentation up-to-date. (document the main change in app, from user point of view, mostly this is done along with development.. it a kind of docs review).
 
-6. Upload all the apk files in github release (signed apks). (rebuild the app again from main branch.. to take in account for outdated/stale assets).
+5.  Update `changelog.md` & `release-notes.md` in Docs Repository.
 
-> [!TIP]
-> Always take backup of release assets.. and (essentail) outputs.. frezze in time... Senior developers at Passcodes (@JeelDobariya38 & @kudanill).. knows what we mean by word "backup" and what to back up and where to back up.....
+    !!! Tip
 
-7. Discuss on community, check & test release app on various parameters and
-   - We run unit tests.
-   - We run android tests.
-   - And of-course, we internally as developers, also test it (manually).
+         Now, Befre 6th step.. Rebuild the app again from main branch.. to take in account for outdated/stale assets.
 
-   (TBH, i don't do this step anytime, always forget it.. this is just written in documentaion.. but not really a step for me in reality...)
+6.  Upload all the apk files in github release (signed apks).
 
-8. Then finally, click the publish button to release & launch a new version of app.
+    !!! Info
 
-9. Tell in telegram community & social media.
+         Always take backup of release assets.. and (essentail) outputs.. frezzed in time... Senior developers at Passcodes ([@JeelDobariya38](github.com/JeelDobariya38) & [@kudanilll](https://github.com/kudanilll)).. knows what we mean by the word "backup", what to back up and where to back up.....
 
-10. Celebrate the Release.
+7.  Now discuss on community, check & test release app on various parameters:-
+    - We run unit tests.
+    - We run android tests.
+    - And of-course, we internally as developers, also test it (manually).
+
+    > (TBH, i don't do this step anytime, always forget it.. this is just written in documentaion.. but this is not really a step for me in reality... cuz, I am to in hurry to release a new version)
+
+8.  Then finally, click the publish button on github to release & launch a new version of app.
+
+9.  Tell in telegram community & social media (linkedin mostly).
+
+10. Celebrate the Release. Plan the future...
