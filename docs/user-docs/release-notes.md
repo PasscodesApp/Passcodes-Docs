@@ -21,6 +21,55 @@ This release notes are more or less end-user oriented.
 
 ---
 
+## v1.2.1 - Alpha (Jan 31, 2026)
+
+```
+Pacakage Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 4
+Version Name = "v1.2.1-Alpha"
+Master Database Version = "v1"
+```
+
+**`TL;DR`: Fix my mistake, by updating the version name that I forget last time....**
+
+- Last time (v1.2.0), I forget to update the version so fix it and re-release instantly... (gotta a real-idea of how dangerous "publish" button on github is.... 😂😂😂😂😂)
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.1){:target="\_blank"}  
+[Changelog](changelog/#v121-alpha-dec-31-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.0...v1.2.1)
+
+## v1.2.0 - Alpha (Jan 31, 2026) [YANKED RELEASE]
+
+```
+Pacakage Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 3
+Version Name = "v1.1.2-Alpha"
+Master Database Version = "v1"
+```
+
+!!! danger
+
+    This is an [yanked release](installing/#explicitly-yanked-release-pure-trash) and should not be used by any user.
+    The soley purpose of this release is, just for documenation & serves as a part of project's story...
+
+    This release is yanked cuz, I launch the app in hurry and forget to do something that need to be done... (forget to update version number)...
+    Checkout the release on github for full details...
+
+**`TL;DR`: Design a new jetpack compose preview ui.. | Improved performance...**
+
+- App now has a basic new preview.. jetpack compose ui... that can be used instead of old ui...
+- App provide a toggle to switch between two layouts...
+- Improve file selection menu experience while importing passwords..
+- Perfomance optimization. (due to dependency updates.)
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.0){:target="\_blank"}  
+[Changelog](changelog/#v120-alpha-dec-31-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.2...v1.2.0)
+
 ## v1.1.2 - Alpha (Dec 15, 2025)
 
 ```
