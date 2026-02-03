@@ -51,13 +51,15 @@ Version Name = "v1.1.2-Alpha"
 Master Database Version = "v1"
 ```
 
-!!! danger
+!!! failure
 
     This is an [yanked release](installing/#explicitly-yanked-release-pure-trash) and should not be used by any user.
     The soley purpose of this release is, just for documenation & serves as a part of project's story...
 
     This release is yanked cuz, I launch the app in hurry and forget to do something that need to be done... (forget to update version number)...
     Checkout the release on github for full details...
+
+    Don't use this release (v1.2.0) in any case.... always prefer that release (v1.2.1) over this... because it will create confusion in bug reports like if you use this release and a bug occur... you will not be able to tell whether you are on previous release (v1.1.2) or this release (v1.2.0)... due to same version number in two different release....
 
 **`TL;DR`: Design a new jetpack compose preview ui.. | Improved performance...**
 

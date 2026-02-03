@@ -39,6 +39,10 @@ Master Database Version = "v1"
 
 </details>
 
+### Fixed
+
+- **Update Version Info**: update the version name and version code that, I forget last time in a rush of releasing a new version..
+
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.1){:target="\_blank"}  
 [Release Notes](release-notes/#v121-alpha-jan-31-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.0...v1.2.1)
@@ -58,6 +62,22 @@ Master Database Version = "v1"
 ```
 
 </details>
+
+!!! failure
+
+    This is yanked release.. cuz, I forget to update version name in hurry of releasing a new version.
+
+    Don't use this release (v1.2.0) in any case.... always prefer that release (v1.2.1) over this... because it will create confusion in bug reports like if you use this release and a bug occur... you will not be able to tell whether you are on previous release (v1.1.2) or this release (v1.2.0)... due to same version number in two different release....
+
+### Added
+
+#### Preview Features
+
+- **Jetpack Compose (Preview Feature)**: made a jetpack compose UI that can be used for basic operation. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Fixed
+
+- **Mimetypes For Import Passwords**: fixed csv mimetypes for importing passswords feature for better experience with android file picker.. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.0){:target="\_blank"}  
 [Release Notes](release-notes/#v120-alpha-jan-31-2026-yanked-release)  
