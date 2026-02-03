@@ -37,7 +37,7 @@ Master Database Version = "v1"
 - Last time (v1.2.0), I forget to update the version so fix it and re-release instantly... (gotta a real-idea of how dangerous "publish" button on github is.... 😂😂😂😂😂)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.1){:target="\_blank"}  
-[Changelog](changelog/#v121-alpha-dec-31-2026)  
+[Changelog](changelog/#v121-alpha-jan-31-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.0...v1.2.1)
 
 ## v1.2.0 - Alpha (Jan 31, 2026) [YANKED RELEASE]
@@ -67,7 +67,7 @@ Master Database Version = "v1"
 - Perfomance optimization. (due to dependency updates.)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.0){:target="\_blank"}  
-[Changelog](changelog/#v120-alpha-dec-31-2026)  
+[Changelog](changelog/#v120-alpha-jan-31-2026-yanked-release)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.2...v1.2.0)
 
 ## v1.1.2 - Alpha (Dec 15, 2025)

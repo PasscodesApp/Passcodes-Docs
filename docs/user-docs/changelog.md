@@ -23,6 +23,46 @@ and well documented in our release workflow docs.
 
 ---
 
+## v1.2.1 - Alpha (Jan 31, 2026)
+
+<details>
+  <summary>View Internal Details</summary>
+
+```
+Pacakage Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 4
+Version Name = "v1.2.1-Alpha"
+Master Database Version = "v1"
+```
+
+</details>
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.1){:target="\_blank"}  
+[Release Notes](release-notes/#v121-alpha-jan-31-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.0...v1.2.1)
+
+## v1.2.0 - Alpha (Jan 31, 2026) [YANKED RELEASE]
+
+<details>
+  <summary>View Internal Details</summary>
+
+```
+Pacakage Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 3
+Version Name = "v1.1.2-Alpha"
+Master Database Version = "v1"
+```
+
+</details>
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.0){:target="\_blank"}  
+[Release Notes](release-notes/#v120-alpha-jan-31-2026-yanked-release)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.2...v1.2.0)
+
 ## v1.1.2 - Alpha (Dec 15, 2025)
 
 <details>
