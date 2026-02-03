@@ -82,7 +82,7 @@ repo_name = "PasscodesApp/Passcodes"
 [project.theme]
 
 # change this to "classic" to use the traditional Material for MkDocs look.
-variant = "classic"
+variant = "modern"
 
 # Zensical allows you to override specific blocks, partials, or whole
 # templates as well as to define your own templates. To do this, uncomment
