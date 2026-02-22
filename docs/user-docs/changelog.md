@@ -41,7 +41,7 @@ Master Database Version = "v1"
 
 ### Fixed
 
-- **Update Version Info**: update the version name and version code that, I forget last time in a rush of releasing a new version..
+- **Update Version Info**: update the version name and version code that, I forget last time in a rush of releasing a new version.. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.1){:target="\_blank"}  
 [Release Notes](release-notes/#v121-alpha-jan-31-2026)  
