@@ -1,11 +1,11 @@
 # Dev Schema
 
 - **Used by**: `vX.X.X` => `latest`
-- **Purpose**: Add URL features to appilcation
+- **Purpose**: Add URL features to appilcation.
 
 ---
 
-## Entire Database Schema (v2)
+## Entire Database Schema (vdev)
 
 ### Tables
 
@@ -28,26 +28,115 @@
 
 ---
 
-## Setup SQL (v2)
+## Setup SQL (vdev)
 
 ```sql
 BEGIN TRANSACTION;
 
 CREATE TABLE IF NOT EXISTS `passwords` (
-	`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-	`domain` TEXT NOT NULL,
-	`username` TEXT NOT NULL,
-	`password` TEXT NOT NULL,
-	`notes` TEXT,
+    `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    `domain` TEXT NOT NULL,
+    `username` TEXT NOT NULL,
+    `password` TEXT NOT NULL,
+    `notes` TEXT,
     `url` TEXT,
-	`created_at` TEXT DEFAULT CURRENT_TIMESTAMP,
-	`updated_at` TEXT DEFAULT CURRENT_TIMESTAMP
+    `created_at` TEXT DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TEXT DEFAULT CURRENT_TIMESTAMP,
 );
 
 COMMIT;
 ```
 
+---
+
+## Migration SQL (v1 -> vdev)
+
+```sql
+BEGIN TRANSACTION;
+
+-- Step 1: Create new table with new schema
+CREATE TABLE IF NOT EXISTS `new_table_passwords` (
+    `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    `domain` TEXT NOT NULL,
+    `username` TEXT NOT NULL,
+    `password` TEXT NOT NULL,
+    `notes` TEXT,
+    `url` TEXT,
+    `created_at` TEXT DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Step 2: Copy existing data from old table
+INSERT INTO `new_table_passwords`
+    (`id`, `domain`, `username`, `password`, `notes`, `created_at`, `updated_at`)
+SELECT
+    `id`,
+    `domain`,
+    `username`,
+    `password`,
+    `notes`,
+    `created_at`,
+    `updated_at`
+FROM `passwords`;
+
+-- Step 3: Convert empty notes ('') to NULL
+UPDATE `new_table_passwords`
+SET `notes` = NULL
+WHERE `notes` = '';
+
+-- Step 4: Generate URL based on domain
+UPDATE `new_table_passwords`
+SET `url` = 'https://local.' || `domain`
+WHERE `url` IS NULL;
+
+-- Step 5: Remove old table
+DROP TABLE `passwords`;
+
+-- Step 6: Rename new table to original name
+ALTER TABLE `new_table_passwords` RENAME TO `passwords`;
+
+COMMIT;
+```
+
+## Revert SQL (v1 <- vdev)
+
+```sql
+BEGIN TRANSACTION;
+
+CREATE TABLE IF NOT EXISTS `old_table_passwords` (
+    `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    `domain` TEXT NOT NULL,
+    `username` TEXT NOT NULL,
+    `password` TEXT NOT NULL,
+    `notes` TEXT NOT NULL,
+    `created_at` TEXT DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO `old_table_passwords`
+    (`id`, `domain`, `username`, `password`, `notes`, `created_at`, `updated_at`)
+SELECT
+    `id`, `domain`, `username`, `password`,
+    COALESCE(`notes`, ''),
+    `created_at`, `updated_at`
+FROM `passwords`;
+
+DROP TABLE `passwords`;
+
+ALTER TABLE `old_table_passwords` RENAME TO `passwords`;
+
+COMMIT;
+```
+
+---
+
 ## Changes Made
 
-- `notes` field/column is made nullable.
-- a new `url` field is introduced for URL's.
+Key Changes:-
+
+ -  `notes` field is now **nullable**.
+ -  A new `url` field has been introduced for storing platform links.
+ -  `url` field can store:
+     - `https://` website links
+     - Android application package names
+     - generic URIs
