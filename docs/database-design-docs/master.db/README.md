@@ -8,6 +8,7 @@ Here, In this section you will find, all the version of database schema & will a
 | Version Name  | Introduce From    | Where Upto |
 | ------------- | ----------------- | ---------- |
 | [dev](dev.md) | under development | ---        |
+| [v2](v2.md)   | v2.0.0            | ---        |
 | [v1](v1.md)   | v1.0.0            | v1.2.1     |
 | [v0](v0.md)   | v0.1.0            | v0.1.0     |
 

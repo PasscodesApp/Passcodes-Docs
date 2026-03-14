@@ -34,7 +34,7 @@ site_url = "https://passcodesapp.github.io/Passcodes-Docs/"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2025 Jeel Dobariya
+Copyright &copy; 2025-2026 Jeel Dobariya
 """
 
 docs_dir = "docs"
@@ -75,6 +75,8 @@ dev_addr = "localhost:8000"
 repo_url = "https://github.com/PasscodesApp/Passcodes"
 repo_name = "PasscodesApp/Passcodes"
 
+# https://zensical.org/docs/setup/repository/#edit_uri
+edit_uri = "https://github.com/PasscodesApp/Passcodes-Docs/edit/main/docs/"
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -321,9 +323,9 @@ toggle.name = "Switch to system preference"
 # - https://zensical.org/docs/setup/logo-and-icons
 # - https://zensical.org/docs/authoring/icons-emojis/#search
 # ----------------------------------------------------------------------------
-#[project.theme.icon]
+[project.theme.icon]
 #logo = "lucide/smile"
-#repo = "lucide/smile"
+repo = "fontawesome/brands/github"
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
@@ -331,5 +333,3 @@ toggle.name = "Switch to system preference"
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
-
-
