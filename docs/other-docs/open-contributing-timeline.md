@@ -1,8 +1,11 @@
 # Open Contributing Timeline
 
-This file will provide from when and where, the repository will be able to accept external contribution from other developers and community..
+- **Author**: `@JeelDobariya38`.
+- **Last Updated**:- `April 14, 2026`.
+
+This file will provides you, from when and where, the repository(s) will be able to accept external contributions from other developers worldwide..
 This will provide you the abstract idea / timeline, that you can look at and see, how much you need to wait, to contribute,
-Besides, it help cordinate the contribution process.... Also, we aim to provide you a clear timeline... And lay a path forward..
+Besides, it help in cordinating the contribution process.... Also, we aim to provide you a clear timeline... And lay a path forward...
 
 ???+ Note
 
@@ -11,9 +14,9 @@ Besides, it help cordinate the contribution process.... Also, we aim to provide 
     but just keep in mind that, while doing so, you will feel like everything is behind you,
     and fighting against you.. and this will slow you down significantly.. expect, a less streamline process and also expect some of your time being wasted..
 
-    but, I will try my best to help as much as possible, on our telegram community.. to get you start on working.. but just keep this document and this entire thing in your mind...
+    but, I will try my best to help as much as possible, on our telegram community.. to get you start on working.. but just keep this document and this entire thing in your head...
 
-## Steps Required To Cordinate Open Contributing...
+## Steps To Cordinate Open Contributing...
 
 Passcodes project has to go though this process to be ready for open source & for community contribution.
 
@@ -25,7 +28,7 @@ Passcodes project has to go though this process to be ready for open source & fo
 
 - [x] `JeelDobariya38/Password-Manager` -> `JeelDobariya38/Passcodes` & Community Standards For Repository. (Aug 1, 2025)
 
-  > Somehow, it is exactly after year!! [#17](https://github.com/PasscodesApp/Passcodes/pull/17) I just realized while write this document..
+    > Somehow, it is exactly after year!! [#17](https://github.com/PasscodesApp/Passcodes/pull/17) I just realized while write this document..
 
 - [x] Migrate Codebase: `Java -> Kotlin` (Aug 1, 2025)
 
@@ -33,42 +36,42 @@ Passcodes project has to go though this process to be ready for open source & fo
 
 - [x] Offically Organization on Github [JeelDobariya38 -> PasscodesApp](https://github.com/PasscodesApp) (Aug 31, 2025)
 
-- [x] Improve Structure & Organization.. i.e segregate app code, docs and website into different stuff (Sep 25, 2025)
+- [x] Improve Structure & Organization: i.e, segregate app code, docs and website into different repositorys (Sep 25, 2025)
 
 - [x] `MVC -> MVVM -> MVI` architecture update.. (Nov 11, 2025)
 
 - [x] Clean architecture (Dec 15, 2025)
 
-- [ ] `XML -> Jetpack Compose` (end of nov 2025)
+- [x] `XML -> Jetpack Compose` (Feb 28, 2026)
 
-- [ ] Documentation Update i.e, license... contributor guide... style guide etc...(in entire december)
+- [ ] Documentation Updates. i.e, license... contributors guide... style guides etc...(start of may)
 
-- [ ] Plan for Google Developer Verification, i mean we will discuss about it. (in december how manage or cordinate with it)
+- [ ] Plan Google Developer Verification. (I mean, we will discuss about it in june, how to manage or cordinate with it)
 
-- [ ] Open For Contribute (Roughly, 31 Dec, end of 2025)
+- [ ] Open For Contribute (Roughly, end of june 2026)
 
 ---
 
-### Semi Open To Contribute (start of jan 2026)
+### Semi Open To Contribute (start of june 2026)
 
 !!! Warning
 
     The Organisation is from this point, open to receive any contribution from any potential contributors..
 
-    The reason, it is not fully open to contributing is solely because of this developer verification thing... the thing is I don't want anyone to waste there time contributing to this repository.. because, I might end up not make verification due to some or other reason... and this might result in waste of other developer's  valuable time.. because without verification the application might not be release as google wouldn't allow it to install on android devices....
+    The only reason, it is not fully open to contributing is solely because of this developer verification thing... the thing is I don't want anyone to waste thier time contributing to this repository(s)... because, I might end up not make verifications due to personal external reasons... and this might result in waste of other developer's  valuable time.. because without verification the application might not be release as google wouldn't allow it to install on android devices...
 
-    Other then this, or If this thing doesn't impact you in anyway then you count the repository as fuly open to contribute but just have a note of it..
+    Other then this, or If this thing doesn't impact you as contributor, in anyway then you can count the repository as fully open to contribute but just have this in your head...
 
-- [ ] Find Contributor, Also Review & Update The Contribution Workflow & Get Feedback. (end mar 2026)
+- [ ] Find Contributors, Also Review & Update The Contributions Workflow & Get Feedback. (end june 2026)
 
-- [ ] Me, Doing Developer Verification Of `JeelDobariya38`... (can't say how time it takes but probably it completely by mid of july 2026)
+- [ ] Me, Doing My Developer Verification (`@JeelDobariya38`)... (can't say how time it takes but probably it completely by mids of july 2026)
 
-- [ ] Open To Contribution (Aug, 2025)
+- [ ] Open To Contribution (Aug, 2026)
 
 ---
 
 ### 😊😊 Open To Contribution 😊😊
 
-Further improvements to contributing workflow will be driven by feedback and contributor's input...
+Further improvements to contributions workflow will be driven by feedback and contributor's input...
 
-As cordinating contribution is a contiguous process and not a task that can not be done...
+> Remember, `cordinating contribution is a contiguous process and not a task that can be just done...`
