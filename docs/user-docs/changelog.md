@@ -23,13 +23,66 @@ and well documented in our release workflow docs.
 
 ---
 
+## v2.0.0 - Beta (Apr 16, 2026)
+
+<details>
+  <summary>View Internal Details</summary>
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 5
+Version Name = "v2.0.0-Beta"
+Master Database Version = "v2"
+```
+
+</details>
+
+### Breaking Changes
+
+- **No breaking changes**: just the internal database version has changed.
+
+### Added
+
+#### Preview Features
+
+- **Biometrics Authentication**: enhanced safety for password manager by restricting access to app. users now need to authenticate to open the application. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Accessibility Layouts**: added support for two different layouts: one is morden and intended to be use by teenages. while other one is bit old, but easy to navigate by elderly peoples. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Changed
+
+- **Better Jetpack Compose Support**: improve support for jetpack compose UI & streamline the process of migrating from oldUI to jetpack UI. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Better Update Checking**: migrated to ktor http client. it is modern and versatile http library. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Improved Performance & Security**: keeping up with android latest dependencies & community standards. we have resolve & migrated all of our (concerned) dependency, except one `org.json` which is also at rank #74 in maven repository. so, its a community standard anyway. [[@dependabot]](https://github.com/dependabot)
+
+### Fixed
+
+- **Autofill Crashing**: improved & fixed the bug with autofill service. now autofilling is not crashing anymore. (but, its still a preview feature). [[@JeelDobariya38]](https://github.com/JeelDobariya38) & [[@hexCode63]](https://github.com/hexCode63)
+
+### Other Changes
+
+- **Improve DX**: improvements in CI/CD, documentation & jetpack-compose-previews in android studio. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Multiplatform (Early Start)**: maded database & design system compatible for kmp development. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Notes
+
+**Resolved all backlogs with Goggle latest standards for android development**: We have complete the biggest migration that was going on in passcodes. [PasscodesApp/Passcodes#42](https://github.com/PasscodesApp/Passcodes/issues/42)
+
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.0.0){:target="\_blank"}  
+[Release Notes](release-notes/#v200-beta-apr-16-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.1...v2.0.0)
+
+---
+
 ## v1.2.1 - Alpha (Jan 31, 2026)
 
 <details>
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 4
@@ -53,7 +106,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 3
@@ -89,7 +142,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 3
@@ -154,7 +207,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 2
@@ -181,7 +234,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 2
@@ -233,7 +286,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 1
@@ -278,7 +331,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.passwordmanager"
+Package Name = "com.passwordmanager"
 Min Android = 8.0 (API level 26)
 Max Android = 13 (API level 33)
 Version Code = 1
