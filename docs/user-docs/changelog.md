@@ -23,13 +23,13 @@ and well documented in our release workflow docs.
 
 ---
 
-## v2.0.0 - Alpha (Apr 16, 2026)
+## v2.0.0 - Beta (Apr 16, 2026)
 
 <details>
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 5
@@ -65,6 +65,11 @@ Master Database Version = "v2"
 - **Improve DX**: improvements in CI/CD, documentation & jetpack-compose-previews in android studio. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 - **Multiplatform (Early Start)**: maded database & design system compatible for kmp development. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
+### Notes
+
+**Resolved all backlogs with Goggle latest standards for android development**: We have complete the biggest migration that was going on in passcodes. [PasscodesApp/Passcodes#42](https://github.com/PasscodesApp/Passcodes/issues/42)
+
+
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.0.0){:target="\_blank"}  
 [Release Notes](release-notes/#v200-beta-apr-16-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.1...v2.0.0)
@@ -77,7 +82,7 @@ Master Database Version = "v2"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 4
@@ -101,7 +106,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 3
@@ -137,7 +142,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 3
@@ -202,7 +207,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 2
@@ -229,7 +234,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 2
@@ -281,7 +286,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 1
@@ -326,7 +331,7 @@ Master Database Version = "v1"
   <summary>View Internal Details</summary>
 
 ```
-Pacakage Name = "com.passwordmanager"
+Package Name = "com.passwordmanager"
 Min Android = 8.0 (API level 26)
 Max Android = 13 (API level 33)
 Version Code = 1

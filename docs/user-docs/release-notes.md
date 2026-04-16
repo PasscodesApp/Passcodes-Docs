@@ -21,10 +21,35 @@ This release notes are more or less end-user oriented.
 
 ---
 
+## v2.0.0 - Beta (Apr 16, 2026)
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 14 (API level 34)
+Version Code = 5
+Version Name = "v2.0.0-Beta"
+Master Database Version = "v2"
+```
+
+**`TL;DR`: Added Fingerprint lock & fixed autofill feature...**
+
+- improve security. added a fingerpint authentication to open application. its a preview feature for now.
+- fixed issues with autofill features. app doesn't crash anymore with autofill feature. its still a preview feature & under development.
+- added two different screen types for new modern & cool teenages & something easier to work with for elderly peoples. you can access it using in-app preview feature toggle.
+- improved support for switching between old-ui & new-ui. basically it look more like screen change rather than a app crash, which previously was true.
+- we are now a decent app, if looked from google point of view. we are following all best practices & actively keeping up with latest changes, except proper encryption. 😥😥😥
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.0.0){:target="\_blank"}  
+[Changelog](changelog/#v200-beta-apr-16-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.1...v2.0.0)
+
+---
+
 ## v1.2.1 - Alpha (Jan 31, 2026)
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 4
@@ -32,7 +57,7 @@ Version Name = "v1.2.1-Alpha"
 Master Database Version = "v1"
 ```
 
-**`TL;DR`: Fix my mistake, by updating the version name that I forget last time....**
+**`TL;DR`: Fix my mistake, by updating the version name that I forget last time...**
 
 - Last time (v1.2.0), I forget to update the version so fix it and re-release instantly... (gotta a real-idea of how dangerous "publish" button on github is.... 😂😂😂😂😂)
 
@@ -43,7 +68,7 @@ Master Database Version = "v1"
 ## v1.2.0 - Alpha (Jan 31, 2026) [YANKED RELEASE]
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 3
@@ -75,7 +100,7 @@ Master Database Version = "v1"
 ## v1.1.2 - Alpha (Dec 15, 2025)
 
 ```
-Pacakage Name = "com.jeeldobariya.passcodes"
+Package Name = "com.jeeldobariya.passcodes"
 Min Android = 8.0 (API level 26)
 Max Android = 14 (API level 34)
 Version Code = 3
