@@ -21,6 +21,32 @@ This release notes are more or less end-user oriented.
 
 ---
 
+## v2.1.0 - Beta (May 12, 2026)
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 17 (API level 37)
+Version Code = 6
+Version Name = "v2.1.0-Beta"
+Master Database Version = "v2"
+```
+
+**`TL;DR`: End of Support for v2.x.x | Expo-React-Native kickstart...**
+
+- added a warning dialog for announcing "end of support".
+- now, android 15, 16 & 17 support offically. utill now we were supporting upto android 14.
+- make importing & exporting passwords as a stable feature.
+- fixed back navigation issues with preview layouts.
+- adjusted & optimized update checking features.
+- improved view password screen & enhanced url field support.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.1.0){:target="\_blank"}  
+[Changelog](changelog/#v210-beta-may-12-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.0.0...v2.1.0)
+
+---
+
 ## v2.0.0 - Beta (Apr 16, 2026)
 
 ```
@@ -32,7 +58,7 @@ Version Name = "v2.0.0-Beta"
 Master Database Version = "v2"
 ```
 
-**`TL;DR`: Added Fingerprint lock & fixed autofill feature...**
+**`TL;DR`: Added fingerprint lock & fixed autofill feature...**
 
 - improve security. added a fingerpint authentication to open application. its a preview feature for now.
 - fixed issues with autofill features. app doesn't crash anymore with autofill feature. its still a preview feature & under development.
