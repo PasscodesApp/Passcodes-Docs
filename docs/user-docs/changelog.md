@@ -23,6 +23,52 @@ and well documented in our release workflow docs.
 
 ---
 
+## v2.1.0 - Beta (May 12, 2026)
+
+<details>
+  <summary>View Internal Details</summary>
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 17 (API level 37)
+Version Code = 6
+Version Name = "v2.1.0-Beta"
+Master Database Version = "v2"
+```
+
+</details>
+
+### Breaking Changes
+
+- **No breaking changes.. but, end of support warning.**: this is last release from android codebase. we will now migrate to expo-react-native and thier will be no security updates provided for release v2.x.x & prior, what-so-ever.
+
+### Added
+
+- **Improve View Password Screen:** improve view password & other password management screens. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **improve URL field:** improve support for url field. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Changed
+
+- **Android 17 Support:** bring official support for android 15, 16 & 17. which previous was limited to android 14 officially. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Import/Export Stability:** import/export passwords features are now stabilized. and are no longer a preview feature. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Adjusted Update Checking**: adjusted & optimized update checking for performance as we are reaching a end of support period. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Improved Performance & Security**: keeping up with android latest dependencies & community standards. [[@dependabot]](https://github.com/dependabot)
+
+### Fixed
+
+- **Back Navigation**: improved & fixed back navigation problem with preview layouts. handle android backstack. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Notes
+
+**End Of Support**: this offically marks end the android native development era over here in passcodes as we are now migrating to react-native (expo). please note that no further security updates will be provided for this & prior releases.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.1.0){:target="\_blank"}  
+[Release Notes](release-notes/#v210-beta-may-12-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.0.0...v2.1.0)
+
+---
+
 ## v2.0.0 - Beta (Apr 16, 2026)
 
 <details>
@@ -68,7 +114,6 @@ Master Database Version = "v2"
 ### Notes
 
 **Resolved all backlogs with Goggle latest standards for android development**: We have complete the biggest migration that was going on in passcodes. [PasscodesApp/Passcodes#42](https://github.com/PasscodesApp/Passcodes/issues/42)
-
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.0.0){:target="\_blank"}  
 [Release Notes](release-notes/#v200-beta-apr-16-2026)  
