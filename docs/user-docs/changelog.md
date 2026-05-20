@@ -18,8 +18,44 @@ and well documented in our release workflow docs.
 
 ## Link
 
-- **Telegram:** [Community (@passcodescommunity)](https://t.me/passcodescommunity)
 - **Website:** [https://passcodesapp.github.io/Passcodes-Website/](https://passcodesapp.github.io/Passcodes-Website/)
+- **Discord:** [Discord (@kSSkYq7KAQ)](https://discord.gg/kSSkYq7KAQ)
+
+---
+
+## v2.1.1 - Beta (May 19, 2026)
+
+<details>
+  <summary>View Internal Details</summary>
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 17 (API level 37)
+Version Code = 7
+Version Name = "v2.1.1-Beta"
+Master Database Version = "v2"
+```
+
+</details>
+
+!!! failure "Some MIUI Phones Takes Time To Adjust"
+
+    basically, I have heard from some users. specfically, In MIUI (Hyper OS), Material 3 Expressive UI is taking time to load/adjust..
+    like after you install the app.. it takes 5-10 minutes... i don;t why it like that.. maybe cuz, specfic device configuration... give it time. cuz, it fix itself,
+    according to what i have hear from users.... I & no one, on development team have testing device. so we wouldn;t be able to detect the bug cause... but the app is in end-of-supprt anyway.
+
+### Added
+
+- **Material 3 Expressive**: add material 3 expressive buttons and theme in defualt (old) ui.
+
+### Changed
+
+- **Improve Importing/Exporting Passwords**: add apache csv libaray to handle csv files. it now handles escaped-qouted commas & newline in (google-passwords generated) csv.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.1.1){:target="\_blank"}  
+[Release Notes](release-notes/#v211-beta-may-19-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.1.0...v2.1.1)
 
 ---
 
@@ -41,17 +77,17 @@ Master Database Version = "v2"
 
 ### Breaking Changes
 
-- **No breaking changes.. but, end of support warning.**: this is last release from android codebase. we will now migrate to expo-react-native and thier will be no security updates provided for release v2.x.x & prior, what-so-ever.
+- **No breaking changes.. but, end of support warning**: this is last release from android codebase. we will now migrate to expo-react-native and thier will be no security updates provided for release v2.x.x & prior, what-so-ever.
 
 ### Added
 
-- **Improve View Password Screen:** improve view password & other password management screens. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
-- **improve URL field:** improve support for url field. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Improve View Password Screen**: improve view password & other password management screens. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Improve URL field**: improve support for url field. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 ### Changed
 
-- **Android 17 Support:** bring official support for android 15, 16 & 17. which previous was limited to android 14 officially. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
-- **Import/Export Stability:** import/export passwords features are now stabilized. and are no longer a preview feature. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Android 17 Support**: bring official support for android 15, 16 & 17. which previous was limited to android 14 officially. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Import/Export Stability**: import/export passwords features are now stabilized. and are no longer a preview feature. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 - **Adjusted Update Checking**: adjusted & optimized update checking for performance as we are reaching a end of support period. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 - **Improved Performance & Security**: keeping up with android latest dependencies & community standards. [[@dependabot]](https://github.com/dependabot)
 

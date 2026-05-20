@@ -37,6 +37,6 @@ In this file, you will find documented process about, how we release, new versio
 
 8.  Then finally, click the publish button on github to release & launch a new version of app.
 
-9.  Tell in telegram community & social media (linkedin mostly).
+9.  Tell in discord community & social media (linkedin mostly).
 
 10. Celebrate the Release. Plan the future...

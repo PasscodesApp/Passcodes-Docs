@@ -16,19 +16,16 @@ This file give you a deep guide on installation & updation process. we hope that
 For initial installation of app, you can follow step given below, they works in most scenario.
 
 1.  Checking whether the app can run on your device or not??
-
     - go to your setting app and check whether you are on android 8+ or not? (it usually avaiable near "system update" section)
     - if no, then sorry, app is not compatible with your device.
     - and if yes, then mostly you are good to go but, officially we only support device between android 8 to 14. for more or high version of android. app might still be run, but we don;t officially support it.
 
 2.  After completing first step, Pick a version of app to install.
-
     - go to our [github repository's release page](https://github.com/PasscodesApp/Passcodes/releases). There you will find a list of releases available.
     - pick up any one of the release you like. (we recommend you to pick a good release. [how can you find a good release](#how-to-find-a-best-release)?)
     - after picking a release, you can read it's [release-notes](release-notes.md) to know what has changed. (optional step)
 
 3.  Downloading an APK file
-
     - after picking a release, you can scroll to bottom of that release towards the assets section and download the apk that better fits your phone's CPU architecture.
 
     ???+ example
@@ -41,7 +38,6 @@ For initial installation of app, you can follow step given below, they works in 
     - if you don;t know your phone's CPU architecture. just download the apk file that has word **`"universal"`** in its name.
 
 4.  Installing an APK file
-
     - the apk file will most like be downloaded in your browser's download folder. (probably it would be Chrome, Firefox or Edge)
     - tap on the apk file in the browser or find the file in your device's file manager. it will be under downloads folder in your device...
     - now, open the app & enjoy.
@@ -64,7 +60,6 @@ you can follow step given below. they work in most scenario.
     this data lost are likely to occur, when you are updating from one major version to another major version meaning from ***`1.x.x`*** to ***`2.x.x`***.
 
 1.  Checking whether the update is available or not??
-
     - find out the current verion of the app you are using.
 
     ???+ question "How to find the version of currently installed app??"
@@ -75,7 +70,7 @@ you can follow step given below. they work in most scenario.
         - ...under app info in your phone's settings app.
 
     - check whether a update exist or not? by comparing your current app version with latest app update on [github repository's release page](https://github.com/PasscodesApp/Passcodes/releases).
-    - if no, then you can;t update but, you can surely ask about the next update using our [Telegram (@passcodescommunity)](https://t.me/passcodescommunity).
+    - if no, then you can;t update but, you can surely ask about the next update using our [Discord (@kSSkYq7KAQ)](https://discord.gg/kSSkYq7KAQ).
 
     ??? tip
 
@@ -87,13 +82,11 @@ you can follow step given below. they work in most scenario.
     - i.e, if you are updating from **"1.x.x"** to **"2.x.x"** the the change will be very big. if you update from **"1.x.0"** to **"1.x.2"**. then, the change might not even be visible.
 
 2.  Downloaded the updated apk files.
-
     - it is same as you did earlier while installing the app.
     - goto [release page](https://github.com/PasscodesApp/Passcodes/releases) and download the asset from select release. refer installation guide above if needed.
     - you can read it's [release-notes](release-notes.md) to know what has changed. (optional step)
 
 3.  Update the app.
-
     - if, you updating to a new major release, meaning from 1.x.x to 2.x.x then, don;t forget to backup your data. you will thank your self later, if something goes wrong...
     - now install the new apk file by click on it in your downloads folder, it will ask you to upgrade instead of install.
     - now, open the app and enjoy your updated exprience.
@@ -101,7 +94,6 @@ you can follow step given below. they work in most scenario.
     - you can read it's [release-notes](release-notes.md) to know what has changed. (optional step)
 
 4.  Restore the backup if need.
-
     - if, needed restore the files/data back.
     - even revert to prevoius release if, problem presists.
 

@@ -7,7 +7,7 @@ assignees: ""
 ---
 
 > ![Note]
-> For faster, more casual, chat like conversation join our telegram community..
+> For faster, more casual, chat like conversation join our discord community..
 
 ## Overview
 
@@ -26,4 +26,3 @@ describe your thought and feedback related to app. if you have question then del
 ## Question
 
 describe your question or your concern if any...
-

@@ -16,8 +16,31 @@ This release notes are more or less end-user oriented.
 
 ## Link
 
-- **Telegram:** [Community (@passcodescommunity)](https://t.me/passcodescommunity)
 - **Website:** [https://passcodesapp.github.io/Passcodes-Website/](https://passcodesapp.github.io/Passcodes-Website/)
+- **Discord:** [Discord (@kSSkYq7KAQ)](https://discord.gg/kSSkYq7KAQ)
+
+---
+
+## v2.1.1 - Beta (May 19, 2026)
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Min Android = 8.0 (API level 26)
+Max Android = 17 (API level 37)
+Version Code = 7
+Version Name = "v2.1.1-Beta"
+Master Database Version = "v2"
+```
+
+**`TL;DR`: End of Support for v2.x.x | Material 3 Expressive UI...**
+
+- add materail 3 expressive ui to buttons & themes.
+- improve importing & exporting google passwords to support multiline notes & qouted (") fields in csv.
+- improve security, performance updates.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.1.1){:target="\_blank"}  
+[Changelog](changelog/#v211-beta-may-19-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.1.0...v2.1.1)
 
 ---
 

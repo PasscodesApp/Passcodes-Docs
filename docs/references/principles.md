@@ -34,7 +34,7 @@ Translate to...
 
 - ...us being true about user security.
 - ...us infoming eariler on to users about all internal deicision making stuff.
-- ...and in general being real in our telegram community.
+- ...and in general being real in our discord community.
 
 ## Conclusion
 

@@ -18,8 +18,8 @@ A android app that take down the headache of remembering passwords. It is open s
 help you in keeping your passwords safe and secure, in your own local storage without ever needing
 to push them to cloud.
 
-- **Telegram:** [Community (@passcodescommunity)](https://t.me/passcodescommunity)
 - **Website:** [https://passcodesapp.github.io/Passcodes-Website/](https://passcodesapp.github.io/Passcodes-Website/)
+- **Discord:** [Community (@kSSkYq7KAQ)](https://discord.gg/kSSkYq7KAQ)
 
 ??? info
 
