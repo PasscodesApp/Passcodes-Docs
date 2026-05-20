@@ -22,7 +22,7 @@ By contributing you also accept [Terms For Contribution](other-docs/terms-for-co
 
 ## :bulb: Asking Questions
 
-See our [Community](https://t.me/passcodescommunity) on telegram we appricate your question over there. In short, GitHub issues are not the appropriate place to debug your specific question, but should be reserved for filing bugs and feature requests.
+See our [Community](https://discord.gg/kSSkYq7KAQ) on discord we appricate your question over there. In short, GitHub issues are not the appropriate place to debug your specific question, but should be reserved for filing bugs and feature requests.
 
 ## :inbox_tray: Opening an Issue
 
@@ -132,4 +132,3 @@ _Many of the ideas and prose for the statements in this document were based on o
 - [Linux](https://elinux.org/Developer_Certificate_Of_Origin)
 
 _We commend them for their efforts to facilitate collaboration in their projects._
-

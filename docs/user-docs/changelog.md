@@ -18,8 +18,8 @@ and well documented in our release workflow docs.
 
 ## Link
 
-- **Telegram:** [Community (@passcodescommunity)](https://t.me/passcodescommunity)
 - **Website:** [https://passcodesapp.github.io/Passcodes-Website/](https://passcodesapp.github.io/Passcodes-Website/)
+- **Discord:** [Discord (@kSSkYq7KAQ)](https://discord.gg/kSSkYq7KAQ)
 
 ---
 
