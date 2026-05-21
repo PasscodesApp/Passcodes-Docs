@@ -40,6 +40,12 @@ Master Database Version = "v2"
     give it time. cuz, it fix itself,
     according to what i have hear from users.... I & no one, on development team have testing device. so we wouldn;t be able to detect the bug cause... but the app is in end-of-supprt anyway.
 
+    if is still not fix... then I (as in JeelDobariya38) have release a unofficial update from my part on telegram community...
+    it a unofficial (opt-in) release only for those who are getting the bug...
+    that opt-in release, will not have any support what-so-ever... i have just reverted the changes of Material 3 Expressive UI using git. what-so-ever.
+
+    [v2.1.2 download link](https://t.me/passcodescommunity/236) (idk how much time, this link will be valid for...)
+
 **`TL;DR`: End of Support for v2.x.x | Material 3 Expressive UI...**
 
 - add materail 3 expressive ui to buttons & themes.
