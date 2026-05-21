@@ -42,16 +42,18 @@ Master Database Version = "v2"
 !!! failure "Some MIUI Phones Takes Time To Adjust"
 
     basically, I have heard from some users. specfically, In MIUI (Hyper OS), Material 3 Expressive UI is taking time to load/adjust..
-    like after you install the app.. it takes 5-10 minutes... i don;t why it like that.. maybe cuz, specfic device configuration... give it time. cuz, it fix itself,
+    like after you install the app.. it takes 5-10 minutes... I don;t why it like that.. maybe cuz, specfic device configuration...
+
+    give it time. cuz, it fix itself,
     according to what i have hear from users.... I & no one, on development team have testing device. so we wouldn;t be able to detect the bug cause... but the app is in end-of-supprt anyway.
 
 ### Added
 
-- **Material 3 Expressive**: add material 3 expressive buttons and theme in defualt (old) ui.
+- **Material 3 Expressive**: add material 3 expressive buttons and theme in defualt (old) ui. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 ### Changed
 
-- **Improve Importing/Exporting Passwords**: add apache csv libaray to handle csv files. it now handles escaped-qouted commas & newline in (google-passwords generated) csv.
+- **Improve Importing/Exporting Passwords**: add apache csv libaray to handle csv files. it now handles escaped-qouted commas & newline in (google-passwords generated) csv. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.1.1){:target="\_blank"}  
 [Release Notes](release-notes/#v211-beta-may-19-2026)  
