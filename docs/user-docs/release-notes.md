@@ -32,6 +32,14 @@ Version Name = "v2.1.1-Beta"
 Master Database Version = "v2"
 ```
 
+???+ failure "Some MIUI Phones Takes Time To Adjust"
+
+    basically, I have heard from some users. specfically, In MIUI (Hyper OS), Material 3 Expressive UI is taking time to load/adjust..
+    like after you install the app.. it takes 5-10 minutes... I don;t why it like that.. maybe cuz, specfic device configuration...
+
+    give it time. cuz, it fix itself,
+    according to what i have hear from users.... I & no one, on development team have testing device. so we wouldn;t be able to detect the bug cause... but the app is in end-of-supprt anyway.
+
 **`TL;DR`: End of Support for v2.x.x | Material 3 Expressive UI...**
 
 - add materail 3 expressive ui to buttons & themes.
