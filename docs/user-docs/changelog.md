@@ -23,6 +23,54 @@ and well documented in our release workflow docs.
 
 ---
 
+## v3.0.0 - Alpha (May 24, 2026)
+
+<details>
+  <summary>View Internal Details</summary>
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Expo SDK = 55
+Version Code = 8
+Version Name = "v3.0.0-Alpha"
+Master Database Schema Version = "v2"
+```
+
+</details>
+
+!!! info "Remake A Basic Passcodes App"
+
+    we have start again with expo (react-native). which means, we have deleted the old codebase and started again.
+    so, the new app lacks potential features. we are trying hard to develop the features as soon as possible.
+
+    please stick with us.
+
+### Added
+
+- **Remake With Expo (React Native)**: maked the app again with expo (react-native). maked a basic password manager app. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Migrated Data To Drizzle DB**: write a drizzle data base implementaion & a way to get old data from `room db` into `drizzle db`. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Troubleshooting Options**: add troubleshooting option. specifically, a way to get back all your password from previous versions. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Notes
+
+When you open the app after upgrading, all your data (passwords) will not be visible from new app.
+cuz, new react native app use a drifferent database (drizzle). so, password that saved previously in Room database,
+need to be imported.
+
+To import the old data. Go into `Setting` inside app. and click `GetBack Passwords From Prior To v3` under troubleshooting. now you redirect to new screen where you need wait utill you see in green color... `SUCCESSFULLY MIGRATED.....`. and that's it.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.0.0){:target="\_blank"}  
+[Release Notes](release-notes/#v300-alpha-may-24-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.1.1...v3.0.0)
+
+---
+
+## ----- End Of Android Only -----
+
+We have officially moved of android native and we now use expo react native.
+
+---
+
 ## v2.1.1 - Beta (May 19, 2026)
 
 <details>
