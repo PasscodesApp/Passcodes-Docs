@@ -8,15 +8,15 @@ By contributing you also accept [Terms For Contribution](other-docs/terms-for-co
 
 ### Contents
 
-- [Asking Questions](#bulb-asking-questions)
-- [Opening an Issue](#inbox_tray-opening-an-issue)
-- [Feature Requests](#love_letter-feature-requests)
-- [Triaging Issues](#mag-triaging-issues)
-- [Submitting Pull Requests](#repeat-submitting-pull-requests)
-- [Writing Commit Messages](#memo-writing-commit-messages)
-- [Code Review](#white_check_mark-code-review)
-- [Certificate of Origin](#medal_sports-certificate-of-origin)
-- [Credits](#pray-credits)
+- [Asking Questions](#asking-questions)
+- [Opening an Issue](#opening-an-issue)
+- [Feature Requests](#feature-requests)
+- [Triaging Issues](#triaging-issues)
+- [Submitting Pull Requests](#submitting-pull-requests)
+- [Writing Commit Messages](#writing-commit-messages)
+- [Code Review](#code-review)
+- [Certificate of Origin](#certificate-of-origin)
+- [Credits](#credits)
 
 > **This guide serves to set clear expectations for everyone involved with the project so that we can improve it together while also creating a welcoming space for everyone to participate. Following these guidelines will help ensure a positive experience for contributors and maintainers.**
 
@@ -104,7 +104,7 @@ Please [write a great commit message](https://gist.github.com/joshbuchea/6f47e86
 
 - Kindly note any violations to the guidelines specified in this document.
 
-## :medal_sports: Certificate of Origin
+## Certificate of Origin
 
 _Developer's Certificate of Origin 1.1_
 

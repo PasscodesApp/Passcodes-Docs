@@ -4,27 +4,26 @@ An app that takes down your headache of remembering passwords and authentication
 
 ## Outline
 
--   [Problem Statement](#problem-statement)
--   [Goals](#goals)
--   [Target Users](#target-users)
--   [Priority](#priority)
+- [Problem Statement](#problem-statement)
+- [Goals](#goals)
+- [Target Users](#target-users)
+- [Priorities](#priorities)
 
 ## Problem Statement
 
-In modern days, data is important. especially data that has concern with authentication information... and store that securely is a serious task (and much of headache). passcodes try to eliminate this headache. by provide you with  a simple, sweet and initiative ui that help you store your passwords in your local storage. (and to an extend also in cloud). **`which means, you have full control of data that you share with passcodes app`**.
+In modern days, data is important. especially data that has concern with authentication information... and store that securely is a serious task (and much of headache). passcodes try to eliminate this headache. by provide you with a simple, sweet and initiative ui that help you store your passwords in your local storage. (and to an extend also in cloud). **`which means, you have full control of data that you share with passcodes app`**.
 
 ## Goals
 
- - To make password management process much more intuitive, enjoyable & customizable. By give you full (or utter most) control over your authentication infomation stored in our app.
- - To simplify password management, yet give extensive control to end users.
- - To serve as a guide, reference & extensible tool, for all people (nerds) who are interested in making thier password management workflow, much more safe, secure and customizable.
+- To make password management process much more intuitive, enjoyable & customizable. By give you full (or utter most) control over your authentication infomation stored in our app.
+- To simplify password management, yet give extensive control to end users.
+- To serve as a guide, reference & extensible tool, for all people (nerds) who are interested in making thier password management workflow, much more safe, secure and customizable.
 
 ## Target Users
 
 1. `Not So Developer, Not So Normal-End-User` First:
 
     Which means,
-
     - For those, who wish to optimize, there password management workflow.. but don't know how to...
     - For those, who are willing to spend time learning a tool (especially for password management) and for those how are willing to uncover (disambiguate) abstraction that app uses to make the experience of storing passwords much more easier...
     - For those, who are willing to gain control of there auth data, without that extra headache of remember data that comes with it...
@@ -33,14 +32,12 @@ In modern days, data is important. especially data that has concern with authent
 2. `Software Engineer` is our second target users:
 
     Which means,
-
     - the source code of the app, will be clean, maintainable and extensible for future extensivity...
     - developers can adpot the app to thier need... we will also have documentation that one could follow & learn from, about how to extend passcodes app...
 
 3. `End Users` are the least target's of application:
 
     Which means,
-
     - we will try to abstract away the complex concepts in different extensible/decoupled systems... so, end users will be more likely feel at ease while using passcodes app...
     - if you fall in this category of target users, then it more likely that you will either move off the app early on. or would like adopt and become password management nerd yourselvous; as the app is fully optimized to lead you towards customizing and optimizing of your password management workflow...
     - Also, it more likely a way to start using/integrating passcodes into your daily password management workflow... but if wanna continue, then we recommend you, to try learning about your specific password management workflow and make yourselvous prompted from just a end user to a more better target group.
@@ -90,4 +87,3 @@ It was my first project in world of password manager and also in world of softwa
 #### Why Quit?
 
 The project suffer from major design issue that, I realized very later, in project timeline. it happens to reach to the point where the code was literally just mess and it just don;t have core features... so i thing to dump the app, and idea as whole... never really thought that I might come back to same idea a year after and use it to build a app in android and beyond...
-

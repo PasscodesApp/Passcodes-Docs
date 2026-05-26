@@ -78,6 +78,10 @@ repo_name = "PasscodesApp/Passcodes"
 # https://zensical.org/docs/setup/repository/#edit_uri
 edit_uri = "https://github.com/PasscodesApp/Passcodes-Docs/edit/main/docs/"
 
+# https://zensical.org/docs/setup/validation/#configuration
+[project.validation]
+unresolved_references = false
+
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
