@@ -21,6 +21,45 @@ This release notes are more or less end-user oriented.
 
 ---
 
+## v3.0.0 - Alpha (May 24, 2026)
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Expo SDK = 55
+Version Code = 8
+Version Name = "v3.0.0-Alpha"
+Master Database Schema Version = "v2"
+```
+
+??? question "How To Get Back Old Data"
+
+    When you open the app after upgrading, all your data (passwords) will not be visible from new app.
+    to get all that old data, you need to go into `Setting` inside the app. and click on `GetBack Passwords From Prior To v3`, under troubleshooting section.
+    then you need to wait utill you see `SUCCESSFULLY MIGRATED` in green color. and that's it. navigate back or close and reopen the app and all your data will be back.
+
+    if encounter any bug during this, don't panic or delete/uninstall the app.. firstly report to us @(telegram/discord) we will get you out of that mess. but if you delete/ uninstall the app, we might not be able to help you.
+
+    So, **please never-ever uninstall the passcodes without taking a proper backup of your data**.
+
+**`TL;DR`: Cross Platform | Expo (React-Native) | Passcodes New Beginning...**
+
+- remaked the app again with expo (react-native).
+- currently, just made a basic password manager app. we are improve it but it first release from react native codebase.
+- added troubleshooting option. specifically, a way to get back all your password from previous versions.
+- we working on get all features avaiable untill now. we will releasing new version(s) soon.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.0.0){:target="\_blank"}  
+[Changelog](changelog/#v300-alpha-may-24-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.1.1...v3.0.0)
+
+---
+
+## ----- End Of Android Only -----
+
+We have officially moved of android native and we now use expo react native.
+
+---
+
 ## v2.1.1 - Beta (May 19, 2026)
 
 ```
