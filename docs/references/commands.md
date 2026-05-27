@@ -1,5 +1,20 @@
 # Important Commands
 
+## Git & Github
+
+- To Push Your Current Branch To Repo To Merge Into Main
+
+```bash
+CURRENT_BRANCH=$(git branch --show-current) && \
+git pull && \
+git switch main && \
+git pull && \
+git switch "$CURRENT_BRANCH" && \
+git rebase main && \
+git push
+```
+
+
 ## Android & Gradle Commands
 
 - For `.AAB` To Universal `.APK`
