@@ -1,50 +1,75 @@
 # Important Commands
 
+## Git & Github
+
+- To Push Your Current Branch To Repo To Merge Into Main
+
+```bash
+CURRENT_BRANCH=$(git branch --show-current) && \
+git pull && \
+git switch main && \
+git pull && \
+git switch "$CURRENT_BRANCH" && \
+git rebase main && \
+git push
+```
+
+
+## Android & Gradle Commands
+
+- For `.AAB` To Universal `.APK`
+
+```bash
+java -jar bundletool.jar build-apks \
+  --bundle=app.aab \
+  --output=universal.apks \
+  --mode=universal \
+  --ks=keystore.jks \
+  --ks-pass=pass:YOUR_KEYSTORE_PASSWORD \
+  --ks-key-alias=YOUR_KEY_ALIAS \
+  --key-pass=pass:YOUR_KEY_PASSWORD
+```
+
+- For `.AAB` To `.APK`
+
+```bash
+java -jar bundletool.jar build-apks \
+  --bundle=app.aab \
+  --output=universal.apks \
+  --ks=keystore.jks \
+  --ks-pass=pass:YOUR_KEYSTORE_PASSWORD \
+  --ks-key-alias=YOUR_KEY_ALIAS \
+  --key-pass=pass:YOUR_KEY_PASSWORD
+```
+
 - For Building A Clean ALL Variant
 
-```powershell
-./gradlew clean assemble
-```
-
-- For Building A Clean Release Variant
-
-```powershell
-./gradlew clean assembleRelease
-```
-
-- For Building A Staging Variant
-
-```powershell
-./gradlew assembleStaging
-```
-
-- For Building A Debug Variant
-
-```powershell
-./gradlew assembleDebug
+```bash
+./gradlew clean build
 ```
 
 - For Clearing Build Files
 
-```powershell
+```bash
 ./gradlew clean
 ```
 
 - For sync depeendency
 
-```powershell
+```bash
 ./gradlew --refresh-dependencies
 ```
 
-- For test app
+## Docs Repository Commands
 
-```powershell
-./gradlew testDebugUnitTest
+- For run development server
+
+```bash
+uv run zensical serve
 ```
 
-- For install app on USB connect device
+- For updating zensical pacakge.
 
-```powershell
-./gradlew installDebug
+```bash
+uv add --upgrade zensical
 ```
-
