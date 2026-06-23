@@ -23,6 +23,52 @@ and well documented in our release workflow docs.
 
 ---
 
+## v3.1.0 - Stable (June 22, 2026)
+
+<details>
+  <summary>View Internal Details</summary>
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Expo SDK = 56
+Version Code = 9
+Version Name = "v3.1.0-Stable"
+Master Database Schema Version = "v2"
+```
+
+</details>
+
+### Added
+
+- **Update Passwords Functionality**: added a update password functionality. which was missing in last (v3.0.0-Alpha) release [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **In-App Lock**: added a in-app biometrics lock to protect user data. it can be opt-in by using settings. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Import & Export Google Passwords**: added a way to import & export passwords to csv. specifically, the format is compatible with google passwords. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Keep My Data On Uninstall**: added a android only feature, that prompts user on uninstall. weather to keep thier data or delete it. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Changed
+
+- **Intuitive UI/UX**: improved UI for users, make it easier for user to navigate around. and easily tell wether something is text or button. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Fix Database Naming Inconsistency**: fix inconsietency in naming of database. it will need user to go and click on `Setting -> Data Recovery` to get thier data back. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Improved Performance**: faster start up times, better speed & more faster performant exprience overall. as we have moved to expo sdk 56. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Improved Troubleshooting**: significant better troubleshooting option with high performance. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Fixed
+
+- **Splash Screen**: improved & fixed icons on splash screen. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Notes
+
+When you open the app after upgrading, all your data (passwords) will not be visible from new app.
+cuz, new react native app use a different database (master). so, password that saved previously are in different database & need to be imported.
+
+To import the old data. Go into `Setting` inside the app. and just click `Data Recovery` under troubleshooting.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.1.0){:target="\_blank"}  
+[Release Notes](release-notes/#v310-stable-june-22-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v3.0.0...v3.1.0)
+
+---
+
 ## v3.0.0 - Alpha (May 24, 2026)
 
 <details>
@@ -48,16 +94,16 @@ Master Database Schema Version = "v2"
 ### Added
 
 - **Remake With Expo (React Native)**: maked the app again with expo (react-native). maked a basic password manager app. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
-- **Migrated Data To Drizzle DB**: write a drizzle data base implementaion & a way to get old data from `room db` into `drizzle db`. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
-- **Troubleshooting Options**: add troubleshooting option. specifically, a way to get back all your password from previous versions. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Migrated Data To Drizzle DB**: wrote a drizzle database implementaion & a way to get old data from `room db` into `drizzle db`. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Troubleshooting Options**: added troubleshooting option. specifically, a way to get back all your password from previous versions. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 ### Notes
 
 When you open the app after upgrading, all your data (passwords) will not be visible from new app.
-cuz, new react native app use a drifferent database (drizzle). so, password that saved previously in Room database,
+cuz, new react native app use a different database (drizzle). so, password that saved previously are in Room database,
 need to be imported.
 
-To import the old data. Go into `Setting` inside app. and click `GetBack Passwords From Prior To v3` under troubleshooting. now you redirect to new screen where you need wait utill you see in green color... `SUCCESSFULLY MIGRATED.....`. and that's it.
+To import the old data. Go into `Setting` inside the app. and click `GetBack Passwords From Prior To v3` under troubleshooting. now you redirect to new screen where you need wait utill you see in green color... `SUCCESSFULLY MIGRATED.....`. and that's it.
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.0.0){:target="\_blank"}  
 [Release Notes](release-notes/#v300-alpha-may-24-2026)  
@@ -103,11 +149,11 @@ Master Database Version = "v2"
 
 ### Added
 
-- **Material 3 Expressive**: add material 3 expressive buttons and theme in defualt (old) ui. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Material 3 Expressive**: added material 3 expressive buttons and theme in defualt (old) ui. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 ### Changed
 
-- **Improve Importing/Exporting Passwords**: add apache csv libaray to handle csv files. it now handles escaped-qouted commas & newline in (google-passwords generated) csv. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Improve Importing/Exporting Passwords**: added apache csv libaray to handle csv files. it now handles escaped-qouted commas & newline in (google-passwords generated) csv. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.1.1){:target="\_blank"}  
 [Release Notes](release-notes/#v211-beta-may-19-2026)  
@@ -137,8 +183,8 @@ Master Database Version = "v2"
 
 ### Added
 
-- **Improve View Password Screen**: improve view password & other password management screens. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
-- **Improve URL field**: improve support for url field. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Improve View Password Screen**: improved view password & other password management screens. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Improve URL field**: improved support for url field. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 ### Changed
 

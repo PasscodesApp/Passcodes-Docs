@@ -21,6 +21,41 @@ This release notes are more or less end-user oriented.
 
 ---
 
+## v3.1.0 - Stable (June 22, 2026)
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Expo SDK = 56
+Version Code = 9
+Version Name = "v3.1.0-Stable"
+Master Database Schema Version = "v2"
+```
+
+??? question "How To Get Your Data Back"
+
+    When you open the app after upgrading, all your data (passwords) will not be visible/present in just updated app.
+    to get all that previous data, you need to go into `Setting` inside the app. and click on `Data Recovery`, under the troubleshooting section.
+
+    if you encounter any bug during this, don't panic or delete/uninstall the app.. firstly report to us @(telegram/discord) we will get you out of that mess. but if you delete/uninstall the app, we will not be able to help you.
+
+    So, **please never-ever uninstall the passcodes without taking a proper backup of your data**.
+
+**`TL;DR`: In-App Biometrics Lock | Import/Export Passwords To Google Passwords | Intuitive UI/UX**
+
+- added the update password feature that was missing in last update.
+- added in-app lock for better security. you need enable it from app settings. it will lock the app after 2 minutes of inactivity. if, it goes to background.
+- rich troubleshooting options. specifically, this option are much realiable and faster than previous troubleshooting.
+- provided a import & export feature for passwords. the format that we uses is compatible with google passwords.
+- improved UI/UX. added better styling for button & textfields. also thier is a rich password details screen.
+- faster startup times. faster interacion. faster everythings as we have move to expo sdk 56. reduced bundle sizing, even if new features are added.
+- and thier are small security things here and there like, keep my data prompt on android app uninstallion and stuff.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.1.0){:target="\_blank"}  
+[Changelog](changelog/#v310-stable-june-22-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v3.0.0...v3.1.0)
+
+---
+
 ## v3.0.0 - Alpha (May 24, 2026)
 
 ```
@@ -37,7 +72,7 @@ Master Database Schema Version = "v2"
     to get all that old data, you need to go into `Setting` inside the app. and click on `GetBack Passwords From Prior To v3`, under troubleshooting section.
     then you need to wait utill you see `SUCCESSFULLY MIGRATED` in green color. and that's it. navigate back or close and reopen the app and all your data will be back.
 
-    if encounter any bug during this, don't panic or delete/uninstall the app.. firstly report to us @(telegram/discord) we will get you out of that mess. but if you delete/ uninstall the app, we might not be able to help you.
+    if you encounter any bug during this, don't panic or delete/uninstall the app.. firstly report to us @(telegram/discord) we will get you out of that mess. but if you delete/uninstall the app, we might not be able to help you.
 
     So, **please never-ever uninstall the passcodes without taking a proper backup of your data**.
 
