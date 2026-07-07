@@ -5,3 +5,9 @@ But this docs, are well likely written in a general manner, such that anyone can
 
 - [Our First Principles](principles.md): Here, you will find our first principle behind our passcodes project.
 - [Important Commands](commands.md): Here, you will find all important commands it like a cheatsheet.
+
+## Archive
+
+This also a place for archive documents.
+
+- [Open Contibuting Timeline](open-contributing-timeline.md)
