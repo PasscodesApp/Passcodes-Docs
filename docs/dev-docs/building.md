@@ -116,14 +116,30 @@ There are 4 ways to build... given in order from bad to good... all ways are pre
 1. Install Dependency.
 
     ```bash
-    npm install
     npm install -g eas-cli
+    npm install
     ```
 
-2. Build preview application.
+2. Ensure a clean work tree & note the last commit message.
+
+    ```bash
+    git status && git log --oneline
+    ```
+    
+    !!! tip
+        
+        the top most commit hash and if possible overide `version`, `android -> version`, `ios -> version` the `app.config.ts`. it in  file under 
+
+3. Login to Expo Account.
+
+    ```bash
+    eas login
+    ```
+
+4. Build preview application.
 
     ```bash
     eas build --profile production
     ```
 
-3. Install it on your phone.
+5. Install it on your phone.
