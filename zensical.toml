@@ -90,7 +90,7 @@ unresolved_references = false
 name = "catppuccin"
 
 # change this to "classic" to use the traditional Material for MkDocs look.
-# variant = "modern"
+variant = "modern"
 
 # Zensical allows you to override specific blocks, partials, or whole
 # templates as well as to define your own templates. To do this, uncomment
@@ -274,22 +274,20 @@ features = [
 # Read more:
 # - https://zensical.org/docs/setup/colors/
 # ----------------------------------------------------------------------------
-# [[project.theme.palette]]
-# scheme = "default"
-# toggle.icon = "lucide/sun"
-# toggle.name = "Switch to dark mode"
-#
-# [[project.theme.palette]]
-# scheme = "slate"
-# toggle.icon = "lucide/moon"
-# toggle.name = "Switch to light mode"
-
-# Palette toggle for automatic mode
-
 [[project.theme.palette]]
 scheme = "catppuccin-mocha"
 primary = "custom"
 accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to Modern Light Mode"
+
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to Modern Dark Mode"
+
+[[project.theme.palette]]
+scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to Macchiato"
 
