@@ -1,4 +1,13 @@
-# Building
+---
+title: "Building Guide"
+description: "Guide for building passcodes app."
+tags:
+    - Users
+    - Developers
+    - Contibutors
+---
+
+# Building Guide
 
 **Last-Updated-AT**: `2026-07-07T09:46:52Z (UTC)`.
 
@@ -19,7 +28,6 @@ There are 4 ways to build... given in order from bad to good... all ways are pre
     npm install -g eas-build
     npm install
     ```
-
 
 ## 1. Just `Expo GO`.
 
@@ -106,40 +114,40 @@ There are 4 ways to build... given in order from bad to good... all ways are pre
 - for user who can't wait to next release and want latest features.
 
 !!! danger
- 
+
     YOU WILL NEED A EXPO ACCOUNT FOR THIS>>> THIS ALSO MEAN YOU ARE OPTING OUT FROM PASSCODES RELEASE PROCESS.
-    
+
     if you do this, please not the commit hash, you are build the app from and make sure your `git status` says no changes to commit in other word your changes are complete commited & and you have clean working tree.
 
 ### Steps
 
-1. Install Dependency.
+1.  Install Dependency.
 
     ```bash
     npm install -g eas-cli
     npm install
     ```
 
-2. Ensure a clean work tree & note the last commit message.
+2.  Ensure a clean work tree & note the last commit message.
 
     ```bash
     git status && git log --oneline
     ```
-    
-    !!! tip
-        
-        the top most commit hash and if possible overide `version`, `android -> version`, `ios -> version` the `app.config.ts`. it in  file under 
 
-3. Login to Expo Account.
+    !!! tip
+
+        the top most commit hash and if possible overide `version`, `android -> version`, `ios -> version` the `app.config.ts`. it in  file under
+
+3.  Login to Expo Account.
 
     ```bash
     eas login
     ```
 
-4. Build preview application.
+4.  Build preview application.
 
     ```bash
     eas build --profile production
     ```
 
-5. Install it on your phone.
+5.  Install it on your phone.
