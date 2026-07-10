@@ -2,18 +2,18 @@
 title: "Custom Backends Guide"
 description: "Guide for using and developing custom backends for passcodes app."
 tags:
-  - Custom Backends
-  - Users
-  - 3rd Party Developers
-  - Contibutors
+    - Custom Backends
+    - Users
+    - 3rd Party Developers
+    - Contibutors
 ---
 
 # Custom Backend Docs
 
 !!! failure
-    
+
     We don;t support custom backend offically, we will do that in far future (2026 or later).
-    
+
     But this serve as a earlier docs, for understanding, how you can build custom backend for passcodes app.
 
 **Inspiration**: the idea is greatly inspired from **`Bitwarden`**.
@@ -27,15 +27,15 @@ As we build app and you build backend end. if attention is not paid, there might
 
 Here, In this docs you will find infomation about all the things that passcodes app expect from your custom backend.
 
- - The Minimal API Interface (Protocol).
- - And Some Security Enforcement.
+- The Minimal API Interface (Protocol).
+- And Some Security Enforcement.
 
 Yes, the api protocol will be define by passcodes app & we will also enforce some security best practices on your backend.
 Apart from this there might other things also. This api interface will be minimal requirement that your backend need to fullfill,
-to count as valid custom backend for passcodes. otherwise there might be compatablity issues.. 
-*ofcourse, you can extend the api interface but can't alter it.*
+to count as valid custom backend for passcodes. otherwise there might be compatablity issues..
+_ofcourse, you can extend the api interface but can't alter it._
 
-Also have a look into [`database design docs`](../database-design-docs/master.db/v1.md) to get more idea on topic for custom backend..
+Also have a look into [`database design docs`](../database-design-docs/overview.md) to get more idea on topic for custom backend..
 
 ## Custom Backend Version System
 
@@ -50,9 +50,9 @@ Yes, for custom backend that wanna stay forward-backward compatible. This will b
 ---
 
 !!! notes
-    
+
     ========== COMING SOON ==========
-    
-    Further infomation about the api interface will be avaliable soon. 
-    
+
+    Further infomation about the api interface will be avaliable soon.
+
     stay tuned for it on discord.
