@@ -5,5 +5,8 @@
     "editor.formatOnSave": true,
     "prettier.tabWidth": 4,
     "prettier.useTabs": false,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "files.associations": {
+        "*.md": "python-markdown"
+    }
 }
