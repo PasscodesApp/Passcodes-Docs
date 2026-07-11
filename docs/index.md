@@ -69,7 +69,7 @@ All the version of the passcodes app, can use the documenation avaliable over he
 
 ## Contirbuting to Docs
 
-This works same as contributing to repository.. Create your branch in this repo, make changes and submit a pr.. Always refer to [CONTRIBUTING.md](CONTRIBUTING.md)
+This works same as contributing to repository.. Create your branch in this repo, make changes and submit a pr.. Always refer to [CONTRIBUTING.md](contributing/CONTRIBUTING.md)
 
 ## Notes
 

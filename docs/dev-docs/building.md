@@ -11,9 +11,9 @@ tags:
 
 **Last-Updated-AT**: `2026-07-07T09:46:52Z (UTC)`.
 
-There are 4 ways to build... given in order from bad to good... all ways are pretty standard in expo application devlopment workflow.
+There are 4 ways to build... given in order from bad to good... all ways are pretty standard in expo application devleopment workflow.
 
-## PREQUIESTIES:-
+## Prerequisites
 
 1. Clone Repository.
 

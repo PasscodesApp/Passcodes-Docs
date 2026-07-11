@@ -1,3 +1,13 @@
+---
+title: "Template For Schema Docs"
+description: "Template for passcodes database design documentaion."
+tags:
+    - References
+    - Database
+    - Developers
+    - Contibutors
+---
+
 # v[X]
 
 - **Used by**: `vX.X.X` => `vX.X.X`
@@ -9,16 +19,16 @@
 
 ### Tables
 
-| Tables      | Description                  |
-| ----------- | ---------------------------- |
-| `.........` | ...                          |
+| Tables      | Description |
+| ----------- | ----------- |
+| `.........` | ...         |
 
 ### Passwords Table (`passwords`)
 
-| Fields      | Property | Constraints       | Description  |
-| ----------- | -------- | ----------------- | ------------ |
-| `...`       | ...      | ..., ..., ...     | ------------ |
-| `...`       | ...      | ..., ..., ...     | ------------ |
+| Fields | Property | Constraints   | Description  |
+| ------ | -------- | ------------- | ------------ |
+| `...`  | ...      | ..., ..., ... | ------------ |
+| `...`  | ...      | ..., ..., ... | ------------ |
 
 ### Setup SQL
 
@@ -58,4 +68,3 @@ Because, may be disapply migration might break data.
 - ....
 - ....
 - ....
-

@@ -4,7 +4,7 @@ _Pull requests, bug reports, and all other forms of contribution are welcomed an
 
 ## Terms For Contributing
 
-By contributing you also accept [Terms For Contribution](other-docs/terms-for-contributions.md), [Open Contributing Timeline](references/open-contributing-timeline.md) & [MIT License](LICENSE.txt).
+By contributing you also accept [Terms For Contribution](terms-for-contributions.md), [Open Contributing Timeline](../references/open-contributing-timeline.md) & [MIT License](../LICENSE.txt).
 
 ### Contents
 

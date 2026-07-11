@@ -3,7 +3,7 @@
 This repository contains Developers Docs, Support Docs & User Guide For Passcodes App.
 
 > [!NOTE]
-> The [docs (at repositiory)](https://github.com/PasscodesApp/Passcodes-Docs/) might have outdated (behind time) or forward (ahead of time) infomation (may be by a week or so).. 
+> The [docs (at repositiory)](https://github.com/PasscodesApp/Passcodes-Docs/) might have outdated (behind time) or forward (ahead of time) infomation (may be by a week or so)..
 > So, it always good habit to verify stuff.. By see the code... Because we as developer of passcodes focus more on code.. and documenation is our second priority..
 
 ## Structrue
@@ -19,7 +19,6 @@ We have a specfic structure that we follow, we divide the docs in directory base
 | Main Docs        | [other-docs/](other-docs/)                     | most **important** docs.. yet, they don;t relate to coding |
 | Reference        | [references/](references/)                     | all docs that not project specfic. but can help developers |
 | Essentials       | [essentials/](essentials/)                     | no docs here.. just github & management stuff..            |
-
 
 ## Documentaion Version System
 
@@ -60,4 +59,3 @@ This works same as contributing to repository.. Create your branch in this repo,
 
 Here, You will find all the docs releated to the `Passcodes` and other project under `PasscodesApp` github organization..
 This is single place that you need refer, for any docs or updates..
-

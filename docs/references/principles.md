@@ -1,3 +1,11 @@
+---
+title: "First Principles"
+description: "principles that governs the behaviour & decision making at passcodes."
+tags:
+    - Archives
+    - References
+---
+
 # First Principles
 
 Here, you will find the first principles behind the passcodes organization. these principles governs the daily behaviour of passcodes
@@ -8,9 +16,9 @@ and the way we contribute to it.
 Translates to...
 
 - ...us being kind to other in code reviews.
-- ...us tackling a issue that dosn't come under project's scope with a mindset to help the end user.
+- ...us tackling a issue that doesn't comes under project's scope with a mindset to help the end user.
 - ...way we interacting to other developer & other open source community.
-- ...doing thing to best interest of all developers & users.
+- ...doing thing to the best interest of all developers & users.
 
 ## Empathy
 
@@ -33,12 +41,12 @@ Translate to...
 Translate to...
 
 - ...us being true about user security.
-- ...us infoming eariler on to users about all internal deicision making stuff.
+- ...us infoming eariler on to users about all internal decision making stuff.
 - ...and in general being real in our discord community.
 
 ## Conclusion
 
-This principle governs the [passcodes organization](https://github.com/PasscodesApp) & our decision making about the project and in none case this is true vice versa.
+This principle governs the [passcodes organization](https://github.com/PasscodesApp) & our decision making about the project and in none case, this is true, vice versa.
 
 Which, means anyone who admire this principles is morely like welcome in passcodes,
 even if he/she is a beginner in codeing. or may be just a user of the app..

@@ -31,7 +31,7 @@ Here, In this docs you will find infomation about all the things that passcodes 
 - And Some Security Enforcement.
 
 Yes, the api protocol will be define by passcodes app & we will also enforce some security best practices on your backend.
-Apart from this there might other things also. This api interface will be minimal requirement that your backend need to fullfill,
+Apart from this there might be other things also. This api interface will be minimal requirement that your backend need to fullfill,
 to count as valid custom backend for passcodes. otherwise there might be compatablity issues..
 _ofcourse, you can extend the api interface but can't alter it._
 
@@ -39,7 +39,7 @@ Also have a look into [`database design docs`](../database-design-docs/overview.
 
 ## Custom Backend Version System
 
-Yes, for custom backend that wanna stay forward-backward compatible. This will be really useful.
+Yes, for custom backend that wanna stay forward-backward compatible. This will be very useful.
 
 - The version system will start from `0 to N`.
 - The version system will be a integer system. `v0, v1, v2, v3......`

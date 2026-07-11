@@ -1,11 +1,20 @@
+---
+title: "Contribution T&C"
+description: "terms & conditions for contributing in passcodes organization."
+tags:
+    - Required Reading
+    - Contibutors
+---
+
 # Terms For Contributions
 
-- **CreatedAt**: Sept 23, 2025.
-- **Last-UpdatedAt**: May 20, 2026.
+- **Created-At**: `Sept 23, 2025`.
+- **Last-Updated-At**: `May 20, 2026`.
 - **Author**: `@JeelDobariya38`.
 
 !!! Warning
-By contributing to any of repositorys maintained under gitHub organisation `@PasscodesApp`, you automatically accept this terms for contributions & also upcoming changes in it.
+
+    By contributing to any of repositorys maintained under gitHub organisation `@PasscodesApp`, you automatically accept this terms for contributions & also upcoming changes in it.
 
 1. All the contributors are here by inform that, I will not be liable to pay them by any means, if in future, I decide to make the project monetizes in some or the other way...
 

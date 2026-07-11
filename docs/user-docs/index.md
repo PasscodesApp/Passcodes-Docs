@@ -1,3 +1,11 @@
+---
+title: "User Guide"
+description: "A guide for passcodes users."
+tags:
+  - Guide
+  - Users
+---
+
 # User docs
 
 !!! Warning
@@ -71,16 +79,16 @@ See the file [installing.md](installing.md) in `PasscodesApp/Passcodes-Docs`.
 
     [Read More](../references/open-contributing-timeline.md)
 
-By, contributing to project you accept the [Terms For Contributions](../other-docs/terms-for-contributions.md),
-[CONTRIBUTING](../CONTRIBUTING.md) & [MIT License](../LICENSE.md).
+By, contributing to project you accept the [Terms For Contributions](../contributing/terms-for-contributions.md),
+[CONTRIBUTING](../contributing/CONTRIBUTING.md) & [MIT License](../contributing/LICENSE.md).
 
 And also have look at [Open Contributing Timeline](../references/open-contributing-timeline.md).
 
 ## Security Policy
 
-Available here in [PasscodesApp/Passcodes-Docs](../SECURITY.md).
+Available here in [PasscodesApp/Passcodes-Docs](../contributing/SECURITY.md).
 
 ## License
 
-Passcodes Project is license under [MIT](../LICENSE.md) License.
+Passcodes Project is license under [MIT](../contributing/LICENSE.md) License.
 Downloading Or Use the app or any associated stuff would mean, you are okay and have accepted the license terms.

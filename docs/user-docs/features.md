@@ -1,3 +1,11 @@
+---
+title: "Features"
+description: "A list of features for passcodes app."
+tags:
+  - Features
+  - Users
+---
+
 ## Features
 
 - [x] Intuitive UI
