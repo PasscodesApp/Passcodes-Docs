@@ -2,9 +2,10 @@
 
 This repository contains Developers Docs, Support Docs & User Guide For Passcodes App.
 
-> [!NOTE]
-> The [docs (at repositiory)](https://github.com/PasscodesApp/Passcodes-Docs/) might have outdated (behind time) or forward (ahead of time) infomation (may be by a week or so)..
-> So, it always good habit to verify stuff.. By see the code... Because we as developer of passcodes focus more on code.. and documenation is our second priority..
+!!! NOTE
+
+    The [docs (at repositiory)](https://github.com/PasscodesApp/Passcodes-Docs/) might have outdated (behind time) or forward (ahead of time) infomation (may be by a week or so)..
+    So, it always good habit to verify stuff.. By see the code... Because we as developer of passcodes focus more on code.. and documenation is our second priority..
 
 ## Structrue
 
@@ -49,7 +50,7 @@ if you think, you gonna use it a lot. otherwise, in GitHub is just fine as well.
 - Use lowercase character for docs file / directory name.
 - Use hyphens for docs file / directory name.
 - Also try to separate and organize docs as much as possible.. like a hierarchy. (don't fear nested structure).
-- Avoid renameing a file once created, because there might be URL pointing to it... from app or from various source which once publish can;t change.. (but if you have a strong reason to rename break this rule) Also, refer to [link-migration-strategy.md](other-docs/link-migration-strategy.md).
+- Avoid renameing a file once created, because there might be URL pointing to it... from app or from various source which once publish can;t change.. (but if you have a strong reason to rename break this rule) Also, refer to [link-migration-strategy.md](docs/other-docs/link-migration-strategy.md).
 
 ## Contirbuting to Docs
 

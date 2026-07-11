@@ -4,19 +4,19 @@ _Pull requests, bug reports, and all other forms of contribution are welcomed an
 
 ## Terms For Contributing
 
-By contributing you also accept [Terms For Contribution](other-docs/terms-for-contributions.md), [Open Contributing Timeline](other-docs/open-contributing-timeline.md) & [MIT License](LICENSE.txt).
+By contributing you also accept [Terms For Contribution](docs/contributing/terms-for-contributions.md), [Open Contributing Timeline](docs/references/open-contributing-timeline.md) & [MIT License](LICENSE.txt).
 
 ### Contents
 
-- [Asking Questions](#bulb-asking-questions)
-- [Opening an Issue](#inbox_tray-opening-an-issue)
-- [Feature Requests](#love_letter-feature-requests)
-- [Triaging Issues](#mag-triaging-issues)
-- [Submitting Pull Requests](#repeat-submitting-pull-requests)
-- [Writing Commit Messages](#memo-writing-commit-messages)
-- [Code Review](#white_check_mark-code-review)
-- [Certificate of Origin](#medal_sports-certificate-of-origin)
-- [Credits](#pray-credits)
+- [Asking Questions](#asking-questions)
+- [Opening an Issue](#opening-an-issue)
+- [Feature Requests](#feature-requests)
+- [Triaging Issues](#triaging-issues)
+- [Submitting Pull Requests](#submitting-pull-requests)
+- [Writing Commit Messages](#writing-commit-messages)
+- [Code Review](#code-review)
+- [Certificate of Origin](#certificate-of-origin)
+- [Credits](#credits)
 
 > **This guide serves to set clear expectations for everyone involved with the project so that we can improve it together while also creating a welcoming space for everyone to participate. Following these guidelines will help ensure a positive experience for contributors and maintainers.**
 

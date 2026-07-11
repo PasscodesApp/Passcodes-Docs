@@ -7,6 +7,6 @@
     "prettier.useTabs": false,
     "files.insertFinalNewline": true,
     "files.associations": {
-        "*.md": "python-markdown"
+        "docs/**/*.md": "python-markdown"
     }
 }

@@ -6,8 +6,9 @@ labels: question
 assignees: ""
 ---
 
-> ![Note]
-> For faster, more casual, chat like conversation join our discord community..
+!!! TIP
+
+    For faster, more casual, chat like conversation join our discord community..
 
 ## Overview
 

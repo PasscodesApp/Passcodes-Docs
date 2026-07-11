@@ -8,7 +8,7 @@ tags:
     - Contibutors
 ---
 
-# v[X]
+# vX
 
 - **Used by**: `vX.X.X` => `vX.X.X`
 - **Purpose**: ...
@@ -44,7 +44,7 @@ If can;t under refer existing docs..
 
 ---
 
-## Migration SQL (v[X] -> v[X])
+## Migration SQL (vX -> vX)
 
 ```sql
 /*
@@ -53,7 +53,7 @@ write migration sql here. assume that db is at pervious version.
 */
 ```
 
-## Revert SQL (v[v] <- v[v])
+## Revert SQL (vX <- vX)
 
 ```sql
 /*
