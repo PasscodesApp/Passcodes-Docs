@@ -23,6 +23,38 @@ and well documented in our release workflow docs.
 
 ---
 
+## v3.2.0 - Stable (July 25, 2026)
+
+<details>
+  <summary>View Internal Details</summary>
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Expo SDK = 57
+Version Code = 10
+Version Name = "v3.2.0 - Stable"
+Master Database Schema Version = "v2"
+```
+
+</details>
+
+### Added
+
+- **Material UI**: added material UI for better UI/UX. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Font Awesome Icons**: add fontawesome icons for better layout understanding. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Screen Shot Prevention**: add screen-shot prevention on passscodes details screen. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Changed
+
+- **Improved Navigation**: add tab navigation for better & modern navigation flow. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Optimized Performance**: upgrade to Expo SDK 57, improved performance & added flash-list for scrolling performance & added architecture specific app download option for optimized app size. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.2.0){:target="\_blank"}  
+[Release Notes](release-notes.md#v320-stable-july-25-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v3.1.0...v3.2.0)
+
+---
+
 ## v3.1.0 - Stable (June 22, 2026)
 
 <details>
@@ -40,7 +72,7 @@ Master Database Schema Version = "v2"
 
 ### Added
 
-- **Update Passwords Functionality**: added a update password functionality. which was missing in last (v3.0.0-Alpha) release [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Update Passwords Functionality**: added a update password functionality. which was missing in last (v3.0.0-Alpha) release. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 - **In-App Lock**: added a in-app biometrics lock to protect user data. it can be opt-in by using settings. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 - **Import & Export Google Passwords**: added a way to import & export passwords to csv. specifically, the format is compatible with google passwords. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 - **Keep My Data On Uninstall**: added a android only feature, that prompts user on uninstall. weather to keep thier data or delete it. [[@JeelDobariya38]](https://github.com/JeelDobariya38)

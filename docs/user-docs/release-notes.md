@@ -21,6 +21,30 @@ This release notes are more or less end-user oriented.
 
 ---
 
+## v3.2.0 - Stable (July 25, 2026)
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Expo SDK = 57
+Version Code = 10
+Version Name = "v3.2.0 - Stable"
+Master Database Schema Version = "v2"
+```
+
+**`TL;DR`: Material UI | Support Light/Dark mode**
+
+- improved UX with modern material UI & modern gestures support.
+- added dark mode for night.
+- better security as we have added screen shot & screen capture prevention.
+- optimize the performance & size of application.
+- added icons for better understanding.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.2.0){:target="\_blank"}  
+[Changelog](changelog.md#v320-stable-july-25-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v3.1.0...v3.2.0)
+
+---
+
 ## v3.1.0 - Stable (June 22, 2026)
 
 ```
