@@ -1,4 +1,14 @@
-# v[X]
+---
+title: "Template For Schema Docs"
+description: "Template for passcodes database design documentaion."
+tags:
+    - References
+    - Database
+    - Developers
+    - Contibutors
+---
+
+# vX
 
 - **Used by**: `vX.X.X` => `vX.X.X`
 - **Purpose**: ...
@@ -9,16 +19,16 @@
 
 ### Tables
 
-| Tables      | Description                  |
-| ----------- | ---------------------------- |
-| `.........` | ...                          |
+| Tables      | Description |
+| ----------- | ----------- |
+| `.........` | ...         |
 
 ### Passwords Table (`passwords`)
 
-| Fields      | Property | Constraints       | Description  |
-| ----------- | -------- | ----------------- | ------------ |
-| `...`       | ...      | ..., ..., ...     | ------------ |
-| `...`       | ...      | ..., ..., ...     | ------------ |
+| Fields | Property | Constraints   | Description  |
+| ------ | -------- | ------------- | ------------ |
+| `...`  | ...      | ..., ..., ... | ------------ |
+| `...`  | ...      | ..., ..., ... | ------------ |
 
 ### Setup SQL
 
@@ -34,7 +44,7 @@ If can;t under refer existing docs..
 
 ---
 
-## Migration SQL (v[X] -> v[X])
+## Migration SQL (vX -> vX)
 
 ```sql
 /*
@@ -43,7 +53,7 @@ write migration sql here. assume that db is at pervious version.
 */
 ```
 
-## Revert SQL (v[v] <- v[v])
+## Revert SQL (vX <- vX)
 
 ```sql
 /*
@@ -58,4 +68,3 @@ Because, may be disapply migration might break data.
 - ....
 - ....
 - ....
-

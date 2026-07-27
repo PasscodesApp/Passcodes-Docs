@@ -21,6 +21,30 @@ This release notes are more or less end-user oriented.
 
 ---
 
+## v3.2.0 - Stable (July 25, 2026)
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Expo SDK = 57
+Version Code = 10
+Version Name = "v3.2.0 - Stable"
+Master Database Schema Version = "v2"
+```
+
+**`TL;DR`: Material UI | Support Light/Dark mode**
+
+- improved UX with modern material UI & modern gestures support.
+- added dark mode for night.
+- better security as we have added screen shot & screen capture prevention.
+- optimize the performance & size of application.
+- added icons for better understanding.
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.2.0){:target="\_blank"}  
+[Changelog](changelog.md#v320-stable-july-25-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v3.1.0...v3.2.0)
+
+---
+
 ## v3.1.0 - Stable (June 22, 2026)
 
 ```
@@ -51,7 +75,7 @@ Master Database Schema Version = "v2"
 - and thier are small security things here and there like, keep my data prompt on android app uninstallion and stuff.
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.1.0){:target="\_blank"}  
-[Changelog](changelog/#v310-stable-june-22-2026)  
+[Changelog](changelog.md#v310-stable-june-22-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v3.0.0...v3.1.0)
 
 ---
@@ -84,7 +108,7 @@ Master Database Schema Version = "v2"
 - we working on get all features avaiable untill now. we will releasing new version(s) soon.
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.0.0){:target="\_blank"}  
-[Changelog](changelog/#v300-alpha-may-24-2026)  
+[Changelog](changelog.md#v300-alpha-may-24-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.1.1...v3.0.0)
 
 ---
@@ -127,7 +151,7 @@ Master Database Version = "v2"
 - improve security, performance updates.
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.1.1){:target="\_blank"}  
-[Changelog](changelog/#v211-beta-may-19-2026)  
+[Changelog](changelog.md#v211-beta-may-19-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.1.0...v2.1.1)
 
 ---
@@ -153,7 +177,7 @@ Master Database Version = "v2"
 - improved view password screen & enhanced url field support.
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.1.0){:target="\_blank"}  
-[Changelog](changelog/#v210-beta-may-12-2026)  
+[Changelog](changelog.md#v210-beta-may-12-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.0.0...v2.1.0)
 
 ---
@@ -178,7 +202,7 @@ Master Database Version = "v2"
 - we are now a decent app, if looked from google point of view. we are following all best practices & actively keeping up with latest changes, except proper encryption. 😥😥😥
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.0.0){:target="\_blank"}  
-[Changelog](changelog/#v200-beta-apr-16-2026)  
+[Changelog](changelog.md#v200-beta-apr-16-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.1...v2.0.0)
 
 ---
@@ -199,7 +223,7 @@ Master Database Version = "v1"
 - Last time (v1.2.0), I forget to update the version so fix it and re-release instantly... (gotta a real-idea of how dangerous "publish" button on github is.... 😂😂😂😂😂)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.1){:target="\_blank"}  
-[Changelog](changelog/#v121-alpha-jan-31-2026)  
+[Changelog](changelog.md#v121-alpha-jan-31-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.0...v1.2.1)
 
 ## v1.2.0 - Alpha (Jan 31, 2026) [YANKED RELEASE]
@@ -215,7 +239,7 @@ Master Database Version = "v1"
 
 !!! failure
 
-    This is an [yanked release](installing/#explicitly-yanked-release-pure-trash) and should not be used by any user.
+    This is an [yanked release](installing.md#explicitly-yanked-release-pure-trash) and should not be used by any user.
     The soley purpose of this release is, just for documenation & serves as a part of project's story...
 
     This release is yanked cuz, I launch the app in hurry and forget to do something that need to be done... (forget to update version number)...
@@ -231,7 +255,7 @@ Master Database Version = "v1"
 - Perfomance optimization. (due to dependency updates.)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.0){:target="\_blank"}  
-[Changelog](changelog/#v120-alpha-jan-31-2026-yanked-release)  
+[Changelog](changelog.md#v120-alpha-jan-31-2026-yanked-release)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.2...v1.2.0)
 
 ## v1.1.2 - Alpha (Dec 15, 2025)
@@ -269,7 +293,7 @@ Master Database Version = "v1"
 - This release also bring with it some performance enhancements—theorically, Because I have not notice it yet—as the app now run on **`JAVA 21`**. it was previously `Java 11`.
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.2){:target="\_blank"}  
-[Changelog](changelog/#v112-alpha-dec-15-2025)  
+[Changelog](changelog.md#v112-alpha-dec-15-2025)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.1...v1.1.2)
 
 ---
@@ -293,7 +317,7 @@ Master Database Version = "v1"
 - In big project, such small mistakes/things happens.. so, ignore it please...
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.1){:target="\_blank"}  
-[Changelog](changelog/#v111-alpha-sept-11-2025)  
+[Changelog](changelog.md#v111-alpha-sept-11-2025)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.0...v1.1.1)
 
 ---
@@ -332,13 +356,13 @@ Master Database Version = "v1"
 
     You might also ask to test the security and asked to exploit the app. so, that we can discover flaws in our app..
 
-- Also as the passcodes have change from **"just my personal hobby project" to an official github based organization**.. This release mark as a step forward for us towards open source and towards [open to contribute](./../other-docs/open-contributing-timeline.md)... and potentailly leading us as a community as a whole.....
+- Also as the passcodes have change from **"just my personal hobby project" to an official github based organization**.. This release mark as a step forward for us towards open source and towards [open to contribute](../references/open-contributing-timeline.md)... and potentailly leading us as a community as a whole.....
 - And more importantly it reflect, my long term vision with passcodes as a project... what it means?...
 - Upcoming things will be more fascinating to watch and to be part of... So stick with us.. [Telegram (@passcodescommunity)](https://t.me/passcodescommunity)
 - And also the app will have more long term support... (if you ignore, the fact that [I am not a verified developer, as of _"1/9/25 by google"_... but will do it in a near time...](https://developer.android.com/developer-verification))
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.0){:target="\_blank"}  
-[Changelog](changelog/#v110-alpha-sept-1-2025)  
+[Changelog](changelog.md#v110-alpha-sept-1-2025)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.0.0...v1.1.0)
 
 ---
@@ -363,7 +387,7 @@ Master Database Version = "v1"
 - App now has an improved UI/UX, It has hint's.. especially, as you all where asking like, **"what is domain?" "what can i write in domain?" and so on.....**
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.0.0){:target="\_blank"}  
-[Changelog](changelog/#v100-stable-aug-16-2025)  
+[Changelog](changelog.md#v100-stable-aug-16-2025)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v0.1.0...v1.0.0)
 
 ---
@@ -372,7 +396,7 @@ Master Database Version = "v1"
 
 !!! danger
 
-    This is an [yanked release](installing/#explicitly-yanked-release-pure-trash) and should not be used by any user.
+    This is an [yanked release](installing.md#explicitly-yanked-release-pure-trash) and should not be used by any user.
     The soley purpose of this release is, just for documenation & serves as a part of project's story...
 
     The main cause we have yanked this release is.. not that the release itself is bad by any manner.. but the app name it uses is "password manager".
@@ -400,5 +424,5 @@ Master Database Version = "v1"
 - But structure and intuitiveness doesn't necessary means a modern user interface—which is little to less cool, but UI reflect a structure in it...
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v0.1.0){:target="\_blank"}  
-[Changelog](changelog/#v010-alpha-aug-26-2024-yanked-release)  
+[Changelog](changelog.md#v010-alpha-aug-26-2024-yanked-release)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/commits/v0.1.0)

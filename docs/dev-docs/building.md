@@ -1,89 +1,153 @@
-# Detail Guide On Building Project
+---
+title: "Building Guide"
+description: "Guide for building passcodes app."
+tags:
+    - Users
+    - Developers
+    - Contibutors
+---
 
-> [!NOTE]
-> This guide apply for `[PasscodesApp/Passcodes](https://github.com/PasscodesApp/Passcodes)` repository
+# Building Guide
 
-> [!warning]
-> The script `installondevice.bat` itself is deprecated by developers,
-> But, it still may works!! We will provide a new solution, more likely a `powershell` more robust script soon.
-> Which directly integrate with modern windows 11. and has more features.. though this script will remains as it.
+**Last-Updated-AT**: `2026-07-07T09:46:52Z (UTC)`.
 
-Here, you will get the details about how to build the app (in recommended way).
-
-Note: This docs file assume that, you are build the project without android studio and with the `installondevice.bat` script provided.
+There are 4 ways to build... given in order from bad to good... all ways are pretty standard in expo application devleopment workflow.
 
 ## Prerequisites
 
-You will need `gradle` and `adb` accessible from command-line so, that script can do its job.
+1. Clone Repository.
 
-```powershell
-adb --version
-```
+    ```bash
+    git clone https://github.com/PasscodesApp/Passcodes.git
+    cd Passcodes
+    ```
 
-and
+2. Install all dependency & Node.js (24+).
 
-```powershell
-cd passcodes
-./gradlew --version
-```
+    ```bash
+    npm install -g eas-build
+    npm install
+    ```
 
-Something like this...
+## 1. Just `Expo GO`.
 
-```powershell
-PS D:\####\####\passcodes> adb --version
-Android Debug Bridge version 1.0.41
-Version 35.0.2-12147458
-Installed as D:\####\####\lib\platform-tools\adb.exe
-Running on Windows 10.0.26100
+- use for Testing & Prototyping.
+- best for getting started.
+- best if just wanna see my work (cuz you probably waana hire me, I am fine just dm me, but expo go might fail, use preview build, 3 option).
 
-PS D:\####\####\passcodes> ./gradlew --version
+### Steps
 
-------------------------------------------------------------
-Gradle 8.14.3
-------------------------------------------------------------
+1. You need to install expo go appliction on your phone, with sdk version, we using in the project. (https://expo.dev/go)
 
-Build time:    2025-07-04 13:15:44 UTC
-Revision:      e5ee1df3d88b8ca3a8074787a94f373e3090e1db
+2. Install Dependency.
 
-Kotlin:        2.0.21
-Groovy:        3.0.24
-Ant:           Apache Ant(TM) version 1.10.15 compiled on August 25 2024
-Launcher JVM:  17.0.12 (Oracle Corporation 17.0.12+8-LTS-286)
-Daemon JVM:    C:\Program Files\Java\jdk-17 (no JDK specified, using current Java home)
-OS:            Windows 11 10.0 amd64
-```
+    ```bash
+    npm install
+    ```
 
-## Preparing For A Build.
+3. Now connect the phone with desktop using wifi.
 
-Here, are the things you required, first you will need a `keystore.properties` & `passcodes.jks` in project root. So, that the script can be able to sign the apk file when generated. Second thing you might need is a mobile device with USB debugging enable, connected to your machine, because script install the app directly using `adb`.
+4. Start developemt server.
 
-### Template For `keystore.properties`
+    ```bash
+    npm start
+    ```
 
-```
-keyAlias=passcodes
-keyPassword=
-storeFile=./../passcodes.jks
-storePassword=
-```
+5. Scan the QR Code with your expo go application.
 
-**Fill the `keyPassword` and `storePassword`** and you are good to go.
+## 2. Dev Build
 
-## Deprecated: Finial Run Script For Building
+- customized to our project.
+- best for contributors.
+- support all native functionality + hot reloading like expo go.
 
-> [!warning]
-> The script `installondevice.bat` itself is deprecated by developers,
-> But it still may works!!
+### Steps
 
-You can build the app for production and dev version.
+1. Install Dependency.
 
--   Development Builds
+    ```bash
+    npm install -g eas-cli
+    npm install
+    ```
 
-```powershell
-./installondevice.bat
-```
+2. Build dev application & Install it on your phone.
 
--   Production Builds
+    ```bash
+    npm run build:develop
+    ```
 
-```powershell
-./installondevice.bat prod
-```
+3. Start developemt server.
+
+    ```bash
+    npm start
+    ```
+
+4. Scan the QR Code with your new dev application.
+
+## 3. Preview Build
+
+- for testing the application.
+- best for testers.
+- support all native functionality & give near production application.
+
+### Steps
+
+1. Install Dependency.
+
+    ```bash
+    npm install -g eas-cli
+    npm install
+    ```
+
+2. Build preview application.
+
+    ```bash
+    npm run build:preview
+    ```
+
+3. Install it on your phone.
+
+## 4. Production Build
+
+- for production application.
+- not the best but is way for end user to install passcodes app.
+- for user who can't wait to next release and want latest features.
+
+!!! danger
+
+    YOU WILL NEED A EXPO ACCOUNT FOR THIS>>> THIS ALSO MEAN YOU ARE OPTING OUT FROM PASSCODES RELEASE PROCESS.
+
+    if you do this, please not the commit hash, you are build the app from and make sure your `git status` says no changes to commit in other word your changes are complete commited & and you have clean working tree.
+
+### Steps
+
+1.  Install Dependency.
+
+    ```bash
+    npm install -g eas-cli
+    npm install
+    ```
+
+2.  Ensure a clean work tree & note the last commit message.
+
+    ```bash
+    git status && git log --oneline
+    ```
+
+    !!! tip
+
+        the top most commit hash and if possible overide `version`, `android -> version`, `ios -> version` the `app.config.ts`. it in  file under
+
+3.  Login to Expo Account.
+
+    ```bash
+    eas login
+    ```
+
+4.  Build preview application.
+
+    ```bash
+    eas build --profile production
+    ```
+
+5.  Install it on your phone.

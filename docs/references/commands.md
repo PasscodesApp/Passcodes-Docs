@@ -1,6 +1,20 @@
+---
+title: "Important Commands"
+description: "A reference commands for passcodes."
+tags:
+    - References
+    - Developers
+---
+
 # Important Commands
 
 ## Git & Github
+
+- To a signed commit
+
+```bash
+gti commit -s -m "[feat/fix/docs/chore]: ..."
+```
 
 - To Push Your Current Branch To Repo To Merge Into Main
 
@@ -13,7 +27,6 @@ git switch "$CURRENT_BRANCH" && \
 git rebase main && \
 git push
 ```
-
 
 ## Android & Gradle Commands
 
@@ -65,11 +78,11 @@ java -jar bundletool.jar build-apks \
 - For run development server
 
 ```bash
-uv run zensical serve
+uv run zensical serve -o
 ```
 
-- For updating zensical pacakge.
+- For updating uv packages.
 
 ```bash
-uv add --upgrade zensical
+uv sync --upgrade
 ```

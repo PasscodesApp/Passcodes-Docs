@@ -5,5 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "catppuccin-zensical>=0.2.2",
     "zensical>=0.0.27",
 ]

@@ -11,24 +11,25 @@ It then do some magically comparaion to tell which version the database is on. a
 We highly recommend using `PostgresSQL` as nowdays it a standard, use by many companys.. It also has all features VectorDB, JsonDB and all sorts of fancy things...
 But, above all it is very extensive.. and has large community in my opionion. So, go with it.. It will be also easy to apply, this docs if you use Postrgess SQL..
 
-But you use any other db for that matter. like `MONGODB`, `MYSQL`, OR `may be pure binary files` to store data. 
+But you use any other db for that matter. like `MONGODB`, `MYSQL`, OR `may be pure binary files` to store data.
 because our app just shared the data with you, that user want to save and remember.. and it pure responsiblity of your backend to save it and give it back,
 when user ask through our app.. our app, well in this case, would be just a client application for user, that they can just talk too for ease of use...
 
-Anyways, whatever you use, the database design docs will be your friend, helping you though, to get an idea of, how we structure the data over here in passcodes and 
+Anyways, whatever you use, the database design docs will be your friend, helping you though, to get an idea of, how we structure the data over here in passcodes and
 what (kind of) data your backend can expect to get from app that need to be store. If you use sql database, then no worry you use this stuff (docs) directly..
 Otherwise there might be little bit of work that need to be done.
 
-Also don;t forget if you create custom backend always check app version, api version, database version... and make sure they are compatability which each other.. 
-Also, Ensure that the app version (passcodes), api version (your's) & database version (your's) system, go hand in hand, without any need for significant configuration, 
-Because our app changes often, which mean your backend also need to adopt to it, to stay up-to-date and handle newer versions. 
+Also don;t forget if you create custom backend always check app version, api version, database version... and make sure they are compatability which each other..
+Also, Ensure that the app version (passcodes), api version (your's) & database version (your's) system, go hand in hand, without any need for significant configuration,
+Because our app changes often, which mean your backend also need to adopt to it, to stay up-to-date and handle newer versions.
 So, that the data that app provides to your backend on api calls can be except by your app. Otherwise, your backend might panic and crash on new data.
 Because our app send something your backend didn;t expected at glance.
 
 ## Migration Handling Guide (External Backend Developers)
 
-> [!IMPORTANT]
-> It is just to give you a idea, consider it as a guide and not as a hard written rule.
+!!! failure "Disclaimer"
+
+    It is just to give you a idea, consider it as a guide and not as a hard written rule.
 
 This by no mean come under passcodes, custom backend need to handle data on thier own and its purely thier responsiblity.
 custom backend are responsible for implement a priesentent data storeage system... and thus, migration handle is also there responsiblity.
@@ -36,9 +37,9 @@ So, consider this as a guide. take inspiration from it. make what ever work for 
 
 With that said, Here are two ways we recommend, developers to achive database migration.
 
-Firstly, despite any of two you use, you need a version system if wanna stay backward compatabile. otherwise, this migration guide is trash for you. 
+Firstly, despite any of two you use, you need a version system if wanna stay backward compatabile. otherwise, this migration guide is trash for you.
 because, if you wish not to stay backward compatible, then ofcourse fo ahead, shutdown your backend for sometime.
-connect to db using client, make a change in schema (un-recoreded migration in production db which is significantly destructive), 
+connect to db using client, make a change in schema (un-recoreded migration in production db which is significantly destructive),
 migrated old data to new schema and say sorry to users for the down time (and if unlucky, say sorry for data loss also).
 
 > By backward compatablity, I mean, you want manual migration that has a full forward-backward compatabilty. which means you can apply or un-apply (revert) them any time.
@@ -62,12 +63,12 @@ It can live into your project root directory can be also with deploy api.
     "our-custom-db": {
         "version": 1,
         "last-migration": "2025-10-02T15:11:21Z",
-        "is-production-db": true,
+        "is-production-db": true
     },
     "our-test-cudtom-db": {
         "version": 3,
         "last-migration": "2025-10-02T15:11:21Z",
-        "is-production-db": false,
+        "is-production-db": false
     }
 }
 ```
@@ -96,4 +97,3 @@ INSERT INTO `migration_history` (`from`, `to`) VALUES (1, 2);
 ```sql
 SELECT `to` FROM `migration_history` SORT BY `apply_at` LIMIT 1;
 ```
-

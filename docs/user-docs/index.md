@@ -1,3 +1,11 @@
+---
+title: "User Guide"
+description: "A guide for passcodes users."
+tags:
+  - Guide
+  - Users
+---
+
 # User docs
 
 !!! Warning
@@ -32,34 +40,7 @@ Note: high version can still run, but are not guaranteed offically.
 
 ## Features
 
-<!-- prettier-ignore -->
-- [ ] Intuitive UI
-- [ ] Update Checkers & Manager
-- [x] Password Management (Current Priority)
-- [ ] Secure File (Least Priority - Permissions pending 😅)
-     - [ ] Image (JPG, PNG, etc.)
-     - [ ] Video
-     - [ ] Binary Files (Non-text)
--  [ ] Other Secret Info Management
-     - [ ] Notes (.txt files)
-     - [ ] Key-Value pairs
-      ```json
-      {
-        "key": "SECRET API KEY",
-        "content": "qwerty-let-say",
-        "created-at": "...",
-        "updated-at": "..."
-      }
-      ```
-- [ ] NON Secret Info Store
-- [ ] Encryption and Decryption
-- [ ] Backup Manager
-- [ ] Import/Export Passwords
-- [ ] Extensivity with custom database
-- [ ] Multiple Language Translation
-- [ ] Theme & Customization
-- [ ] Key Manager
-- [ ] Multi Platform Support (KMP)
+You can see all [features over here](features.md).
 
 ## Getting Started
 
@@ -96,18 +77,18 @@ See the file [installing.md](installing.md) in `PasscodesApp/Passcodes-Docs`.
     For more, information on what kind of contribution we approve or allow, please open a issue in our
     repo. that way you avoid wasting your time...
 
-    [Read More](../other-docs/open-contributing-timeline.md)
+    [Read More](../references/open-contributing-timeline.md)
 
-By, contributing to project you accept the [Terms For Contributions](../other-docs/terms-for-contributions.md),
-[CONTRIBUTING](../CONTRIBUTING.md) & [MIT License](../LICENSE.md).
+By, contributing to project you accept the [Terms For Contributions](../contributing/terms-for-contributions.md),
+[CONTRIBUTING](../contributing/CONTRIBUTING.md) & [MIT License](../contributing/LICENSE.md).
 
-And also have look at [Open Contributing Timeline](../other-docs/open-contributing-timeline.md).
+And also have look at [Open Contributing Timeline](../references/open-contributing-timeline.md).
 
 ## Security Policy
 
-Available here in [PasscodesApp/Passcodes-Docs](../SECURITY.md).
+Available here in [PasscodesApp/Passcodes-Docs](../contributing/SECURITY.md).
 
 ## License
 
-Passcodes Project is license under [MIT](../LICENSE.md) License.
+Passcodes Project is license under [MIT](../contributing/LICENSE.md) License.
 Downloading Or Use the app or any associated stuff would mean, you are okay and have accepted the license terms.

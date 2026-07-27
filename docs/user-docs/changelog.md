@@ -23,6 +23,38 @@ and well documented in our release workflow docs.
 
 ---
 
+## v3.2.0 - Stable (July 25, 2026)
+
+<details>
+  <summary>View Internal Details</summary>
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Expo SDK = 57
+Version Code = 10
+Version Name = "v3.2.0 - Stable"
+Master Database Schema Version = "v2"
+```
+
+</details>
+
+### Added
+
+- **Material UI**: added material UI for better UI/UX. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Font Awesome Icons**: add fontawesome icons for better layout understanding. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Screen Shot Prevention**: add screen-shot prevention on passscodes details screen. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Changed
+
+- **Improved Navigation**: add tab navigation for better & modern navigation flow. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Optimized Performance**: upgrade to Expo SDK 57, improved performance & added flash-list for scrolling performance & added architecture specific app download option for optimized app size. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.2.0){:target="\_blank"}  
+[Release Notes](release-notes.md#v320-stable-july-25-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v3.1.0...v3.2.0)
+
+---
+
 ## v3.1.0 - Stable (June 22, 2026)
 
 <details>
@@ -40,7 +72,7 @@ Master Database Schema Version = "v2"
 
 ### Added
 
-- **Update Passwords Functionality**: added a update password functionality. which was missing in last (v3.0.0-Alpha) release [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Update Passwords Functionality**: added a update password functionality. which was missing in last (v3.0.0-Alpha) release. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 - **In-App Lock**: added a in-app biometrics lock to protect user data. it can be opt-in by using settings. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 - **Import & Export Google Passwords**: added a way to import & export passwords to csv. specifically, the format is compatible with google passwords. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 - **Keep My Data On Uninstall**: added a android only feature, that prompts user on uninstall. weather to keep thier data or delete it. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
@@ -64,7 +96,7 @@ cuz, new react native app use a different database (master). so, password that s
 To import the old data. Go into `Setting` inside the app. and just click `Data Recovery` under troubleshooting.
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.1.0){:target="\_blank"}  
-[Release Notes](release-notes/#v310-stable-june-22-2026)  
+[Release Notes](release-notes.md#v310-stable-june-22-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v3.0.0...v3.1.0)
 
 ---
@@ -106,7 +138,7 @@ need to be imported.
 To import the old data. Go into `Setting` inside the app. and click `GetBack Passwords From Prior To v3` under troubleshooting. now you redirect to new screen where you need wait utill you see in green color... `SUCCESSFULLY MIGRATED.....`. and that's it.
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.0.0){:target="\_blank"}  
-[Release Notes](release-notes/#v300-alpha-may-24-2026)  
+[Release Notes](release-notes.md#v300-alpha-may-24-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.1.1...v3.0.0)
 
 ---
@@ -156,7 +188,7 @@ Master Database Version = "v2"
 - **Improve Importing/Exporting Passwords**: added apache csv libaray to handle csv files. it now handles escaped-qouted commas & newline in (google-passwords generated) csv. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.1.1){:target="\_blank"}  
-[Release Notes](release-notes/#v211-beta-may-19-2026)  
+[Release Notes](release-notes.md#v211-beta-may-19-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.1.0...v2.1.1)
 
 ---
@@ -202,7 +234,7 @@ Master Database Version = "v2"
 **End Of Support**: this offically marks end the android native development era over here in passcodes as we are now migrating to react-native (expo). please note that no further security updates will be provided for this & prior releases.
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.1.0){:target="\_blank"}  
-[Release Notes](release-notes/#v210-beta-may-12-2026)  
+[Release Notes](release-notes.md#v210-beta-may-12-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v2.0.0...v2.1.0)
 
 ---
@@ -254,7 +286,7 @@ Master Database Version = "v2"
 **Resolved all backlogs with Goggle latest standards for android development**: We have complete the biggest migration that was going on in passcodes. [PasscodesApp/Passcodes#42](https://github.com/PasscodesApp/Passcodes/issues/42)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v2.0.0){:target="\_blank"}  
-[Release Notes](release-notes/#v200-beta-apr-16-2026)  
+[Release Notes](release-notes.md#v200-beta-apr-16-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.1...v2.0.0)
 
 ---
@@ -280,7 +312,7 @@ Master Database Version = "v1"
 - **Update Version Info**: update the version name and version code that, I forget last time in a rush of releasing a new version.. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.1){:target="\_blank"}  
-[Release Notes](release-notes/#v121-alpha-jan-31-2026)  
+[Release Notes](release-notes.md#v121-alpha-jan-31-2026)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.2.0...v1.2.1)
 
 ## v1.2.0 - Alpha (Jan 31, 2026) [YANKED RELEASE]
@@ -316,7 +348,7 @@ Master Database Version = "v1"
 - **Mimetypes For Import Passwords**: fixed csv mimetypes for importing passswords feature for better experience with android file picker.. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.2.0){:target="\_blank"}  
-[Release Notes](release-notes/#v120-alpha-jan-31-2026-yanked-release)  
+[Release Notes](release-notes.md#v120-alpha-jan-31-2026-yanked-release)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.2...v1.2.0)
 
 ## v1.1.2 - Alpha (Dec 15, 2025)
@@ -379,7 +411,7 @@ Master Database Version = "v1"
   pixel, more of scalable pixel measurements). [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.2){:target="\_blank"}  
-[Release Notes](release-notes/#v112-alpha-dec-15-2025)  
+[Release Notes](release-notes.md#v112-alpha-dec-15-2025)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.1...v1.1.2)
 
 ---
@@ -406,7 +438,7 @@ Master Database Version = "v1"
   from file picker. due to incorrect mimetype in code.. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.1){:target="\_blank"}  
-[Release Notes](release-notes/#v111-alpha-sept-11-2025)  
+[Release Notes](release-notes.md#v111-alpha-sept-11-2025)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.1.0...v1.1.1)
 
 ---
@@ -458,7 +490,7 @@ Master Database Version = "v1"
   to `PasscodesApp (my organization)` for better development and governance of the project.
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.1.0){:target="\_blank"}  
-[Release Notes](release-notes/#v110-alpha-sept-1-2025)  
+[Release Notes](release-notes.md#v110-alpha-sept-1-2025)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v1.0.0...v1.1.0)
 
 ---
@@ -503,7 +535,7 @@ Master Database Version = "v1"
   datastorage & security. [[@JeelDobariya38]](https://github.com/JeelDobariya38).
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v1.0.0){:target="\_blank"}  
-[Release Notes](release-notes/#v100-stable-aug-16-2025)  
+[Release Notes](release-notes.md#v100-stable-aug-16-2025)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v0.1.0...v1.0.0)
 
 ---
@@ -526,7 +558,7 @@ Master Database Version = "v1"
 
 !!! danger
 
-    This is an [yanked release](installing/#explicitly-yanked-release-pure-trash) and should not be used by any user.
+    This is an [yanked release](installing.md#explicitly-yanked-release-pure-trash) and should not be used by any user.
     The soley purpose of this release is, just for documenation & serves as a part of project's story...
 
     The main cause we have yanked this release is.. not that the release itself is bad by any manner.. this release was very early & premature..
@@ -559,5 +591,5 @@ Master Database Version = "v1"
   visual elements. It is an prototype release (`Proof Of Concept`).
 
 [Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v0.1.0){:target="\_blank"}  
-[Release Notes](release-notes/#v010-alpha-aug-26-2024-yanked-release)  
+[Release Notes](release-notes.md#v010-alpha-aug-26-2024-yanked-release)  
 [Full Changelog](https://github.com/PasscodesApp/Passcodes/commits/v0.1.0)

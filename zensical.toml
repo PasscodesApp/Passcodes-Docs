@@ -87,6 +87,8 @@ unresolved_references = false
 # ----------------------------------------------------------------------------
 [project.theme]
 
+name = "catppuccin"
+
 # change this to "classic" to use the traditional Material for MkDocs look.
 variant = "modern"
 
@@ -178,7 +180,7 @@ features = [
     # With this feature enabled, Zensical will automatically hide parts
     # of the header when the user scrolls past a certain point.
     # https://zensical.org/docs/setup/header/#automatic-hiding
-    # "header.autohide",
+    "header.autohide",
 
     # Turn on this feature to expand all collapsible sections in the
     # navigation sidebar by default.
@@ -229,7 +231,7 @@ features = [
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-tabs
-    #"navigation.tabs",
+    "navigation.tabs",
 
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
@@ -272,35 +274,43 @@ features = [
 # Read more:
 # - https://zensical.org/docs/setup/colors/
 # ----------------------------------------------------------------------------
-# [[project.theme.palette]]
-# scheme = "default"
-# toggle.icon = "lucide/sun"
-# toggle.name = "Switch to dark mode"
-#
-# [[project.theme.palette]]
-# scheme = "slate"
-# toggle.icon = "lucide/moon"
-# toggle.name = "Switch to light mode"
-
-# Palette toggle for automatic mode
 [[project.theme.palette]]
-media = "(prefers-color-scheme)"
-toggle.icon = "lucide/sun-moon"
-toggle.name = "Switch to light mode"
+scheme = "catppuccin-mocha"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to Modern Light Mode"
 
-# Palette toggle for light mode
 [[project.theme.palette]]
-media = "(prefers-color-scheme: light)"
 scheme = "default"
 toggle.icon = "lucide/sun"
-toggle.name = "Switch to dark mode"
+toggle.name = "Switch to Modern Dark Mode"
 
-# Palette toggle for dark mode
 [[project.theme.palette]]
-media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 toggle.icon = "lucide/moon"
-toggle.name = "Switch to system preference"
+toggle.name = "Switch to Macchiato"
+
+[[project.theme.palette]]
+scheme = "catppuccin-macchiato"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/cloud-moon"
+toggle.name = "Switch to Frappé"
+
+[[project.theme.palette]]
+scheme = "catppuccin-frappe"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/cloud-sun"
+toggle.name = "Switch to Latte"
+
+[[project.theme.palette]]
+scheme = "catppuccin-latte"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to Mocha"
 
 # ----------------------------------------------------------------------------
 # In the "font" subsection you can configure the fonts used. By default, fonts

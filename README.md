@@ -2,9 +2,10 @@
 
 This repository contains Developers Docs, Support Docs & User Guide For Passcodes App.
 
-> [!NOTE]
-> The [docs (at repositiory)](https://github.com/PasscodesApp/Passcodes-Docs/) might have outdated (behind time) or forward (ahead of time) infomation (may be by a week or so).. 
-> So, it always good habit to verify stuff.. By see the code... Because we as developer of passcodes focus more on code.. and documenation is our second priority..
+!!! NOTE
+
+    The [docs (at repositiory)](https://github.com/PasscodesApp/Passcodes-Docs/) might have outdated (behind time) or forward (ahead of time) infomation (may be by a week or so)..
+    So, it always good habit to verify stuff.. By see the code... Because we as developer of passcodes focus more on code.. and documenation is our second priority..
 
 ## Structrue
 
@@ -19,7 +20,6 @@ We have a specfic structure that we follow, we divide the docs in directory base
 | Main Docs        | [other-docs/](other-docs/)                     | most **important** docs.. yet, they don;t relate to coding |
 | Reference        | [references/](references/)                     | all docs that not project specfic. but can help developers |
 | Essentials       | [essentials/](essentials/)                     | no docs here.. just github & management stuff..            |
-
 
 ## Documentaion Version System
 
@@ -50,7 +50,7 @@ if you think, you gonna use it a lot. otherwise, in GitHub is just fine as well.
 - Use lowercase character for docs file / directory name.
 - Use hyphens for docs file / directory name.
 - Also try to separate and organize docs as much as possible.. like a hierarchy. (don't fear nested structure).
-- Avoid renameing a file once created, because there might be URL pointing to it... from app or from various source which once publish can;t change.. (but if you have a strong reason to rename break this rule) Also, refer to [link-migration-strategy.md](other-docs/link-migration-strategy.md).
+- Avoid renameing a file once created, because there might be URL pointing to it... from app or from various source which once publish can;t change.. (but if you have a strong reason to rename break this rule) Also, refer to [link-migration-strategy.md](docs/other-docs/link-migration-strategy.md).
 
 ## Contirbuting to Docs
 
@@ -60,4 +60,3 @@ This works same as contributing to repository.. Create your branch in this repo,
 
 Here, You will find all the docs releated to the `Passcodes` and other project under `PasscodesApp` github organization..
 This is single place that you need refer, for any docs or updates..
-
