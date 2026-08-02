@@ -23,6 +23,41 @@ and well documented in our release workflow docs.
 
 ---
 
+## v3.2.1 - Stable (Aug 2, 2026)
+
+<details>
+  <summary>View Internal Details</summary>
+
+```
+Package Name = "com.jeeldobariya.passcodes"
+Expo SDK = 57
+Version Code = 10
+Version Name = "v3.2.1-Stable"
+Master Database Schema Version = "v2"
+```
+
+</details>
+
+### Added
+
+- **Support Screen Rotation**: added screen roatation support & grid layout for it.
+
+### Changed
+
+- **Improved Settings**: improved settings screen & make layout consistent. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **Optimized Performance**: upgrade to latest dependencies & code optimizations [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+### Fixed
+
+- **Back Navigation With Tabs**: fixed the backward navigation problems with tabs. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+- **In App Lock**: fixed the in-app lock, it now also work on devices that doesn't have biometrics support. [[@JeelDobariya38]](https://github.com/JeelDobariya38)
+
+[Checkout Release](https://github.com/PasscodesApp/Passcodes/releases/tag/v3.2.1){:target="\_blank"}  
+[Release Notes](release-notes.md#v321-stable-aug-2-2026)  
+[Full Changelog](https://github.com/PasscodesApp/Passcodes/compare/v3.2.0...v3.2.1)
+
+---
+
 ## v3.2.0 - Stable (July 25, 2026)
 
 <details>
