@@ -1,13 +1,10 @@
 # Contributing Guidelines
 
-_Pull requests, bug reports, and all other forms of contribution are welcomed and highly encouraged!_ :octocat:
-
-## Terms For Contributing
-
-By contributing you also accept [Terms For Contribution](terms-for-contributions.md), [Open Contributing Timeline](../references/open-contributing-timeline.md) & [MIT License](LICENSE.md).
+_Pull requests, bug reports, and all other forms of contribution are welcomed and highly encouraged!_ 🙂
 
 ### Contents
 
+- [Terms For Contributing](#terms-for-contributing)
 - [Asking Questions](#asking-questions)
 - [Opening an Issue](#opening-an-issue)
 - [Feature Requests](#feature-requests)
@@ -19,6 +16,33 @@ By contributing you also accept [Terms For Contribution](terms-for-contributions
 - [Credits](#credits)
 
 > **This guide serves to set clear expectations for everyone involved with the project so that we can improve it together while also creating a welcoming space for everyone to participate. Following these guidelines will help ensure a positive experience for contributors and maintainers.**
+
+
+## Terms For Contributing
+
+!!! Warning
+
+    By contributing to any of the repositories maintained under Github organisation `@PasscodesApp`, you automatically accept this terms for contributions & also upcoming changes in it.
+
+1. **Voluntary contributions**  
+   Contributions are made voluntarily and without any expectation of payment, royalties, or other compensation — now or in the future — even if the project becomes monetized.  
+
+2. **License**  
+   All contributions (code, documentation, designs, testing, feedback, or suggestions) are provided under the project’s open-source license (MIT License).  
+
+3. **Use in monetization**  
+   Contributions may be included in future versions of the project, including monetized versions, without obligation to compensate contributors.  
+
+4. **Public record**  
+   Contributions are public by nature (GitHub history, commits, pull requests). Contributor names or socail handles may also be mentioned in credits, acknowledgments, or community updates (such as LinkedIn posts or our Telegram community). By contributing, you agree that your name/socials may be publicly associated with your contributions.  
+
+5. **Disclaimer**  
+   This T&C document is not a legal contract but a clarification of expectations. The project license (MIT) remains the governing license.  
+
+6. **Reference**
+
+    - [Terms For Contribution](terms-for-contributions.md)
+    - [MIT License](LICENSE.md).
 
 ## :bulb: Asking Questions
 
